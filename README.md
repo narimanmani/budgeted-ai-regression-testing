@@ -207,6 +207,14 @@ post hoc sensitivity are both retained. [Supporting results explained](docs/RESU
 
 ## Inspect or reconstruct the results
 
+Clone with Git long-path support enabled; some retained upstream paths exceed
+the default Windows Git limit:
+
+```text
+git clone -c core.longpaths=true https://github.com/narimanmani/budgeted-ai-regression-testing.git
+cd budgeted-ai-regression-testing
+```
+
 No model, container, paid API or GPU is needed for the supported **saved-data
 reanalysis**. Use Python 3.12 (verified with 3.12.14), download a complete release
 archive, verify its hash and extract it into its own empty directory. Then run

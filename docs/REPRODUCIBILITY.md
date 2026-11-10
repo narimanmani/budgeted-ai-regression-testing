@@ -23,6 +23,19 @@ or a tree assembled by mixing studies.
 
 ## Quick start with the repository helpers
 
+Some exact upstream source paths exceed Git for Windows' default path limit.
+Enable long paths for the clone without changing global Git settings:
+
+```text
+git clone -c core.longpaths=true https://github.com/narimanmani/budgeted-ai-regression-testing.git
+cd budgeted-ai-regression-testing
+```
+
+If an initial Windows clone completed its download but failed during checkout,
+enable `core.longpaths` in that fresh clone before retrying checkout. Do not
+discard or overwrite unrelated working changes. Python extraction and Git
+checkout are separate operations; keep the checkout path reasonably short.
+
 From the cloned repository:
 
 ```text
