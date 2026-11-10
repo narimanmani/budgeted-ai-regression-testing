@@ -1,0 +1,17 @@
+Four independently sourced historical bug/fix mechanisms; authored interventions over two pinned native-path settings.
+
+The 672 primary counterfactual trajectories and repeated task-change opportunities are not independent defects or live policy runs.
+
+Four fresh live cells cover only the first A change, empty history, exact contracts and a 28-request ceiling; they do not test long history or noisy checking live.
+
+The checker-noise and edge-omission masks are controlled authored perturbations with probability 0.25, not estimates of naturally occurring error rates.
+
+Constructed sequences repeatedly revisit the SAME two fault/repair states. Exact H/A/B profile reuse is an optimistic recurrence scenario, NOT amortization over unseen new versions.
+
+Only interleaved 4/8/16 prefixes balance the two cases. Blocked 4/8 prefixes contain A only, whereas blocked16 includes A+B; their horizon comparison confounds case composition.
+
+Fixed I-by-H differences and judgment moderation describe finite recorded-outcome sequential regimes, not population causal effects.
+
+Budgets match native request allowances, not wall time. Recorded native wall, controller CPU and their explicitly labeled hybrid proxy remain distinct.
+
+Native-path execution is not complete application-level external validation or a guarantee of portable guidance or TOSEM readiness.

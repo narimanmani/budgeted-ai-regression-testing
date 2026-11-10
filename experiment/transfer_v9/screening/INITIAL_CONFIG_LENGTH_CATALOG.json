@@ -1,0 +1,274 @@
+{
+  "catalog_role": "prospective source-backed conformance catalog; source examples and authored variants; not a claim of independent production workloads or natural maintenance sampling",
+  "version": "source-screening-1",
+  "application": "Rasa",
+  "native_paths": [
+    "native dialogue actions/trackers",
+    "trained CountVectors + LogisticRegression NLU pipeline"
+  ],
+  "training_source": "upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/tests/nlu/classifiers/test_logistic_regression_classifier.py::training_data",
+  "form_protocol": "Create native Domain/tracker with ActionExecuted(action_listen),UserUttered(...entities...). Run native ActionExtractSlots before native FormAction.run and apply produced events; do not replace event extraction with expected outcomes.",
+  "tasks": [
+    {
+      "task_id": "RF01",
+      "kind": "form",
+      "input": {
+        "form_name": "test_form",
+        "slot_name": "city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": "London",
+        "user_text": "I live in London",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": true,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": "London",
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "upstream exact regression-test pattern",
+        "expected_affected_by": [
+          "RASA_FORM_TRIGGER"
+        ]
+      }
+    },
+    {
+      "task_id": "RF02",
+      "kind": "form",
+      "input": {
+        "form_name": "booking_form",
+        "slot_name": "num_people",
+        "slot_type": "float",
+        "entity_name": "number",
+        "entity_value": 5,
+        "user_text": "A booking for five people",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": true,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": 5,
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "authored structural variant of upstream entity/form test, with upstream float-slot pattern",
+        "expected_affected_by": [
+          "RASA_FORM_TRIGGER"
+        ]
+      }
+    },
+    {
+      "task_id": "RF03",
+      "kind": "form",
+      "input": {
+        "form_name": "test_form",
+        "slot_name": "city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": null,
+        "user_text": "Continue",
+        "prefilled_value": "Rome",
+        "include_entity": false,
+        "conditional_mapping": true,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": "Rome",
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "upstream test_activate_with_prefilled_slot_with_mapping_conditions pattern",
+        "expected_affected_by": []
+      }
+    },
+    {
+      "task_id": "RF04",
+      "kind": "form",
+      "input": {
+        "form_name": "test_form",
+        "slot_name": "city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": "Paris",
+        "user_text": "I live in Paris",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": false,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": "Paris",
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "upstream unconditioned from_entity slot pattern; pre-form native extraction must be applied",
+        "expected_affected_by": []
+      }
+    },
+    {
+      "task_id": "RR01",
+      "kind": "ranking",
+      "input": {
+        "text": "hello",
+        "ranking_length": 2
+      },
+      "contract": {
+        "ranking_length": 2,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "greet",
+          "goodbye",
+          "hungry",
+          "hangry"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "upstream ranking_length2 assertion",
+        "expected_affected_by": [
+          "RASA_INTENT_RANKING"
+        ]
+      }
+    },
+    {
+      "task_id": "RR02",
+      "kind": "ranking",
+      "input": {
+        "text": "ciao",
+        "ranking_length": 1
+      },
+      "contract": {
+        "ranking_length": 1,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "greet",
+          "goodbye",
+          "hungry",
+          "hangry"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "authored ranking_length1 structural variant",
+        "expected_affected_by": [
+          "RASA_INTENT_RANKING"
+        ]
+      }
+    },
+    {
+      "task_id": "RR03",
+      "kind": "ranking",
+      "input": {
+        "text": "I am so hungry",
+        "ranking_length": 0
+      },
+      "contract": {
+        "ranking_length": 4,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "greet",
+          "goodbye",
+          "hungry",
+          "hangry"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "ranking_length0 requests all four training intents; parent default truncation10 also retains all four, so the length contract is unaffected",
+        "expected_affected_by": []
+      }
+    },
+    {
+      "task_id": "RR04",
+      "kind": "ranking",
+      "input": {
+        "text": "I want pizza, now!!",
+        "ranking_length": 10
+      },
+      "contract": {
+        "ranking_length": 4,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "greet",
+          "goodbye",
+          "hungry",
+          "hangry"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "default10 >=4training intents is unaffected by configurable-length defect",
+        "expected_affected_by": []
+      }
+    }
+  ],
+  "impact_evidence_note": "Form tasks reach forms.py/loops.py; ranking tasks reach logistic_regression_classifier.py. A file-level source-trace selector can genuinely separate the four-task partitions. Incomplete-impact treatments must be declared as evidence interventions, not claimed naturally observed trace omissions.",
+  "failure_judgment_note": "Reference uses full slot/event or ranking contract. Operational weak-checker condition can deliberately omit required fields (e.g. slot presence or ranking length), and noisy condition can introduce precommitted false alarms; these are controlled operational-checker interventions with unchanged contract reference.",
+  "application_id": "rasa",
+  "training_examples": [
+    {
+      "text": "hello",
+      "intent": "greet"
+    },
+    {
+      "text": "hi there",
+      "intent": "greet"
+    },
+    {
+      "text": "ciao",
+      "intent": "goodbye"
+    },
+    {
+      "text": "bye",
+      "intent": "goodbye"
+    },
+    {
+      "text": "I am so hungry",
+      "intent": "hungry"
+    },
+    {
+      "text": "I want pizza",
+      "intent": "hungry"
+    },
+    {
+      "text": "I want pizza, now!!",
+      "intent": "hangry"
+    },
+    {
+      "text": "just gimme a pizza already",
+      "intent": "hangry"
+    }
+  ]
+}

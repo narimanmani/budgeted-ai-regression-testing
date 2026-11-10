@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "VOW01",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW01? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW02",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW02? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW03",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW03? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW04",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW04? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW05",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW05? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW06",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW06? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW07",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW07? Return only the text inside its square brackets."
+    },
+    {
+      "id": "VOW08",
+      "data_version": "v1",
+      "question": "What is the access label for record VOW08? Return only the text inside its square brackets."
+    }
+  ]
+}

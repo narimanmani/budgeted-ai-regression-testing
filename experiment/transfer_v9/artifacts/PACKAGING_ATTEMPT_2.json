@@ -1,0 +1,12 @@
+{
+  "stage": "real_artifact_build",
+  "status": "STOPPED_BEFORE_ZIP_CREATION",
+  "reason": "The credential-field scanner classified the exact historical GUIDANCE_FREEZE authorization prose as a credential. Its value matched the known 95-character user-authorization sentence, not a token or authentication header.",
+  "required_file": "experiment/validation_v7/GUIDANCE_FREEZE.json",
+  "authorization_value_sha256": "73acbae5fdcd17b7c692fded2e5f311d38aeeac949d544335b997021116fc138",
+  "correction_scope": "New artifact tooling only: narrowly allow the exact known historical authorization sentence. No raw field was redacted or rewritten, and credential/private-key marker checks remain active.",
+  "scientific_source_or_report_modified": false,
+  "new_native_or_model_calls": 0,
+  "partial_zip_created": false,
+  "reviewed_report_sha256_preserved": "830d1ace784b4f8abafd77b27b3a537baceeae5c0ad997da1f239e4a8cc921a0"
+}

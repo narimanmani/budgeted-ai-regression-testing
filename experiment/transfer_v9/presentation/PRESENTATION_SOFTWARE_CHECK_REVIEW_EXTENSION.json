@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-11-01T16:11:31.599249+00:00",
+  "derivative_outside_frozen_core": true,
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "experiment\\transfer_v9\\presentation",
+    "-p",
+    "test_*.py"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 1.491s\n\nOK\n",
+  "synthetic_fixtures_only": true,
+  "actual_study_data_read_by_tests": false,
+  "native_or_model_dispatches": 0,
+  "prior_software_check_retained": "PRESENTATION_SOFTWARE_CHECK.json",
+  "files": {
+    "present_results.py": "0ce26d989f356a6e92ddd09f9992ae8744f067cbdbaa40ae605a4fadbcd21e65",
+    "PRESENTATION_SOFTWARE_CHECK.json": "2cefecb9083e972cf6ee16b316ab44a3ce676c0bfedd7e6a3ae991a4eefbf4bb",
+    "README.md": "7d72d240ecf86ff3dc3816443a4334d7084943cfe794e42ac0070ef3af405347",
+    "review_results.py": "b427a13305d46a35720bf646850dcf15fcfd329b9435e597b97fdf7e2966127d",
+    "test_present_results.py": "ff02de50ae9a9dd3531e2d842268ea8bc82d15b33131a83f2407b202842d8351",
+    "test_review_results.py": "4486bc442349391d07cb421c06668081c682930f7b64ace82afb026335a87e8a"
+  }
+}

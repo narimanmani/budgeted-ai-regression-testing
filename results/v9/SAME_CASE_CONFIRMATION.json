@@ -1,0 +1,1292 @@
+{
+  "cells": [
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RF01",
+        "val-rasa-rasa_form_trigger-A-p1-RF01",
+        "val-rasa-rasa_form_trigger-A-p2-RF01"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RF01"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RF02",
+        "val-rasa-rasa_form_trigger-A-p1-RF02",
+        "val-rasa-rasa_form_trigger-A-p2-RF02"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RF02"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RF03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RF03",
+        "val-rasa-rasa_form_trigger-A-p1-RF03",
+        "val-rasa-rasa_form_trigger-A-p2-RF03"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RF03"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RF04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RF04",
+        "val-rasa-rasa_form_trigger-A-p1-RF04",
+        "val-rasa-rasa_form_trigger-A-p2-RF04"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RF04"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RR01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RR01",
+        "val-rasa-rasa_form_trigger-A-p1-RR01",
+        "val-rasa-rasa_form_trigger-A-p2-RR01"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RR01"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RR02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RR02",
+        "val-rasa-rasa_form_trigger-A-p1-RR02",
+        "val-rasa-rasa_form_trigger-A-p2-RR02"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RR02"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RR03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RR03",
+        "val-rasa-rasa_form_trigger-A-p1-RR03",
+        "val-rasa-rasa_form_trigger-A-p2-RR03"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RR03"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-A-p3-RR04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-A-p0-RR04",
+        "val-rasa-rasa_form_trigger-A-p1-RR04",
+        "val-rasa-rasa_form_trigger-A-p2-RR04"
+      ],
+      "setting_id": "rasa",
+      "state": "A",
+      "task_id": "RR04"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RF01",
+        "val-rasa-rasa_form_trigger-H-p1-RF01",
+        "val-rasa-rasa_form_trigger-H-p2-RF01"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF01"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RF02",
+        "val-rasa-rasa_form_trigger-H-p1-RF02",
+        "val-rasa-rasa_form_trigger-H-p2-RF02"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF02"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RF03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RF03",
+        "val-rasa-rasa_form_trigger-H-p1-RF03",
+        "val-rasa-rasa_form_trigger-H-p2-RF03"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF03"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RF04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RF04",
+        "val-rasa-rasa_form_trigger-H-p1-RF04",
+        "val-rasa-rasa_form_trigger-H-p2-RF04"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF04"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RR01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RR01",
+        "val-rasa-rasa_form_trigger-H-p1-RR01",
+        "val-rasa-rasa_form_trigger-H-p2-RR01"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR01"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RR02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RR02",
+        "val-rasa-rasa_form_trigger-H-p1-RR02",
+        "val-rasa-rasa_form_trigger-H-p2-RR02"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR02"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RR03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RR03",
+        "val-rasa-rasa_form_trigger-H-p1-RR03",
+        "val-rasa-rasa_form_trigger-H-p2-RR03"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR03"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_form_trigger-H-p3-RR04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_form_trigger-H-p0-RR04",
+        "val-rasa-rasa_form_trigger-H-p1-RR04",
+        "val-rasa-rasa_form_trigger-H-p2-RR04"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR04"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RF01",
+        "val-rasa-rasa_intent_ranking-B-p1-RF01",
+        "val-rasa-rasa_intent_ranking-B-p2-RF01"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RF01"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RF02",
+        "val-rasa-rasa_intent_ranking-B-p1-RF02",
+        "val-rasa-rasa_intent_ranking-B-p2-RF02"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RF02"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RF03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RF03",
+        "val-rasa-rasa_intent_ranking-B-p1-RF03",
+        "val-rasa-rasa_intent_ranking-B-p2-RF03"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RF03"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RF04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RF04",
+        "val-rasa-rasa_intent_ranking-B-p1-RF04",
+        "val-rasa-rasa_intent_ranking-B-p2-RF04"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RF04"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RR01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RR01",
+        "val-rasa-rasa_intent_ranking-B-p1-RR01",
+        "val-rasa-rasa_intent_ranking-B-p2-RR01"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RR01"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RR02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RR02",
+        "val-rasa-rasa_intent_ranking-B-p1-RR02",
+        "val-rasa-rasa_intent_ranking-B-p2-RR02"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RR02"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RR03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RR03",
+        "val-rasa-rasa_intent_ranking-B-p1-RR03",
+        "val-rasa-rasa_intent_ranking-B-p2-RR03"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RR03"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-B-p3-RR04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-B-p0-RR04",
+        "val-rasa-rasa_intent_ranking-B-p1-RR04",
+        "val-rasa-rasa_intent_ranking-B-p2-RR04"
+      ],
+      "setting_id": "rasa",
+      "state": "B",
+      "task_id": "RR04"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RF01",
+        "val-rasa-rasa_intent_ranking-H-p1-RF01",
+        "val-rasa-rasa_intent_ranking-H-p2-RF01"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF01"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RF02",
+        "val-rasa-rasa_intent_ranking-H-p1-RF02",
+        "val-rasa-rasa_intent_ranking-H-p2-RF02"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF02"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RF03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RF03",
+        "val-rasa-rasa_intent_ranking-H-p1-RF03",
+        "val-rasa-rasa_intent_ranking-H-p2-RF03"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF03"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RF04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RF04",
+        "val-rasa-rasa_intent_ranking-H-p1-RF04",
+        "val-rasa-rasa_intent_ranking-H-p2-RF04"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RF04"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RR01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RR01",
+        "val-rasa-rasa_intent_ranking-H-p1-RR01",
+        "val-rasa-rasa_intent_ranking-H-p2-RR01"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR01"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RR02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RR02",
+        "val-rasa-rasa_intent_ranking-H-p1-RR02",
+        "val-rasa-rasa_intent_ranking-H-p2-RR02"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR02"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RR03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RR03",
+        "val-rasa-rasa_intent_ranking-H-p1-RR03",
+        "val-rasa-rasa_intent_ranking-H-p2-RR03"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR03"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-rasa-rasa_intent_ranking-H-p3-RR04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-rasa-rasa_intent_ranking-H-p0-RR04",
+        "val-rasa-rasa_intent_ranking-H-p1-RR04",
+        "val-rasa-rasa_intent_ranking-H-p2-RR04"
+      ],
+      "setting_id": "rasa",
+      "state": "H",
+      "task_id": "RR04"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VC01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VC01",
+        "val-vanna-vanna_ask_figure-B-p1-VC01",
+        "val-vanna-vanna_ask_figure-B-p2-VC01"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VC01"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VC02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VC02",
+        "val-vanna-vanna_ask_figure-B-p1-VC02",
+        "val-vanna-vanna_ask_figure-B-p2-VC02"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VC02"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VF01",
+        "val-vanna-vanna_ask_figure-B-p1-VF01",
+        "val-vanna-vanna_ask_figure-B-p2-VF01"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VF01"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VF02",
+        "val-vanna-vanna_ask_figure-B-p1-VF02",
+        "val-vanna-vanna_ask_figure-B-p2-VF02"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VF02"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VS01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VS01",
+        "val-vanna-vanna_ask_figure-B-p1-VS01",
+        "val-vanna-vanna_ask_figure-B-p2-VS01"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VS01"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VS02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VS02",
+        "val-vanna-vanna_ask_figure-B-p1-VS02",
+        "val-vanna-vanna_ask_figure-B-p2-VS02"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VS02"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VS03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VS03",
+        "val-vanna-vanna_ask_figure-B-p1-VS03",
+        "val-vanna-vanna_ask_figure-B-p2-VS03"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VS03"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-B-p3-VS04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-B-p0-VS04",
+        "val-vanna-vanna_ask_figure-B-p1-VS04",
+        "val-vanna-vanna_ask_figure-B-p2-VS04"
+      ],
+      "setting_id": "vanna",
+      "state": "B",
+      "task_id": "VS04"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VC01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VC01",
+        "val-vanna-vanna_ask_figure-H-p1-VC01",
+        "val-vanna-vanna_ask_figure-H-p2-VC01"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VC01"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VC02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VC02",
+        "val-vanna-vanna_ask_figure-H-p1-VC02",
+        "val-vanna-vanna_ask_figure-H-p2-VC02"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VC02"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VF01",
+        "val-vanna-vanna_ask_figure-H-p1-VF01",
+        "val-vanna-vanna_ask_figure-H-p2-VF01"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VF01"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VF02",
+        "val-vanna-vanna_ask_figure-H-p1-VF02",
+        "val-vanna-vanna_ask_figure-H-p2-VF02"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VF02"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VS01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VS01",
+        "val-vanna-vanna_ask_figure-H-p1-VS01",
+        "val-vanna-vanna_ask_figure-H-p2-VS01"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS01"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VS02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VS02",
+        "val-vanna-vanna_ask_figure-H-p1-VS02",
+        "val-vanna-vanna_ask_figure-H-p2-VS02"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS02"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VS03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VS03",
+        "val-vanna-vanna_ask_figure-H-p1-VS03",
+        "val-vanna-vanna_ask_figure-H-p2-VS03"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS03"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_ask_figure-H-p3-VS04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_ask_figure-H-p0-VS04",
+        "val-vanna-vanna_ask_figure-H-p1-VS04",
+        "val-vanna-vanna_ask_figure-H-p2-VS04"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS04"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VC01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VC01",
+        "val-vanna-vanna_sql_within-A-p1-VC01",
+        "val-vanna-vanna_sql_within-A-p2-VC01"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VC01"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VC02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VC02",
+        "val-vanna-vanna_sql_within-A-p1-VC02",
+        "val-vanna-vanna_sql_within-A-p2-VC02"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VC02"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VF01",
+        "val-vanna-vanna_sql_within-A-p1-VF01",
+        "val-vanna-vanna_sql_within-A-p2-VF01"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VF01"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VF02",
+        "val-vanna-vanna_sql_within-A-p1-VF02",
+        "val-vanna-vanna_sql_within-A-p2-VF02"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VF02"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VS01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VS01",
+        "val-vanna-vanna_sql_within-A-p1-VS01",
+        "val-vanna-vanna_sql_within-A-p2-VS01"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VS01"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VS02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VS02",
+        "val-vanna-vanna_sql_within-A-p1-VS02",
+        "val-vanna-vanna_sql_within-A-p2-VS02"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VS02"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VS03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VS03",
+        "val-vanna-vanna_sql_within-A-p1-VS03",
+        "val-vanna-vanna_sql_within-A-p2-VS03"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VS03"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-A-p3-VS04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-A-p0-VS04",
+        "val-vanna-vanna_sql_within-A-p1-VS04",
+        "val-vanna-vanna_sql_within-A-p2-VS04"
+      ],
+      "setting_id": "vanna",
+      "state": "A",
+      "task_id": "VS04"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VC01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VC01",
+        "val-vanna-vanna_sql_within-H-p1-VC01",
+        "val-vanna-vanna_sql_within-H-p2-VC01"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VC01"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VC02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VC02",
+        "val-vanna-vanna_sql_within-H-p1-VC02",
+        "val-vanna-vanna_sql_within-H-p2-VC02"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VC02"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VF01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VF01",
+        "val-vanna-vanna_sql_within-H-p1-VF01",
+        "val-vanna-vanna_sql_within-H-p2-VF01"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VF01"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VF02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VF02",
+        "val-vanna-vanna_sql_within-H-p1-VF02",
+        "val-vanna-vanna_sql_within-H-p2-VF02"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VF02"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VS01",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VS01",
+        "val-vanna-vanna_sql_within-H-p1-VS01",
+        "val-vanna-vanna_sql_within-H-p2-VS01"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS01"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VS02",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VS02",
+        "val-vanna-vanna_sql_within-H-p1-VS02",
+        "val-vanna-vanna_sql_within-H-p2-VS02"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS02"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": true,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VS03",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        true,
+        true,
+        true
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VS03",
+        "val-vanna-vanna_sql_within-H-p1-VS03",
+        "val-vanna-vanna_sql_within-H-p2-VS03"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS03"
+    },
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "confirmation_agrees_with_all_primary": true,
+      "confirmation_outcome": false,
+      "confirmation_record_id": "val-vanna-vanna_sql_within-H-p3-VS04",
+      "primary_is_stable": true,
+      "primary_outcomes": [
+        false,
+        false,
+        false
+      ],
+      "primary_record_ids": [
+        "val-vanna-vanna_sql_within-H-p0-VS04",
+        "val-vanna-vanna_sql_within-H-p1-VS04",
+        "val-vanna-vanna_sql_within-H-p2-VS04"
+      ],
+      "setting_id": "vanna",
+      "state": "H",
+      "task_id": "VS04"
+    }
+  ],
+  "confirmation_cells_agreeing_with_all_primary": 64,
+  "disagreements_retained": [],
+  "fresh_confirmation_records": 64,
+  "new_independent_case_or_application_samples": 0,
+  "primary_native_records": 192,
+  "primary_or_reference_labels_replaced": false,
+  "stable_primary_cells": 64,
+  "status": "COMPLETE_SAME_CASE_NATIVE_STABILITY_DIAGNOSTIC"
+}

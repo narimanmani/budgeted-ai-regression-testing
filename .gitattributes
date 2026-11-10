@@ -1,0 +1,5 @@
+# Preserve the exact committed bytes of frozen code, evidence and notices.
+* -text
+*.png binary
+*.pdf binary
+*.tar.gz binary

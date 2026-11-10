@@ -1,0 +1,8 @@
+{
+  "bank": "experiment/runs/transfer_v9_20261101/NATIVE_BANK.json",
+  "protocol": "experiment/runs/transfer_v9_20261101/PROTOCOL.json",
+  "confirmation": "experiment/runs/transfer_v9_20261101/FRESH_CONFIRMATION.json",
+  "evaluation": "experiment/runs/transfer_v9_20261101/evaluation",
+  "replay_module": "experiment/transfer_v9/design/replay.py",
+  "guidance": "experiment/validation_v7/guidance/policy.py"
+}

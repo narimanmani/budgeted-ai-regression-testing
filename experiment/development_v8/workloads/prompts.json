@@ -1,0 +1,19 @@
+{
+  "candidates": [
+    {
+      "id": "P0",
+      "order": 0,
+      "prompt_text": "Use only the retrieved records. Find the record whose identifier is named in the question. Copy the complete access label between that record's first pair of square brackets. Return only the label, without the brackets. Keep internal spaces and characters exactly as stored. If the record or its label is absent, return UNKNOWN."
+    },
+    {
+      "id": "P1",
+      "order": 1,
+      "prompt_text": "The context is a catalog of independent records. Treat the identifier in the question as a literal key. Select only that matching record, then copy every character between its label's [ and ]. Return that text alone. Preserve internal spaces, Unicode and literal entity spellings; do not translate, decode, repair, infer or combine labels. Return UNKNOWN when no matching complete label is available."
+    }
+  ],
+  "expected_values_in_prompts": false,
+  "selection_order": [
+    "P0",
+    "P1"
+  ]
+}

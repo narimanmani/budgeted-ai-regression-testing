@@ -1,0 +1,8 @@
+{
+  "status": "AUDIT_FAILED",
+  "stage": "development",
+  "auditor_source_sha256": "6581f9ceb187f7d1e84c874096a2c5c14467294b711c07ff2215a5d54b722c20",
+  "exception_type": "AuditError",
+  "message": "Refusing to audit an actively written campaign ledger",
+  "native_or_provider_dispatches_during_audit": 0
+}

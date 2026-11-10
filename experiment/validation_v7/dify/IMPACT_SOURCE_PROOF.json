@@ -1,0 +1,65 @@
+{
+  "recorded_at_utc": "2026-11-01T03:58:07.323273+00:00",
+  "fixed_revision": "50abea97062110044f15d0e03ccecadd9ccc87ca",
+  "dependency_tokens": [
+    "code:api/core/rag/cleaner/clean_processor.py",
+    "code:api/core/rag/splitter/fixed_text_splitter.py"
+  ],
+  "inference_scope": "All plain-TXT documents in native custom paragraph indexing traverse cleaning and fixed recursive splitting; coarse module dependencies only, no gold task labels",
+  "source_edges": [
+    {
+      "path": "api/core/rag/extractor/extract_processor.py",
+      "lines": [
+        191,
+        223
+      ],
+      "expression": "TextExtractor(file_path, autodetect_encoding=True)"
+    },
+    {
+      "path": "api/core/rag/index_processor/processor/paragraph_index_processor.py",
+      "lines": [
+        95,
+        105,
+        108
+      ],
+      "expression": "_get_splitter then CleanProcessor.clean then splitter.split_documents for each document"
+    },
+    {
+      "path": "api/core/rag/index_processor/index_processor_base.py",
+      "lines": [
+        122,
+        131
+      ],
+      "expression": "custom processing dispatch to FixedRecursiveCharacterTextSplitter.from_encoder"
+    }
+  ],
+  "canonical_sources": [
+    {
+      "production_path": "api/core/rag/extractor/extract_processor.py",
+      "canonical_file": "experiment/validation_v7/dify/metadata/impact_source/extract_processor.py",
+      "sha256": "96f99cd36ea6002ff0815466cfb21fad94770aeccdec2bf42e608b964657c78f"
+    },
+    {
+      "production_path": "api/core/rag/index_processor/processor/paragraph_index_processor.py",
+      "canonical_file": "experiment/validation_v7/dify/metadata/impact_source/paragraph_index_processor.py",
+      "sha256": "af0876aff8e15a5ffdb8ffc2934411fb948724ca897cefb00a6c6e937fcdc7f2"
+    },
+    {
+      "production_path": "api/core/rag/index_processor/index_processor_base.py",
+      "canonical_file": "experiment/validation_v7/dify/metadata/impact_source/index_processor_base.py",
+      "sha256": "e891f0654b81b4c3fee9b1baf0cafe2179b72794220fe40c8d9c3005ff208a1b"
+    },
+    {
+      "production_path": "api/core/rag/cleaner/clean_processor.py",
+      "canonical_file": "experiment/validation_v7/dify/metadata/impact_source/clean_processor.py",
+      "sha256": "9b6280bcd8db41ac6d13755c32e18f183a4d002d9ebc989d435abeb529fd56f3"
+    },
+    {
+      "production_path": "api/core/rag/splitter/fixed_text_splitter.py",
+      "canonical_file": "experiment/validation_v7/dify/metadata/impact_source/fixed_text_splitter.py",
+      "sha256": "07bd751f13a23d67a1d4c71e27df8efc2c9bb35c963d192b8d72293c493a140f"
+    }
+  ],
+  "task_questions_or_contracts_read": false,
+  "native_calls": 0
+}

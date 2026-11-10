@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-11-01T14:13:09.411646+00:00",
+  "reason": "Original RR01/02 tested newly added configurable ranking_length1/2 behavior; replace before any output with source-backed original existing default10 global-ranking bug over12intents. Preserve initialcatalog.",
+  "prior_catalog_path": "experiment\\transfer_v9\\screening\\INITIAL_CONFIG_LENGTH_CATALOG.json",
+  "prior_sha256": "e0d55a10397751274e79fad1e2e4a65d80f99785c8a9c931179b7117d9f5c057",
+  "revised_catalog_path": "experiment\\transfer_v9\\screening\\RASA_TASK_CATALOG.json",
+  "revised_sha256": "a920b9da14724a9bd570179719d82154612beb766e01ef76965077155549307b",
+  "native_outputs_seen": false,
+  "policy_scores_seen": false,
+  "guidance_changed": false,
+  "case_changed": false,
+  "future_witness_failure_retained_without_retuning": true
+}

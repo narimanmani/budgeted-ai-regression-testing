@@ -1,0 +1,12 @@
+{
+  "source": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\experiment\\development_v8\\run_acquisition.py",
+  "source_sha256": "dcc9b7f1c1dd6d63e3a7f4fcfefe67af317c2d2d08e16d50b2a3ca49790da8c4",
+  "derived": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\experiment\\development_v8\\run_fresh.py",
+  "derived_sha256": "a09934baee967462ff4a1e0d9ec1ecd52089b83d5b6458e74b36ade86618a4a3",
+  "changes": [
+    "Allow explicitly registered P2 candidate",
+    "Only fresh qualification/reference modes; no development dispatch"
+  ],
+  "original_frozen_code_modified": false,
+  "new_native_or_model_calls": 0
+}

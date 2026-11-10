@@ -1,0 +1,20 @@
+{
+  "schema_version": "transfer-v9-registry-1",
+  "status": "SOURCE_SCREENING_REQUIRED",
+  "settings": [],
+  "cases": [],
+  "freeze": {
+    "sealed_before_native_validation_outputs": false,
+    "manifest_sha256": null,
+    "all_required_bytes_available": false,
+    "no_validation_policy_scores_seen": true
+  },
+  "case_required_fields": [
+    "case_id", "setting_id", "upstream_repository_url", "upstream_change_url",
+    "buggy_commit", "fixed_commit", "fix_parent_commit", "mechanism_id",
+    "case_origin", "intervention_direction", "native_boundary",
+    "production_path", "entry_point", "upstream_contract_evidence",
+    "contract_sha256", "source_manifest_sha256", "validation_task_ids",
+    "selection_used_policy_scores", "license_path"
+  ]
+}

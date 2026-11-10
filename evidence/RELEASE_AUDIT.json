@@ -1,0 +1,205 @@
+{
+  "scope": "Two sealed public evidence archives; read-only ZIP+manifest+recognized-marker inspection; no native or replay execution.",
+  "archives": {
+    "v9": {
+      "archive": "output/transfer_v9_evidence.zip",
+      "sha256": "5928f3a9eabf7d846f9488a3a2c99878b62bcc2babff8d7559cc0cec7300765f",
+      "bytes": 35860358,
+      "existing_packager_verify_zip": "PASS",
+      "recognized_marker_findings": [],
+      "zip_members": 4490,
+      "manifest_files": 4489,
+      "uncompressed_bytes": 233698435,
+      "zip_crc_pass": true,
+      "all_manifest_hashes_match": true,
+      "all_manifest_sizes_match": true,
+      "notices": [
+        {
+          "path": "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/LICENSE.txt",
+          "bytes": 11352,
+          "sha256": "f43de2854953951ce4a14e2890d6865b7b266301ad49162595fd935211a78836"
+        },
+        {
+          "path": "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/NOTICE",
+          "bytes": 218,
+          "sha256": "ec7941a0c1c963d08bd8695849f4d0f8f66c5662e65646263223e54e386e0aa0"
+        },
+        {
+          "path": "experiment/transfer_v9/upstream/vanna-67f1bceda676ef8b5c6acea7c547ce1e5c67b96a/LICENSE",
+          "bytes": 1065,
+          "sha256": "55888f30c0ea8fd05cc5490062aac0cc9a67e6d0855c2ae78257d1a92e65f519"
+        }
+      ],
+      "nested_source_archives": [
+        {
+          "path": "experiment/transfer_v9/amendments/rasa_env/downloads/pyTelegramBotAPI-4.7.0.tar.gz",
+          "files": 38,
+          "recognized_marker_findings": [],
+          "link_members": [],
+          "notices": [
+            {
+              "path": "pyTelegramBotAPI-4.7.0/LICENSE",
+              "bytes": 18387,
+              "sha256": "ab3fe34d3c62e3348015a4dd0128b09a5da2024d1467a478311003373c18a3f0"
+            }
+          ]
+        },
+        {
+          "path": "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467.tar.gz",
+          "files": 1234,
+          "recognized_marker_findings": [],
+          "link_members": [],
+          "notices": [
+            {
+              "path": "rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/LICENSE.txt",
+              "bytes": 11352,
+              "sha256": "f43de2854953951ce4a14e2890d6865b7b266301ad49162595fd935211a78836"
+            },
+            {
+              "path": "rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/NOTICE",
+              "bytes": 218,
+              "sha256": "ec7941a0c1c963d08bd8695849f4d0f8f66c5662e65646263223e54e386e0aa0"
+            }
+          ]
+        },
+        {
+          "path": "experiment/transfer_v9/upstream/vanna-67f1bceda676ef8b5c6acea7c547ce1e5c67b96a.tar.gz",
+          "files": 95,
+          "recognized_marker_findings": [],
+          "link_members": [],
+          "notices": [
+            {
+              "path": "vanna-67f1bceda676ef8b5c6acea7c547ce1e5c67b96a/LICENSE",
+              "bytes": 1065,
+              "sha256": "55888f30c0ea8fd05cc5490062aac0cc9a67e6d0855c2ae78257d1a92e65f519"
+            }
+          ]
+        }
+      ],
+      "unpublished_manuscript_members": [],
+      "private_runtime_or_git_directory_members": [],
+      "largest_members": [
+        {
+          "path": "experiment/runs/transfer_v9_20261101/validation/backend/backend.log",
+          "bytes": 6409872
+        },
+        {
+          "path": "experiment/runs/transfer_v9_20261101/validation/backend/stderr.log",
+          "bytes": 6409872
+        },
+        {
+          "path": "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467.tar.gz",
+          "bytes": 4200629
+        },
+        {
+          "path": "experiment/transfer_v9/upstream/vanna-67f1bceda676ef8b5c6acea7c547ce1e5c67b96a.tar.gz",
+          "bytes": 2635065
+        },
+        {
+          "path": "experiment/runs/transfer_v9_20261101/evaluation/SUMMARY.json",
+          "bytes": 2331633
+        }
+      ],
+      "members_over_100_MiB": [],
+      "environment_example_or_keylike_member_paths": [
+        "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/.env",
+        "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/data/test_endpoints/cert.pem",
+        "experiment/transfer_v9/upstream/rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/tests_deployment/.env.example"
+      ],
+      "environment_example_scope": "Any such examples are fixed public upstream source bytes bound by the archive manifest, not external user state.",
+      "all_recognized_marker_checks_pass": true
+    },
+    "v8": {
+      "archive": "output/development_v8_evidence.zip",
+      "sha256": "99e7167f3b77bb1729bca020f38aba446a79d6dcbf8227a9dfaff32afa8cfbd3",
+      "bytes": 152224642,
+      "existing_packager_verify_zip": "PASS",
+      "recognized_marker_findings": [],
+      "zip_members": 18644,
+      "manifest_files": 18642,
+      "uncompressed_bytes": 1358664220,
+      "zip_crc_pass": true,
+      "all_manifest_hashes_match": true,
+      "all_manifest_sizes_match": true,
+      "notices": [
+        {
+          "path": "experiment/validation_v7/dify/source/LICENSE",
+          "bytes": 1823,
+          "sha256": "8f52a639e9b93b16605149e489bd4d59aa55a8657b605ae87acdf805fd6c56da"
+        },
+        {
+          "path": "experiment/validation_v7/openwebui/source/LICENSE",
+          "bytes": 2869,
+          "sha256": "9ffc98c7be329932e0660fa3bfa0fbce679498e575fe9f21b7786b09edc4f36b"
+        }
+      ],
+      "nested_source_archives": [],
+      "unpublished_manuscript_members": [],
+      "private_runtime_or_git_directory_members": [],
+      "largest_members": [
+        {
+          "path": "experiment/runs/development_v8_20261101/sealed/provider_joins.jsonl",
+          "bytes": 209855728
+        },
+        {
+          "path": "experiment/runs/development_v8_20261101/provider/requests.jsonl",
+          "bytes": 59177543
+        },
+        {
+          "path": "experiment/runs/development_v8_20261101/backend/backend.log",
+          "bytes": 52518314
+        },
+        {
+          "path": "experiment/runs/development_v8_20261101/backend/stderr.log",
+          "bytes": 52518314
+        },
+        {
+          "path": "ARTIFACT_MANIFEST.json",
+          "bytes": 6328118
+        }
+      ],
+      "members_over_100_MiB": [
+        "experiment/runs/development_v8_20261101/sealed/provider_joins.jsonl"
+      ],
+      "environment_example_or_keylike_member_paths": [],
+      "environment_example_scope": "Any such examples are fixed public upstream source bytes bound by the archive manifest, not external user state.",
+      "all_recognized_marker_checks_pass": true
+    }
+  },
+  "legal_scope": "License inventory and notice-preservation review, not legal certification or relicensing.",
+  "credential_scan_limits": "Recognized markers and existing packager field checks; not exhaustive certification.",
+  "license_inventory": [
+    {
+      "component": "Vanna",
+      "terms": "MIT",
+      "source_notice": "v9 root upstream LICENSE"
+    },
+    {
+      "component": "Rasa",
+      "terms": "Apache-2.0 and included NOTICE",
+      "source_notice": "v9 root upstream LICENSE.txt and NOTICE"
+    },
+    {
+      "component": "pyTelegramBotAPI4.7.0",
+      "terms": "GPLv2 text; see exact source distribution LICENSE",
+      "source_notice": "v9 nested source distribution pyTelegramBotAPI-4.7.0/LICENSE"
+    },
+    {
+      "component": "Dify",
+      "terms": "Modified Apache2.0 with multi-tenant and frontend-logo additional conditions",
+      "source_notice": "v8 experiment/validation_v7/dify/source/LICENSE"
+    },
+    {
+      "component": "OpenWebUI",
+      "terms": "OpenWebUI License with branding conditions and retained copyright/disclaimer",
+      "source_notice": "v8 experiment/validation_v7/openwebui/source/LICENSE"
+    }
+  ],
+  "release_recommendations": [
+    "Publish sealedZIPs byte-for-byte as GitHub Release assets; v8 exceeds100MiB and one uncompressed JSONL exceeds100MiB.",
+    "Preserve all upstream root and nested license notices. Add a clear third-party inventory; no blanket MIT relicensing.",
+    "Keep authored paper drafts and all repository/credential/runtime directories outside publication.",
+    "Recorded local paths are historical provenance. Existing audit reports disclose no public upload; that is historical evidence, not the current release status."
+  ],
+  "status": "PASS_RECOGNIZED_MARKER_MANIFEST_AND_ARCHIVE_PUBLICATION_CHECKS"
+}

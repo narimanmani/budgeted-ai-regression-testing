@@ -1,0 +1,382 @@
+{
+  "schema": "transfer-v9-prospective-cohort-frame-1",
+  "application_order": [
+    "rasa",
+    "vanna"
+  ],
+  "guidance_tuning_using_development": false,
+  "fresh_confirmation_registered_before_primary_outputs": true,
+  "development": {
+    "rasa": {
+      "passes": 1,
+      "slots": [
+        {
+          "case_id": "COMMON_HEALTHY",
+          "state": "HEALTHY",
+          "task_ids": [
+            "DVRF01",
+            "DVRF02",
+            "DVRF03",
+            "DVRF04",
+            "DVRR01",
+            "DVRR02",
+            "DVRR03",
+            "DVRR04"
+          ]
+        },
+        {
+          "case_id": "RASA_FORM_TRIGGER",
+          "state": "A_BAD",
+          "task_ids": [
+            "DVRF01",
+            "DVRF02",
+            "DVRF03",
+            "DVRF04"
+          ]
+        },
+        {
+          "case_id": "RASA_INTENT_RANKING",
+          "state": "B_BAD",
+          "task_ids": [
+            "DVRR01",
+            "DVRR02",
+            "DVRR03",
+            "DVRR04"
+          ]
+        }
+      ],
+      "native_request_count": 16,
+      "admission": {
+        "healthy_pass_required": 8,
+        "healthy_total": 8,
+        "affected_failure_required_per_bad_state": 2,
+        "unaffected_control_pass_required_per_bad_state": 2,
+        "failed_witness_or_control_is_retained": true
+      }
+    },
+    "vanna": {
+      "passes": 1,
+      "slots": [
+        {
+          "case_id": "COMMON_HEALTHY",
+          "state": "HEALTHY",
+          "task_ids": [
+            "DVVS01",
+            "DVVS02",
+            "DVVS03",
+            "DVVS04",
+            "DVVF01",
+            "DVVF02",
+            "DVVC01",
+            "DVVC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_SQL_WITHIN",
+          "state": "A_BAD",
+          "task_ids": [
+            "DVVS01",
+            "DVVS02",
+            "DVVS03",
+            "DVVS04"
+          ]
+        },
+        {
+          "case_id": "VANNA_ASK_FIGURE",
+          "state": "B_BAD",
+          "task_ids": [
+            "DVVF01",
+            "DVVF02",
+            "DVVC01",
+            "DVVC02"
+          ]
+        }
+      ],
+      "native_request_count": 16,
+      "admission": {
+        "healthy_pass_required": 8,
+        "healthy_total": 8,
+        "affected_failure_required_per_bad_state": 2,
+        "unaffected_control_pass_required_per_bad_state": 2,
+        "failed_witness_or_control_is_retained": true
+      }
+    }
+  },
+  "validation": {
+    "rasa": {
+      "passes": 3,
+      "slots": [
+        {
+          "case_id": "RASA_FORM_TRIGGER",
+          "state": "HEALTHY",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        },
+        {
+          "case_id": "RASA_FORM_TRIGGER",
+          "state": "A_BAD",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        },
+        {
+          "case_id": "RASA_INTENT_RANKING",
+          "state": "HEALTHY",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        },
+        {
+          "case_id": "RASA_INTENT_RANKING",
+          "state": "B_BAD",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        }
+      ],
+      "native_request_count": 96,
+      "entire_setting_catalog_in_every_case_state": true
+    },
+    "vanna": {
+      "passes": 3,
+      "slots": [
+        {
+          "case_id": "VANNA_SQL_WITHIN",
+          "state": "HEALTHY",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_SQL_WITHIN",
+          "state": "A_BAD",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_ASK_FIGURE",
+          "state": "HEALTHY",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_ASK_FIGURE",
+          "state": "B_BAD",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        }
+      ],
+      "native_request_count": 96,
+      "entire_setting_catalog_in_every_case_state": true
+    }
+  },
+  "confirmation": {
+    "rasa": {
+      "passes": 1,
+      "slots": [
+        {
+          "case_id": "RASA_FORM_TRIGGER",
+          "state": "HEALTHY",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        },
+        {
+          "case_id": "RASA_FORM_TRIGGER",
+          "state": "A_BAD",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        },
+        {
+          "case_id": "RASA_INTENT_RANKING",
+          "state": "HEALTHY",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        },
+        {
+          "case_id": "RASA_INTENT_RANKING",
+          "state": "B_BAD",
+          "task_ids": [
+            "RF01",
+            "RF02",
+            "RF03",
+            "RF04",
+            "RR01",
+            "RR02",
+            "RR03",
+            "RR04"
+          ]
+        }
+      ],
+      "native_request_count": 32,
+      "conditional_on_favorable_primary_result": false
+    },
+    "vanna": {
+      "passes": 1,
+      "slots": [
+        {
+          "case_id": "VANNA_SQL_WITHIN",
+          "state": "HEALTHY",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_SQL_WITHIN",
+          "state": "A_BAD",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_ASK_FIGURE",
+          "state": "HEALTHY",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        },
+        {
+          "case_id": "VANNA_ASK_FIGURE",
+          "state": "B_BAD",
+          "task_ids": [
+            "VS01",
+            "VS02",
+            "VS03",
+            "VS04",
+            "VF01",
+            "VF02",
+            "VC01",
+            "VC02"
+          ]
+        }
+      ],
+      "native_request_count": 32,
+      "conditional_on_favorable_primary_result": false
+    }
+  },
+  "totals": {
+    "development_native_requests": 32,
+    "primary_validation_native_requests": 192,
+    "fresh_confirmation_native_requests": 64,
+    "core_native_requests": 288,
+    "vanna_core_native_requests": 144,
+    "rasa_core_native_requests": 144,
+    "independent_upstream_cases": 4,
+    "unique_defects_not_multiplied_by_slots_or_passes": true,
+    "anticipated_vanna_chat_requests_if_one_sql_and_one_plot_call": 180,
+    "vanna_chat_upper_bound_at_three_per_native_request": 432,
+    "rasa_llm_generation_requests": 0
+  },
+  "interpretation": [
+    "Frame counts are fixed planning counts, not completed observations.",
+    "Healthy requests for cases A and B are physically separate registered acquisitions even when source/configuration bytes agree.",
+    "Development and validation differ in task bytes and Vanna database values, while task format and historical mechanisms remain shared.",
+    "Rasa training examples are the same public 12-intent reproduction frame; ranking contracts do not estimate language-understanding accuracy.",
+    "Fresh confirmation repeats the fixed cases and creates no new independent application or defect sample.",
+    "Model-boundary and native request counters differ; any probes, failures, or development extensions need explicit separate reservations."
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "screened_at_utc": "2026-11-01T14:02:05.888877+00:00",
+  "selection_basis": "independent repository, exact source-level bug-fix semantics, public production reachability, local executability; no policy score or new runtime outcome inspected",
+  "prior_used_apps_excluded": [
+    "AnythingLLM",
+    "LibreChat",
+    "OpenWebUI",
+    "Dify"
+  ],
+  "case_candidates": [
+    {
+      "case_id": "VANNA_SQL_WITHIN",
+      "repo": "vanna-ai/vanna",
+      "fix": "67f1bceda676ef8b5c6acea7c547ce1e5c67b96a",
+      "parent": "14dd2fadda05b0abe8a2bbebf3691db69e24a6e7",
+      "files": [
+        "src/vanna/base/base.py"
+      ],
+      "mechanism": "SQL-boundary extraction mistakes WITHIN inside a literal for a WITH CTE",
+      "upstream_test": null,
+      "native_path": "VannaFlaskApp /api/v0/generate_sql -> VannaBase.generate_sql -> OpenAI_Chat.submit_prompt -> VannaBase.extract_sql; /api/v0/run_sql -> SQLite connector",
+      "state_interpretation": "Independent upstream bug-fix pair. Reverse direction is a controlled historical-fault reintroduction, not a newly observed natural regression.",
+      "bindings": [
+        {
+          "state": "parent",
+          "path": "src/vanna/base/base.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\VANNA_SQL_WITHIN\\parent\\src\\vanna\\base\\base.py",
+          "url": "https://raw.githubusercontent.com/vanna-ai/vanna/14dd2fadda05b0abe8a2bbebf3691db69e24a6e7/src/vanna/base/base.py",
+          "bytes": 70988,
+          "sha256": "9751f44cab0af433779f95e00e451c91d2e88ace1d4c2014c2b56c45affa4a54",
+          "git_blob_sha1": "56360adc12e794421f22b6fac3108848fbec6b78"
+        },
+        {
+          "state": "fixed",
+          "path": "src/vanna/base/base.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\VANNA_SQL_WITHIN\\fixed\\src\\vanna\\base\\base.py",
+          "url": "https://raw.githubusercontent.com/vanna-ai/vanna/67f1bceda676ef8b5c6acea7c547ce1e5c67b96a/src/vanna/base/base.py",
+          "bytes": 70993,
+          "sha256": "0b3e5f5b439d83919a460dacbef97a60f78150b29728c34e0c06f765cd50f1b5",
+          "git_blob_sha1": "492516ead49f522ebb2b1bd3eaab35eb4f961e87"
+        }
+      ],
+      "source_only_status": "concrete upstream source candidate; no runtime enrollment yet",
+      "fix_url": "https://github.com/vanna-ai/vanna/commit/67f1bceda676ef8b5c6acea7c547ce1e5c67b96a",
+      "comparison_url": "https://github.com/vanna-ai/vanna/compare/14dd2fadda05b0abe8a2bbebf3691db69e24a6e7...67f1bceda676ef8b5c6acea7c547ce1e5c67b96a"
+    },
+    {
+      "case_id": "VANNA_ASK_FIGURE",
+      "repo": "vanna-ai/vanna",
+      "fix": "974ecedff596dd63c764335ba38e62402dee5e60",
+      "parent": "a28a443d3dd8f82340533b5682eadd28823f59ae",
+      "files": [
+        "src/vanna/base/base.py"
+      ],
+      "mechanism": "Computed visualization artifact is discarded from the public ask return tuple",
+      "upstream_test": null,
+      "native_path": "VannaBase.ask(print_results=False,visualize=True) -> generate_sql -> run_sql -> generate_plotly_code -> get_plotly_figure -> (sql,df,fig)",
+      "state_interpretation": "Public production API path, not Flask figure route; the figure route does not call ask and cannot witness this bug.",
+      "bindings": [
+        {
+          "state": "parent",
+          "path": "src/vanna/base/base.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\VANNA_ASK_FIGURE\\parent\\src\\vanna\\base\\base.py",
+          "url": "https://raw.githubusercontent.com/vanna-ai/vanna/a28a443d3dd8f82340533b5682eadd28823f59ae/src/vanna/base/base.py",
+          "bytes": 70850,
+          "sha256": "bb3d0cd3b9e59fc9c941fbaaab5ef209240e10917da75b6df0250696d91c3c83",
+          "git_blob_sha1": "c13489b7e3773f9998fe6263d68c3817022ba16e"
+        },
+        {
+          "state": "fixed",
+          "path": "src/vanna/base/base.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\VANNA_ASK_FIGURE\\fixed\\src\\vanna\\base\\base.py",
+          "url": "https://raw.githubusercontent.com/vanna-ai/vanna/974ecedff596dd63c764335ba38e62402dee5e60/src/vanna/base/base.py",
+          "bytes": 70849,
+          "sha256": "42942b431330fc3f749c1451d5daf094fd3461cdd3679d80a7a361ab7832421b",
+          "git_blob_sha1": "d7e1f48728ac184309f0c8774a13b60f5bb35778"
+        }
+      ],
+      "source_only_status": "concrete upstream source candidate; no runtime enrollment yet",
+      "fix_url": "https://github.com/vanna-ai/vanna/commit/974ecedff596dd63c764335ba38e62402dee5e60",
+      "comparison_url": "https://github.com/vanna-ai/vanna/compare/a28a443d3dd8f82340533b5682eadd28823f59ae...974ecedff596dd63c764335ba38e62402dee5e60"
+    },
+    {
+      "case_id": "RASA_FORM_TRIGGER",
+      "repo": "RasaHQ/rasa",
+      "fix": "177d411e99a275673bab38ceec4eb37bd6cfce93",
+      "parent": "b63715a73b941dc5655a1c2ba02c958825add695",
+      "files": [
+        "rasa/core/actions/forms.py",
+        "rasa/core/actions/loops.py",
+        "tests/core/actions/test_forms.py"
+      ],
+      "mechanism": "Conditional entity-to-slot mapping is not run on the message that activates a dialogue form",
+      "upstream_test": "tests/core/actions/test_forms.py::test_extract_slots_with_mapping_conditions_during_form_activation",
+      "native_path": "FormAction.run -> LoopAction._activate_loop -> FormAction.activate -> ActionExtractSlots.run; native Domain and DialogueStateTracker events",
+      "state_interpretation": "Structured dialogue-event inputs bypass NLU unless a separately documented trained NLU pipeline is executed.",
+      "bindings": [
+        {
+          "state": "parent",
+          "path": "rasa/core/actions/forms.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_FORM_TRIGGER\\parent\\rasa\\core\\actions\\forms.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/b63715a73b941dc5655a1c2ba02c958825add695/rasa/core/actions/forms.py",
+          "bytes": 23947,
+          "sha256": "6edcff249a680108d523993d98e8b7903abcb0f26beaf8aa6f15dda1b5dfa1ca",
+          "git_blob_sha1": "dd88b68aa18d2eee4857f70c5dd7aeab31b3c1d9"
+        },
+        {
+          "state": "parent",
+          "path": "rasa/core/actions/loops.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_FORM_TRIGGER\\parent\\rasa\\core\\actions\\loops.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/b63715a73b941dc5655a1c2ba02c958825add695/rasa/core/actions/loops.py",
+          "bytes": 2914,
+          "sha256": "b4590f50f1b098050655b6c12bfc792050f4a4793525437eb6715ae80d69d219",
+          "git_blob_sha1": "4b9c50584fce666fb0f36f04b72e2a8d6c805ad4"
+        },
+        {
+          "state": "parent",
+          "path": "tests/core/actions/test_forms.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_FORM_TRIGGER\\parent\\tests\\core\\actions\\test_forms.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/b63715a73b941dc5655a1c2ba02c958825add695/tests/core/actions/test_forms.py",
+          "bytes": 49728,
+          "sha256": "8e77fc50013f23faed393e543c97fdb78a1e64433b621da152562afd0907f7e4",
+          "git_blob_sha1": "ee8714d15d9066271af04722bfa80122a78d9bcd"
+        },
+        {
+          "state": "fixed",
+          "path": "rasa/core/actions/forms.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_FORM_TRIGGER\\fixed\\rasa\\core\\actions\\forms.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/177d411e99a275673bab38ceec4eb37bd6cfce93/rasa/core/actions/forms.py",
+          "bytes": 25524,
+          "sha256": "7a3e09cd023948bcc4f0aa7eedfc8cd85306a41e6abee25948fc454f860e2642",
+          "git_blob_sha1": "b301684e8ba4fcc7233e83b12beedbb734d5ce24"
+        },
+        {
+          "state": "fixed",
+          "path": "rasa/core/actions/loops.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_FORM_TRIGGER\\fixed\\rasa\\core\\actions\\loops.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/177d411e99a275673bab38ceec4eb37bd6cfce93/rasa/core/actions/loops.py",
+          "bytes": 3322,
+          "sha256": "c6eb25e46cc5f1c9467e1a8a6b57d72354308c657efadc5678710c6d22b054a6",
+          "git_blob_sha1": "ccaa704a7cb037b29156fbf055ae012f8492e847"
+        },
+        {
+          "state": "fixed",
+          "path": "tests/core/actions/test_forms.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_FORM_TRIGGER\\fixed\\tests\\core\\actions\\test_forms.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/177d411e99a275673bab38ceec4eb37bd6cfce93/tests/core/actions/test_forms.py",
+          "bytes": 53556,
+          "sha256": "2c8838c1c6079296688708f1b37138dff1e52e90f35011053067b80dffdc594a",
+          "git_blob_sha1": "a353f4c7eba7fd18645c3ede281a20be5a24de59"
+        }
+      ],
+      "source_only_status": "concrete upstream source candidate; no runtime enrollment yet",
+      "fix_url": "https://github.com/RasaHQ/rasa/commit/177d411e99a275673bab38ceec4eb37bd6cfce93",
+      "comparison_url": "https://github.com/RasaHQ/rasa/compare/b63715a73b941dc5655a1c2ba02c958825add695...177d411e99a275673bab38ceec4eb37bd6cfce93"
+    },
+    {
+      "case_id": "RASA_INTENT_RANKING",
+      "repo": "RasaHQ/rasa",
+      "fix": "f3b733a0c1f1ba9a9b20cac806648dbff2c5d467",
+      "parent": "825539fc95a049c5962d63c1050e2b5e237a26a9",
+      "files": [
+        "rasa/nlu/classifiers/logistic_regression_classifier.py",
+        "tests/nlu/classifiers/test_logistic_regression_classifier.py"
+      ],
+      "mechanism": "Intent ranking is truncated before global probability sort and ignores configured ranking length",
+      "upstream_test": "tests/nlu/classifiers/test_logistic_regression_classifier.py::test_predictions_added",
+      "native_path": "WhitespaceTokenizer -> CountVectorsFeaturizer.train/process -> LogisticRegressionClassifier.train/process -> public Message intent_ranking",
+      "state_interpretation": "Actual CPU logistic model inference is available through upstream test; it is not an LLM or whole conversational deployment.",
+      "bindings": [
+        {
+          "state": "parent",
+          "path": "rasa/nlu/classifiers/logistic_regression_classifier.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_INTENT_RANKING\\parent\\rasa\\nlu\\classifiers\\logistic_regression_classifier.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/825539fc95a049c5962d63c1050e2b5e237a26a9/rasa/nlu/classifiers/logistic_regression_classifier.py",
+          "bytes": 7510,
+          "sha256": "6211138912eb19a2d6aaa4c7f0646c28b41abf014b16f92e3f1aee0d431dbea4",
+          "git_blob_sha1": "d243ab6adfd5b4e7fe586976063228857ed08304"
+        },
+        {
+          "state": "parent",
+          "path": "tests/nlu/classifiers/test_logistic_regression_classifier.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_INTENT_RANKING\\parent\\tests\\nlu\\classifiers\\test_logistic_regression_classifier.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/825539fc95a049c5962d63c1050e2b5e237a26a9/tests/nlu/classifiers/test_logistic_regression_classifier.py",
+          "bytes": 3708,
+          "sha256": "80d3bca2e1866df466ee72e32a7994810722c0a2a506ba8709e8c59a857ad310",
+          "git_blob_sha1": "f5221622ed405b966f205fc7ffb680217959e62f"
+        },
+        {
+          "state": "fixed",
+          "path": "rasa/nlu/classifiers/logistic_regression_classifier.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_INTENT_RANKING\\fixed\\rasa\\nlu\\classifiers\\logistic_regression_classifier.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/rasa/nlu/classifiers/logistic_regression_classifier.py",
+          "bytes": 7568,
+          "sha256": "7efe710edb8a63e4898fc5583e1783232534a519edfa078777969edc44db627d",
+          "git_blob_sha1": "c652d20af9c0376eadc051c5ed005676907a3fba"
+        },
+        {
+          "state": "fixed",
+          "path": "tests/nlu/classifiers/test_logistic_regression_classifier.py",
+          "local_path": "experiment\\transfer_v9\\screening\\cases\\RASA_INTENT_RANKING\\fixed\\tests\\nlu\\classifiers\\test_logistic_regression_classifier.py",
+          "url": "https://raw.githubusercontent.com/RasaHQ/rasa/f3b733a0c1f1ba9a9b20cac806648dbff2c5d467/tests/nlu/classifiers/test_logistic_regression_classifier.py",
+          "bytes": 4365,
+          "sha256": "77fa2cb22020145b94f03aa2e577428fc0f6814a5cfb24a4297b609ea39b374a",
+          "git_blob_sha1": "0c0ae256851bfe54393555ee73693a0b39de710b"
+        }
+      ],
+      "source_only_status": "concrete upstream source candidate; no runtime enrollment yet",
+      "fix_url": "https://github.com/RasaHQ/rasa/commit/f3b733a0c1f1ba9a9b20cac806648dbff2c5d467",
+      "comparison_url": "https://github.com/RasaHQ/rasa/compare/825539fc95a049c5962d63c1050e2b5e237a26a9...f3b733a0c1f1ba9a9b20cac806648dbff2c5d467"
+    }
+  ],
+  "other_screened_candidates": [
+    {
+      "candidate": "Vanna b2a5fcd initial-prompt concatenation",
+      "decision": "deferred",
+      "reason": "Source prompt change is exact, but behavioral contract depends on generation quality; two stronger concrete return/execution defects selected source-only."
+    },
+    {
+      "candidate": "Rasa issue11395 initial-slot/rule bug",
+      "decision": "deferred",
+      "reason": "Complex training-policy fix not needed for initial two-mechanism feasibility frame; issue and timeline retained."
+    },
+    {
+      "candidate": "Rasa issue10235 restart zombie slots",
+      "decision": "deferred",
+      "reason": "Well documented historical bug, but overlaps dialogue-state family and would require additional legacy state closure; issue/timeline retained."
+    }
+  ],
+  "claims_prohibited": [
+    "These source candidates are not yet enrolled application cases.",
+    "Reverse fixed-to-parent transitions are historical reintroductions, not natural maintenance regressions.",
+    "Component proof does not establish application-level testing guidance.",
+    "No new native model output or CG1 score was produced during screening."
+  ]
+}

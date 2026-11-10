@@ -1,0 +1,43 @@
+{
+  "created_at_utc": "2026-11-01T05:10:17.279630+00:00",
+  "scope": "Eight-task cohort-scoped adaptation preserving original CG1 and matched effectiveness criteria",
+  "original_v7_files_modified": false,
+  "policy_path": "experiment/validation_v7/guidance/policy.py",
+  "policy_sha256": "f14903ce1c0c3f73979eca11bd531df4303ee1fdb4d996baebcc58be89dc0989",
+  "derivations": [
+    {
+      "source_path": "experiment/validation_v7/execution/runner.py",
+      "source_sha256": "95c5dd52448a48418d0c4ad57f6f63b049096b80e592adec672474ee1ddd8058",
+      "derived_path": "experiment/development_v8/execution/runner.py",
+      "derived_sha256": "85e0ec709e1987f8b9ad2e3f960adf7d64d98b1346ea84c80826387cd6398b07"
+    },
+    {
+      "source_path": "experiment/validation_v7/execution/evaluate.py",
+      "source_sha256": "6b904e21ea87004e776c4ce01a0d799044c9d924b174b561fd2d2385afa7f233",
+      "derived_path": "experiment/development_v8/execution/evaluate.py",
+      "derived_sha256": "e5ec14a78765a38d26b72557bb07803c89271c62d877c14387502d9d1a44360b"
+    },
+    {
+      "source_path": "experiment/validation_v7/execution/resource_feasibility.py",
+      "source_sha256": "8e23a8126884ff7f7a62d0738baec55ffb1a6d875336ea527d5530a3b3868cae",
+      "derived_path": "experiment/development_v8/execution/resource_feasibility.py",
+      "derived_sha256": "d09641320a907ffa75756183bb5142db6e1a2f5a7896241822dd8ada53da9920"
+    }
+  ],
+  "changes": [
+    "Eight task catalog and own warm calibration8pairs",
+    "Cohort/prompt/input scoped MeteredApplication delegated to v8 acquisition",
+    "Paid common prepare_states before profiles/calibration/episodes; atmost2APIs, no policy pair startup",
+    "Reference helper delegates to always-scoped v8 acquisition",
+    "Exact main physical ceilings568/apprep and2272whole design",
+    "Original retention/utility formulas and originalCG1 unchanged",
+    "Reuse canonical grouped-source projection with unchanged primary checker; guard importedsource_channels andscopeacquisition",
+    "All referencehelpercalls delegate to root v8 scoped acquisition"
+  ],
+  "software_tests": {
+    "command": "C:/Python313/python.exe -m pytest experiment/development_v8/execution/test_runner.py experiment/development_v8/execution/test_evaluate.py experiment/development_v8/execution/test_resource_feasibility.py -q",
+    "passed": 21,
+    "all_transports_and_clocks_synthetic": true,
+    "native_model_calls": 0
+  }
+}

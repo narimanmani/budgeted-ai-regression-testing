@@ -1,0 +1,197 @@
+{
+  "catalog_role": "separate configuration development; never policy effectiveness validation",
+  "version": "source-screening-1",
+  "application": "Vanna0.6.2",
+  "schema": "CREATE TABLE transfers(id INTEGER PRIMARY KEY, status TEXT NOT NULL, amount INTEGER NOT NULL);",
+  "rows": [
+    [
+      11,
+      "WITHIN",
+      45
+    ],
+    [
+      12,
+      "WITHIN",
+      115
+    ],
+    [
+      13,
+      "WITHIN",
+      70
+    ],
+    [
+      14,
+      "OUTSIDE",
+      90
+    ],
+    [
+      15,
+      "OUTSIDE",
+      20
+    ],
+    [
+      16,
+      "OUTSIDE",
+      60
+    ]
+  ],
+  "native_protocol": "Use official OpenAI_Chat with a local actual provider, actual VannaBase.generate_sql/extract_sql, actual SQLite connector; figure cases must call public VannaBase.ask(print_results=False,auto_train=False,visualize=True), not the unrelated Flask figure route. No canned model response can establish application validation.",
+  "tasks": [
+    {
+      "task_id": "DVVS01",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "Count the transfer records with status exactly WITHIN.",
+      "reference_sql": "SELECT COUNT(*) AS count FROM transfers WHERE status = 'WITHIN';",
+      "expected_rows": [
+        [
+          3
+        ]
+      ],
+      "expected_affected_by": [
+        "VANNA_SQL_WITHIN"
+      ],
+      "source": "authored SQLite witness of upstream WITHIN extraction bug; actual generated response must reach changed regex branch; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVS02",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "Calculate the sum of amounts for records with status exactly WITHIN.",
+      "reference_sql": "SELECT SUM(amount) AS total FROM transfers WHERE status = 'WITHIN';",
+      "expected_rows": [
+        [
+          230
+        ]
+      ],
+      "expected_affected_by": [
+        "VANNA_SQL_WITHIN"
+      ],
+      "source": "same independent bug, second task observation; not a second independent defect; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVS03",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "Count transfer records whose status is exactly OUTSIDE.",
+      "reference_sql": "SELECT COUNT(*) AS count FROM transfers WHERE status = 'OUTSIDE';",
+      "expected_rows": [
+        [
+          3
+        ]
+      ],
+      "expected_affected_by": [],
+      "source": "ordinary SELECT control without WITH substring; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVS04",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "Use a CTE named totals to calculate the sum of every transfer amount.",
+      "reference_sql": "WITH totals AS (SELECT SUM(amount) AS total FROM transfers) SELECT total FROM totals;",
+      "expected_rows": [
+        [
+          400
+        ]
+      ],
+      "expected_affected_by": [],
+      "source": "proper WITH CTE control; actual SQL text/path must be recorded; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVF01",
+      "family": "figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "Draw a bar chart for transfer amounts summed by status.",
+      "reference_sql": "SELECT status, SUM(amount) AS total FROM transfers GROUP BY status ORDER BY status;",
+      "expected_rows": [
+        [
+          "OUTSIDE",
+          170
+        ],
+        [
+          "WITHIN",
+          230
+        ]
+      ],
+      "figure_contract": "returned tuple contains a nonempty Plotly figure with data derived from the query result",
+      "expected_affected_by": [
+        "VANNA_ASK_FIGURE"
+      ],
+      "source": "upstream computed-figure return contract; author-chosen data/task; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVF02",
+      "family": "figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "Draw a scatter plot with transfer id on the x axis and amount on the y axis.",
+      "reference_sql": "SELECT id, amount FROM transfers ORDER BY id;",
+      "expected_rows": [
+        [
+          11,
+          45
+        ],
+        [
+          12,
+          115
+        ],
+        [
+          13,
+          70
+        ],
+        [
+          14,
+          90
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "figure_contract": "returned tuple contains a nonempty Plotly figure with data derived from the query result",
+      "expected_affected_by": [
+        "VANNA_ASK_FIGURE"
+      ],
+      "source": "same independent bug, second task observation; not a second independent defect; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVC01",
+      "family": "ask_no_figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "Give the total number of transfer records.",
+      "reference_sql": "SELECT COUNT(*) AS count FROM transfers;",
+      "expected_rows": [
+        [
+          6
+        ]
+      ],
+      "figure_contract": "visualize=False returns None figure; SQL/data remain correct",
+      "expected_affected_by": [],
+      "source": "unaffected public ask visualize=False branch; separate authored development data/questions, same source mechanism"
+    },
+    {
+      "task_id": "DVVC02",
+      "family": "ask_no_figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "Find the maximum amount among all transfers.",
+      "reference_sql": "SELECT MAX(amount) AS maximum FROM transfers;",
+      "expected_rows": [
+        [
+          115
+        ]
+      ],
+      "figure_contract": "visualize=False returns None figure; SQL/data remain correct",
+      "expected_affected_by": [],
+      "source": "second nonvisual control; not an independent defect; separate authored development data/questions, same source mechanism"
+    }
+  ],
+  "impact_evidence_note": "Both Vanna faults reside in the same base.py module. Honest file-level impact remains broad. Selective evidence would require production call/function traces (extract_sql versus ask visualization branch) and its acquisition cost; do not claim file-level selectivity. Some ordinary SQL tasks also call extract_sql, so branch-sensitive selection can still be imperfect.",
+  "failure_judgment_note": "Full reference checks executed SQL result semantics plus figure data and tuple contract. Weaker operational checks can deliberately test only SQL validity/HTTP200 or tuple shape; interventions and their missed contract clauses must be declared prospectively.",
+  "cohort_id": "development",
+  "same_historical_fault_families_across_cohorts": true,
+  "independent_native_defect_count": 2,
+  "reference_origin": "separate in-memory SQLite evaluation of source-grounded reference SQL"
+}

@@ -1,0 +1,5 @@
+# No pip packages are needed for the saved-data download, verification or replay.
+# Use CPython 3.12; the sealed auditors were validated with CPython 3.12.14.
+# The download helper can run on newer Python, but reproduce.py requires 3.12.
+# Native application/model execution has separate dependencies and is not
+# performed by scripts/reproduce.py. See the recorded environment documentation.

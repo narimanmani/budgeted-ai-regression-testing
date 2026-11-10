@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "DDF01",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF01? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF02",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF02? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF03",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF03? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF04",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF04? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF05",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF05? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF06",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF06? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF07",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF07? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DDF08",
+      "data_version": "v1",
+      "question": "What is the access label for record DDF08? Return only the text inside its square brackets."
+    }
+  ]
+}

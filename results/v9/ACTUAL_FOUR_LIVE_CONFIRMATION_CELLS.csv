@@ -1,0 +1,5 @@
+setting_id,method,case_id,native_request_ceiling,actual_profile_native_requests,actual_selected_native_requests,actual_total_native_requests,unused_native_request_allowance,observed_contract_regression_pairs_IN_THIS_SELECTED_LIVE_CELL,selected_task_ids,allocated_native_and_checker_feature_wall_seconds,controller_cpu_seconds,scope,recall_denominator_borrowed_from_other_cell
+rasa,CG1,RASA_FORM_TRIGGER,28,24,4,28,0,1,RF01;RF03,1.6109446000191383,0.015625,first_A_change_only_cold_exact_checker,False
+rasa,budgeted_retest_all,RASA_FORM_TRIGGER,28,0,16,16,12,2,RF01;RF02;RF03;RF04;RR01;RR02;RR03;RR04,1.1018593000480905,0.0,first_A_change_only_cold_exact_checker,False
+vanna,CG1,VANNA_SQL_WITHIN,28,24,4,28,0,0,VC01;VC02,50.274127900076564,0.0,first_A_change_only_cold_exact_checker,False
+vanna,budgeted_retest_all,VANNA_SQL_WITHIN,28,0,16,16,12,2,VS01;VS02;VS03;VS04;VF01;VF02;VC01;VC02,36.45144589993288,0.0,first_A_change_only_cold_exact_checker,False

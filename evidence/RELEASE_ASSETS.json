@@ -1,0 +1,16 @@
+{
+  "v9": {
+    "filename": "transfer_v9_evidence.zip",
+    "bytes": 35860358,
+    "sha256": "5928f3a9eabf7d846f9488a3a2c99878b62bcc2babff8d7559cc0cec7300765f",
+    "zip_members": 4490,
+    "download_url": "https://github.com/narimanmani/budgeted-ai-regression-testing/releases/download/v1.0.0/transfer_v9_evidence.zip"
+  },
+  "v8": {
+    "filename": "development_v8_evidence.zip",
+    "bytes": 152224642,
+    "sha256": "99e7167f3b77bb1729bca020f38aba446a79d6dcbf8227a9dfaff32afa8cfbd3",
+    "zip_members": 18644,
+    "download_url": "https://github.com/narimanmani/budgeted-ai-regression-testing/releases/download/v1.0.0/development_v8_evidence.zip"
+  }
+}

@@ -1,0 +1,1 @@
+Record VDF04 access label [STREAM AMBER-341] archive routing metadata for the catalog register

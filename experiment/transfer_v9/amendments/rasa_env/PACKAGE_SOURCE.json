@@ -1,0 +1,11 @@
+{
+  "package": "pyTelegramBotAPI",
+  "version": "4.7.0",
+  "filename": "pyTelegramBotAPI-4.7.0.tar.gz",
+  "url": "https://files.pythonhosted.org/packages/76/f8/ab1e065ceef0b0f72b25f357f04332a8f8afb1929b3c14bc08d5eb869355/pyTelegramBotAPI-4.7.0.tar.gz",
+  "sha256": "b15bb9d7c07e3c34a95ba32162d35690fa70b93e3bd557c6b830eda4becca3f5",
+  "bytes": 210674,
+  "version_verified_against_source_lock": true,
+  "artifact_hash_verified_against_pypi": true,
+  "artifact_hash_not_present_in_source_lock": true
+}

@@ -1,0 +1,35 @@
+{
+  "schema": "CREATE TABLE transfers(id INTEGER PRIMARY KEY, status TEXT NOT NULL, amount INTEGER NOT NULL);",
+  "rows": [
+    [
+      11,
+      "WITHIN",
+      45
+    ],
+    [
+      12,
+      "WITHIN",
+      115
+    ],
+    [
+      13,
+      "WITHIN",
+      70
+    ],
+    [
+      14,
+      "OUTSIDE",
+      90
+    ],
+    [
+      15,
+      "OUTSIDE",
+      20
+    ],
+    [
+      16,
+      "OUTSIDE",
+      60
+    ]
+  ]
+}

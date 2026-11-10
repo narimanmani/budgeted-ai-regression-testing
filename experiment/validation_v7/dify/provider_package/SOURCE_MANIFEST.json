@@ -1,0 +1,112 @@
+{
+  "repository": "langgenius/dify-official-plugins",
+  "revision": "b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5",
+  "plugin": "openai_api_compatible",
+  "plugin_version": "0.0.73",
+  "modified_upstream_source": false,
+  "signed_marketplace_package": false,
+  "files": [
+    {
+      "relative_path": "_assets/audio.mp3",
+      "sha256": "29b714073410fefc10ecb80526b5c7c33df73b0830ff0e7778d5065a6cfcae3e",
+      "bytes": 218880,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/_assets/audio.mp3"
+    },
+    {
+      "relative_path": "_assets/icon.svg",
+      "sha256": "37607b3f5afba55773ea00bb8247189d63dc83280028f7487abb4d5bd699527e",
+      "bytes": 4345,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/_assets/icon.svg"
+    },
+    {
+      "relative_path": "_assets/openai_api_compatible-01.png",
+      "sha256": "c8cbd0db24009e67be93cd207d7edcceedfadffbaef5000f0f930c149665778b",
+      "bytes": 160217,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/_assets/openai_api_compatible-01.png"
+    },
+    {
+      "relative_path": "models/common_openai.py",
+      "sha256": "e5bfd24d2a4cabc5d6f0ecb346f46a59bf22b37d8c5c3fb803bbd802f75be8c7",
+      "bytes": 2005,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/models/common_openai.py"
+    },
+    {
+      "relative_path": "models/llm/llm.py",
+      "sha256": "8dd4389f3b6fd5053bf676109faf75e1f05865f54c9159f023de24a54a58e1d6",
+      "bytes": 65373,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/models/llm/llm.py"
+    },
+    {
+      "relative_path": "models/rerank/rerank.py",
+      "sha256": "63cb3130b40bff9afa42ef96561c52d517386e0341b39d274992becb35a8b0d8",
+      "bytes": 18228,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/models/rerank/rerank.py"
+    },
+    {
+      "relative_path": "models/speech2text/speech2text.py",
+      "sha256": "ded781de6e9f0e4229685621f484b34564712f1539c8bab99d88f1c204e74c0e",
+      "bytes": 2863,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/models/speech2text/speech2text.py"
+    },
+    {
+      "relative_path": "models/text_embedding/text_embedding.py",
+      "sha256": "47890d6587c57d374104bac801b9f974b7bc694bbdf4806894b396f6e9027a64",
+      "bytes": 27428,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/models/text_embedding/text_embedding.py"
+    },
+    {
+      "relative_path": "models/tts/tts.py",
+      "sha256": "4d02b00c7289376db8de577e3483d2418b2c0cff605e84d3a9e7c565bbe461db",
+      "bytes": 5954,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/models/tts/tts.py"
+    },
+    {
+      "relative_path": "provider/openai_api_compatible.py",
+      "sha256": "7e78ce488c3b2187cabc7cc3e833e539970bf5a773d67437a6b8ab272aeeebe9",
+      "bytes": 470,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/provider/openai_api_compatible.py"
+    },
+    {
+      "relative_path": "provider/openai_api_compatible.yaml",
+      "sha256": "c68a6a0a37fe6958bebd83360f2b34f93d1d1b556c52cad158c40b0ba4d2d86e",
+      "bytes": 24228,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/provider/openai_api_compatible.yaml"
+    },
+    {
+      "relative_path": "manifest.yaml",
+      "sha256": "b28e97fed1e49fcb164382a04d0f71b0d0b9727851922ef8bd792381507bc1b3",
+      "bytes": 703,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/manifest.yaml"
+    },
+    {
+      "relative_path": "main.py",
+      "sha256": "c275e772a64440978e84a9b1c549ab06a67c9fece797ff15201357e2c8ac127e",
+      "bytes": 125,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/main.py"
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "8ecaeeec205c9ca3b59d7922a30fe4fa7ad52acfd4f00ec1792f721c8db2e838",
+      "bytes": 1583,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/README.md"
+    },
+    {
+      "relative_path": "pyproject.toml",
+      "sha256": "b0282e4814591c355db0984f18420194c866eed6056f0f484a11ac1fb9a8440f",
+      "bytes": 506,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/pyproject.toml"
+    },
+    {
+      "relative_path": "uv.lock",
+      "sha256": "4b3a77ebf05b8906bb6167bf1d3babeeab061a8baee5e85ecd2aed6088726053",
+      "bytes": 409212,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/uv.lock"
+    },
+    {
+      "relative_path": ".difyignore",
+      "sha256": "3d4fcbee157264963a4bb95fce1435c7e051cef7325692074298031ea5e861ae",
+      "bytes": 73,
+      "source_url": "https://raw.githubusercontent.com/langgenius/dify-official-plugins/b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5/models/openai_api_compatible/.difyignore"
+    }
+  ]
+}

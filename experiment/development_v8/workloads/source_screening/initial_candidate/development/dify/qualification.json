@@ -1,0 +1,72 @@
+{
+  "application_id": "dify",
+  "cohort": "development",
+  "task_ids": [
+    "DDF01",
+    "DDF02",
+    "DDF03",
+    "DDF04",
+    "DDF05",
+    "DDF06",
+    "DDF07",
+    "DDF08"
+  ],
+  "qualification_witnesses": {
+    "A_BAD": "DDF01",
+    "B_BAD": "DDF03"
+  },
+  "qualification_subsets": {
+    "A_BAD": [
+      "DDF01",
+      "DDF02",
+      "DDF05",
+      "DDF06"
+    ],
+    "B_BAD": [
+      "DDF03",
+      "DDF04",
+      "DDF05",
+      "DDF06"
+    ]
+  },
+  "unaffected_controls": [
+    "DDF05",
+    "DDF06"
+  ],
+  "healthy_all_contracts_must_pass_both_passes": true,
+  "source_witnesses_must_fail_both_bad_passes": true,
+  "controls_must_pass_in_both_bad_passes": true,
+  "development_native_query_plan": {
+    "states": [
+      "HEALTHY",
+      "A_BAD",
+      "B_BAD"
+    ],
+    "tasks_per_state": 8,
+    "passes": 2,
+    "queries_per_prompt_candidate": 48
+  },
+  "validation_qualification_query_plan": {
+    "healthy_tasks": 8,
+    "bad_tasks_per_state": 4,
+    "passes": 2,
+    "queries": 32
+  },
+  "mechanism_partition_is_descriptive_not_a_policy_input": true,
+  "source_mechanism_groups": {
+    "A": [
+      "DDF01",
+      "DDF02"
+    ],
+    "B": [
+      "DDF03",
+      "DDF04"
+    ],
+    "control": [
+      "DDF05",
+      "DDF06",
+      "DDF07",
+      "DDF08"
+    ]
+  }
+}

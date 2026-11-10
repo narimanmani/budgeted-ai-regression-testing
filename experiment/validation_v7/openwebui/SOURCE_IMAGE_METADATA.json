@@ -1,0 +1,101 @@
+{
+  "recorded_at_utc": "2026-11-01T02:52:30.337798+00:00",
+  "status": "METADATA_AND_ARCHITECTURE_ONLY_NO_APPLICATION_EXECUTION",
+  "upstream": "https://github.com/open-webui/open-webui",
+  "revision": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+  "tree": "3075fe8893cd205a5017b101463f42f0224ae2ce",
+  "official_image": "ghcr.io/open-webui/open-webui@sha256:61b567ee1e7730327535ef5224e55381c8abd2c7560a9d2c71e4690ee1a57d18",
+  "image_config_digest": "sha256:0da2960b46db0a884f1f7146d8d30f637e92fdaf3372e9e257d7243a201a6bf7",
+  "platform": {
+    "os": "linux",
+    "architecture": "amd64"
+  },
+  "compressed_layers_bytes": 1642827077,
+  "created_at": "2026-10-29T09:18:05.909034697Z",
+  "image_source_revision_label": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+  "image_build_revision_env": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+  "image_is_slim": "false",
+  "source_files": {
+    "Dockerfile": {
+      "sha256": "ea3e447015ab3c419e49b2c8401eb24571f47b7a0b95eb6874f68537ac1454bc",
+      "git_blob": "c7fb201b4f0f11d13e13ae8553c321542e0360d7"
+    },
+    "pyproject.toml": {
+      "sha256": "38d36072eb76178f9587a57c7e6de85a6cca2d666ea7baffa23d1b73b15f5607",
+      "git_blob": "737226fb10971e5fd875c8a02f62730324760aa2"
+    },
+    "package.json": {
+      "sha256": "3dad273d8f160ecf9f255d345dd0a1de17413a018cfec12260674dfbbb816bbf",
+      "git_blob": "f0e314935275a7f65d27689034afd9184b8184db"
+    },
+    "LICENSE": {
+      "sha256": "9ffc98c7be329932e0660fa3bfa0fbce679498e575fe9f21b7786b09edc4f36b",
+      "git_blob": "99f39e7feff29c93342877adad2d5c15e707444c"
+    },
+    "backend/requirements.txt": {
+      "sha256": "947f986da0e75822517415ea9cf0bd50c4ed76676d9b0abab2e45029dbce1f1b",
+      "git_blob": "f4589de5bd70022fec27c016d99425555e5e378b"
+    },
+    "backend/start.sh": {
+      "sha256": "40fef6f5b49405e27e3367b1a119469c10aba35c1f342632e59726198c195f2a",
+      "git_blob": "adf521811b9978054e64438ce5191018ca9f77c6"
+    },
+    "backend/open_webui/main.py": {
+      "sha256": "a8ab43810ed59065fca10cc858564cae77b941ea82ed0087b715b685caed5d9e",
+      "git_blob": "a1abf80e7980c25cfc1d7dbf2dd76c290fd7de7d"
+    },
+    "backend/open_webui/config.py": {
+      "sha256": "afa696b7299def0e8ff1b4d9c5b34fa46b74ec2a03b2802601831df6877f69b7",
+      "git_blob": "fc9c5543b78b8735a2ed963f721522459a718265"
+    },
+    "backend/open_webui/env.py": {
+      "sha256": "e7048eb710594b65daf7b86f57add97f756afea47acabc8a10960a3a0e2d090c",
+      "git_blob": "0e2797c3af8e729db2aada288123a7748a67bb3f"
+    },
+    "backend/open_webui/routers/auths.py": {
+      "sha256": "b1e999d9c8f92b3e4406408fdd1c3b1e252ebfcc325764a319a7bac9c47a6620",
+      "git_blob": "d9b0d01d528551bffbfbb45e260cedfa9e99ef44"
+    },
+    "backend/open_webui/routers/files.py": {
+      "sha256": "b009b8fb5531e22ca75a5228f4139d365ee883dbc32e2caa3756e37d05445c82",
+      "git_blob": "1f2292e7531bdf9d81561b4637456dc680f89db2"
+    },
+    "backend/open_webui/routers/knowledge.py": {
+      "sha256": "33e51c45fa9901943f36b622238ecd310aac16bbfeadcf461158a5319be93243",
+      "git_blob": "6b13b798cd9990cd84d9f8c5b984535722f804fb"
+    },
+    "backend/open_webui/routers/retrieval.py": {
+      "sha256": "bce88148323795d6224eef653c5acc22541a00b497a78bbe18bd4e03c24c8dff",
+      "git_blob": "d2a6857c0688106165ed8c2b972829fb6c773f93"
+    },
+    "backend/open_webui/routers/openai.py": {
+      "sha256": "a9f64df980cd1f79e44c1bcfb9e2216cf897af45f1cb3748bbb2e910af2eea7d",
+      "git_blob": "55b06eb42a1575ae5b2394865f4993d1b97ca92f"
+    },
+    "backend/open_webui/utils/middleware.py": {
+      "sha256": "fafb294af8c39bf3ffe4dbfa993ee628c78b131d551fdb235087492f2b99cc4d",
+      "git_blob": "b61635543b850ea87e00dd7ab501c6b6c71169dd"
+    },
+    "backend/open_webui/models/files.py": {
+      "sha256": "ec073d66e48ce39f3395c3e6c30d65cfa3dc2689f0486907c589b88197c1d832",
+      "git_blob": "d1f61c7cc7edbcd5159623823f664d215a533a2c"
+    },
+    "backend/open_webui/models/knowledge.py": {
+      "sha256": "3da67d25b2afb63a2962431d0458f5e5e177ff525729eeadc1b3a45f2fbcdd24",
+      "git_blob": "b053344bc99c0cb4f2ee6ac532f99cddb54e7bd1"
+    }
+  },
+  "native_application_queries": 0,
+  "model_queries": 0,
+  "embeddings_executed": 0,
+  "source_history_tests_and_candidate_behavioral_outcomes_opened": false,
+  "official_architecture_docs": [
+    "https://docs.openwebui.com/getting-started/quick-start/",
+    "https://docs.openwebui.com/reference/api-endpoints/",
+    "https://docs.openwebui.com/reference/env-configuration/"
+  ],
+  "limitations": [
+    "This metadata is not native deployment qualification or regression-case eligibility.",
+    "A separate incidental search-preview exposure record qualifies the pre-freeze blindness statement."
+  ]
+}

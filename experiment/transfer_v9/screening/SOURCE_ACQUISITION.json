@@ -1,0 +1,29 @@
+{
+  "acquired_at_utc": "2026-11-01T13:58:22.581587+00:00",
+  "sources": [
+    {
+      "name": "vanna",
+      "repository": "vanna-ai/vanna",
+      "commit": "67f1bceda676ef8b5c6acea7c547ce1e5c67b96a",
+      "url": "https://codeload.github.com/vanna-ai/vanna/tar.gz/67f1bceda676ef8b5c6acea7c547ce1e5c67b96a",
+      "archive_path": "experiment\\transfer_v9\\upstream\\vanna-67f1bceda676ef8b5c6acea7c547ce1e5c67b96a.tar.gz",
+      "archive_bytes": 2635065,
+      "archive_sha256": "a944a900fc6d0025e9b1861313fc0f30f9df55c8b0311e3bff1b1f9c737c5566",
+      "source_root": "experiment\\transfer_v9\\upstream\\vanna-67f1bceda676ef8b5c6acea7c547ce1e5c67b96a",
+      "file_count": 95,
+      "scope": "source-only acquisition; no native output generated"
+    },
+    {
+      "name": "rasa",
+      "repository": "RasaHQ/rasa",
+      "commit": "f3b733a0c1f1ba9a9b20cac806648dbff2c5d467",
+      "url": "https://codeload.github.com/RasaHQ/rasa/tar.gz/f3b733a0c1f1ba9a9b20cac806648dbff2c5d467",
+      "archive_path": "experiment\\transfer_v9\\upstream\\rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467.tar.gz",
+      "archive_bytes": 4200629,
+      "archive_sha256": "eb33e9094432197a441fbd2cb8c302333a5c72a047d23f495e9f01460b0c167e",
+      "source_root": "experiment\\transfer_v9\\upstream\\rasa-f3b733a0c1f1ba9a9b20cac806648dbff2c5d467",
+      "file_count": 1234,
+      "scope": "source-only acquisition; no native output generated"
+    }
+  ]
+}

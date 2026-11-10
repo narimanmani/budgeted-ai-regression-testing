@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T06:54:13.661210+00:00",
+  "tests_passed": 10,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/audits/test_audit_main_blocks.py -q",
+  "new_native_or_model_calls": 0,
+  "partial_main_answer_files_opened": false,
+  "guarded_files_modified": false,
+  "files_sha256": {
+    "experiment/development_v8/audits/audit_main_blocks.py": "4ba16a4a6b3964eeedfe4b3095c524a00f4d1e0f842d310c9d6c8cd4fc0c6c95",
+    "experiment/development_v8/audits/test_audit_main_blocks.py": "2c0f9fcc09516b3e2bc1a976ba2b9db596374cc6efce08e45451a53a2c253234"
+  },
+  "correction": "Auditor-only: canonical receipt body must match after removing exactly the documented main_admission_guard; independently recompute all guard fields. Original auditor source and v1 validation retained in history.",
+  "actual_completed_block_audit": "INDEPENDENT_MAIN_OPENWEBUI_R1.json passed all568 paid queries"
+}

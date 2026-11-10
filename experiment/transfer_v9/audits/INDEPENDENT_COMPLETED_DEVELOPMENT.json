@@ -1,0 +1,8 @@
+{
+  "status": "AUDIT_FAILED",
+  "stage": "development",
+  "auditor_source_sha256": "ed1d75433cc76f5def2a2232fba7769a0e56ce377ea33f0f80d9e61e6ac0e0a2",
+  "exception_type": "AuditError",
+  "message": "Historical method AST commitment changed or Python AST version unsupported",
+  "native_or_provider_dispatches_during_audit": 0
+}

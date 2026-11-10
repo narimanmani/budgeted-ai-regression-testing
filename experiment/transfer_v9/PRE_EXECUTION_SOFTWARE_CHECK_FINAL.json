@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": 102,
+  "elapsed_seconds": 9.072,
+  "command": "experiment/transfer_v9/env/Scripts/python.exe -B -m unittest experiment.transfer_v9.runtime.test_ledger experiment.transfer_v9.runtime.test_rasa_native experiment.transfer_v9.screening.test_vanna_adapter_audit experiment.transfer_v9.screening.test_local_model_audit experiment.transfer_v9.screening.test_integration_audit experiment.transfer_v9.design.test_validate_design experiment.transfer_v9.design.test_replay experiment.transfer_v9.test_collect experiment.transfer_v9.test_live_confirmation",
+  "native_application_model_or_provider_calls": 0,
+  "is_guidance_effectiveness_evidence": false,
+  "previous_97_test_record_retained": true,
+  "final_design": "32 development, 192 main bank, 64 fourth-pass observations, up to 88 live policy-confirmation requests; at most 376/400 combined case operations",
+  "live_confirmation_scope": "Four first-A cold-start cells under a 28-request whole-cost ceiling; long-history and noisy-checker factorial remains counterfactual replay",
+  "metric_units": "Matched request ceilings. Native wall components and controller CPU are separate; their sum is explicitly a hybrid proxy."
+}

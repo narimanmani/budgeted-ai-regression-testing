@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T05:19:08.931763+00:00",
+  "tests_passed": 6,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/audits/test_audit_acquisition.py -q",
+  "new_native_or_model_calls": 0,
+  "files_sha256": {
+    "experiment/development_v8/audits/audit_acquisition.py": "c71b554cebc6d0ecd689affafeb32c395b694b82e7ffbee75e4de56c8c75ff34",
+    "experiment/development_v8/audits/test_audit_acquisition.py": "6588aaea9543136193543e2e230562dade17fc9a759e2ab91b78e94c496e43b9"
+  },
+  "actual_read_only_audits": [
+    "development-openwebui-P0",
+    "development-openwebui-P1"
+  ],
+  "guarded_runtime_protocol_workload_or_guidance_files_modified": false
+}

@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T05:02:02.218890+00:00",
+  "tests_passed": 14,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/test_native_runtimes.py -q",
+  "new_native_or_model_calls": 0,
+  "files_sha256": {
+    "experiment/development_v8/runtime_common.py": "e903164b09ed8304089f63b45dbf31123ac13a6f0504e88be4e7a060372918cf",
+    "experiment/development_v8/openwebui_runtime.py": "2f497ac1167ecd4e3bd9c1b872e55dccfc61eac53bc7c9791b330350d06e00ed",
+    "experiment/development_v8/dify_runtime.py": "c82208e618432c4787d2b787d07a1cc2143f40f241f6b96d47625d303694fa78",
+    "experiment/development_v8/test_native_runtimes.py": "7fd95408d8ba9e224056e89225f50ce5e2dc9f6f4cc9d4d6717e0db539c685a9"
+  },
+  "inherited_read_only_files_sha256": {
+    "experiment/validation_v7/openwebui/native_runtime.py": "9ce5eafb577c513c64990f6bf6046c5cc2163dc32637ffb13009ee08bfee66b7",
+    "experiment/validation_v7/openwebui/native_client.py": "37f81a3ef7b4f546549be3e8a1a3ca85e22133e2f558cff97dd53fe6f31fbd5d",
+    "experiment/validation_v7/dify/native_runtime.py": "a4b479a259504a2803c3e8961463a73ba64773fe621b55c9be7da063a68df104",
+    "experiment/validation_v7/openwebui/SOURCE_MANIFEST.json": "9fcd6f5e315619ea22a24d56a5d63523ff3b918bd6a3dd636c8cf64b6448d393",
+    "experiment/validation_v7/dify/SOURCE_CASE_MANIFEST.json": "428d74244157cf3cb495f73deb66f0b8a64de269e08089661ba83928992010aa",
+    "experiment/validation_v7/dify/EFFECTIVE_SOURCE_TOKEN_AMENDMENT.json": "73adc053749790a7abff4e17ccf278b0eb62371f884810ceea43445a4f91a69c",
+    "experiment/validation_v7/dify/metadata/IMAGE_SOURCE_VERIFICATION.json": "afcc18b1b13ed509cffb999407b80e3525fb2abe58dbbbe3c10ce70b2db4c101",
+    "experiment/validation_v7/dify/provider_package/SOURCE_MANIFEST.json": "76e1fe10995ea8c049e3b4fa7e08b0cb92a6c40011fec53b54ebdf7c8fcbfa82",
+    "experiment/validation_v7/dify/provider_package/openai_api_compatible-0.0.73.difypkg": "bddb7805a083eb3e8d54149ca906d76d9f2a3ec995de1415f6f9bc69f868f15d",
+    "experiment/validation_v7/dify/sources/A_BAD/clean_processor.py": "d7387e40dd047a33d152d0bcb6b1af113fdda3738e59823158a4b4c76eb072ca",
+    "experiment/validation_v7/dify/sources/B_BAD/fixed_text_splitter.py": "483ebc5043121c4986ac2c5f45f5683dcc773c935ccd2d54179941fec6e4e79a",
+    "experiment/validation_v7/openwebui/sources/A_BAD/main.py": "667df00033c8bd78ff13f27a47b1ebcc37632c70ad8907250fe5727089a20ae2",
+    "experiment/validation_v7/openwebui/sources/B_BAD/main.py": "439c5fc3f8e4106b11de2c6d1f6aabe34d7570ccf7b972643b209dd870154acc"
+  },
+  "source_scope": "Same pinned v7 native image, source-case overlays, plugin and native HTTP transport; new cohort and prompt scopes only",
+  "state_preparation": "All unwanted APIs stop before any requested API starts; maximum two; query rejects unprepared state without lazy startup",
+  "original_v7_files_modified": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-11-01T14:42:08.236406+00:00",
+  "prefreeze_amendment": "Measured replay-controller decision/feedback CPU and operational-mask CPU included once; duplicate fresh receipt/identity rejection; balanced-prefix amortization scope",
+  "prior_software_record_retained": "DESIGN_SOFTWARE_CHECK.json",
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "experiment\\transfer_v9\\design",
+    "-p",
+    "test_*.py"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": ".............................\n----------------------------------------------------------------------\nRan 29 tests in 4.069s\n\nOK\n",
+  "fixtures_are_synthetic_not_empirical": true,
+  "new_native_or_model_calls": 0,
+  "files": {
+    "BANK_SCHEMA.md": "5e5f4d62f4222a1adabf0dfbc2be080fc9c776333e24bc6e18c687444d608ff9",
+    "DESIGN_SOFTWARE_CHECK.json": "787abf94750f100b5bee93d96016d2fc45c3d5aee88145287fb215339b123f88",
+    "PROTOCOL.md": "7430a2fa26594f8cdfcee2378fcb7adbe895446283ab7c9bdec67b0bb7b36c31",
+    "protocol.template.json": "57ee896d3779f4cdea78431ae63293f82d8185e4e99c5c55e964a99339ce47d3",
+    "README.md": "3a2564b5e1e09dd18af484a835c6a60860c6834a030b7c43aad0caeec37b40d4",
+    "registry.template.json": "6f8f84a8abd96c341737addabee8f2c03644f5fb38bd656ffcf98f4d0cc08106",
+    "replay.py": "1cf3e4323d8c64bb20fba9368b7469f7201dbb4746bb9bf063282286eed7b24e",
+    "test_replay.py": "f5ac831daaed4ca2d7efde6033e0cabe376a50c2e97a3825abc4bb9674910b19",
+    "test_validate_design.py": "112ba9ad431d75b58ebba314b78cc46669356251798d27f37f8187d536d0cd3d",
+    "validate_design.py": "e486b269d47800a7794fd60b39511f8bc4cfdd3caee76e8a86a188925b27b323"
+  }
+}

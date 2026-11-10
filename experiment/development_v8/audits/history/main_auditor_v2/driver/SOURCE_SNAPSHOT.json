@@ -1,0 +1,8 @@
+{
+  "source_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\experiment\\development_v8\\audits\\audit_main_blocks.py",
+  "source_sha256": "4ba16a4a6b3964eeedfe4b3095c524a00f4d1e0f842d310c9d6c8cd4fc0c6c95",
+  "snapshot_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\experiment\\development_v8\\audits\\history\\main_auditor_v2\\driver\\audit_main_blocks.py",
+  "snapshot_sha256": "4ba16a4a6b3964eeedfe4b3095c524a00f4d1e0f842d310c9d6c8cd4fc0c6c95",
+  "at_utc": "2026-11-01T07:15:47.910807+00:00",
+  "reason": "Preserve auditor v2 before strict canonical dictionary comparison including missing-null-field corruption detection; actual completed data already preserve all fields exactly; no experiment rerun"
+}

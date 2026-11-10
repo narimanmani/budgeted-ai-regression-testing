@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T06:36:44.200374+00:00",
+  "tests_passed": 8,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/audits/test_audit_main_blocks.py -q",
+  "new_native_or_model_calls": 0,
+  "partial_main_answer_files_opened": false,
+  "guarded_files_modified": false,
+  "files_sha256": {
+    "experiment/development_v8/audits/audit_main_blocks.py": "1d8280707b7daaaaca5b662be41ac6dcaac95c8e0976a53fe1bc2030aef70acf",
+    "experiment/development_v8/audits/test_audit_main_blocks.py": "8a6e09aa1a48bcb31244d49ada703cfdc2d5c90b2c484106cceea29e236da3e0"
+  },
+  "scope": "Complete20trajectoryblock invariants,48paidOLDprofiles,160ownwarmqueries,568ceiling,barrier,sharedfeatures, actualsource/model/provider/cost closure; frozen v8 trajectory evaluator reused for decision verification without reporting method performance totals"
+}

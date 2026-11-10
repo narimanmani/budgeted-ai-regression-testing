@@ -1,0 +1,8 @@
+Processing /study/experiment/transfer_v9/amendments/rasa_env/downloads/pyTelegramBotAPI-4.7.0.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Using legacy 'setup.py install' for pyTelegramBotAPI, since package 'wheel' is not installed.
+Installing collected packages: pyTelegramBotAPI
+    Running setup.py install for pyTelegramBotAPI: started
+    Running setup.py install for pyTelegramBotAPI: finished with status 'done'
+Successfully installed pyTelegramBotAPI-4.7.0

@@ -1,0 +1,175 @@
+{
+  "catalog_role": "prospective authored SQLite/figure conformance examples for independent upstream Vanna changes; not yet frozen application validation",
+  "version": "source-screening-1",
+  "application": "Vanna0.6.2",
+  "schema": "CREATE TABLE transfers(id INTEGER PRIMARY KEY, status TEXT NOT NULL, amount INTEGER NOT NULL);",
+  "rows": [
+    [
+      1,
+      "WITHIN",
+      100
+    ],
+    [
+      2,
+      "WITHIN",
+      220
+    ],
+    [
+      3,
+      "OUTSIDE",
+      30
+    ],
+    [
+      4,
+      "OUTSIDE",
+      40
+    ]
+  ],
+  "native_protocol": "Use official OpenAI_Chat with a local actual provider, actual VannaBase.generate_sql/extract_sql, actual SQLite connector; figure cases must call public VannaBase.ask(print_results=False,auto_train=False,visualize=True), not the unrelated Flask figure route. No canned model response can establish application validation.",
+  "tasks": [
+    {
+      "task_id": "VS01",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "How many transfers have status exactly WITHIN?",
+      "reference_sql": "SELECT COUNT(*) AS count FROM transfers WHERE status = 'WITHIN';",
+      "expected_rows": [
+        [
+          2
+        ]
+      ],
+      "expected_affected_by": [
+        "VANNA_SQL_WITHIN"
+      ],
+      "source": "authored SQLite witness of upstream WITHIN extraction bug; actual generated response must reach changed regex branch"
+    },
+    {
+      "task_id": "VS02",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "What is the total amount of transfers whose status is exactly WITHIN?",
+      "reference_sql": "SELECT SUM(amount) AS total FROM transfers WHERE status = 'WITHIN';",
+      "expected_rows": [
+        [
+          320
+        ]
+      ],
+      "expected_affected_by": [
+        "VANNA_SQL_WITHIN"
+      ],
+      "source": "same independent bug, second task observation; not a second independent defect"
+    },
+    {
+      "task_id": "VS03",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "How many transfers have status exactly OUTSIDE?",
+      "reference_sql": "SELECT COUNT(*) AS count FROM transfers WHERE status = 'OUTSIDE';",
+      "expected_rows": [
+        [
+          2
+        ]
+      ],
+      "expected_affected_by": [],
+      "source": "ordinary SELECT control without WITH substring"
+    },
+    {
+      "task_id": "VS04",
+      "family": "sql",
+      "case": "VANNA_SQL_WITHIN",
+      "question": "Using a CTE called totals, find the sum of all transfer amounts.",
+      "reference_sql": "WITH totals AS (SELECT SUM(amount) AS total FROM transfers) SELECT total FROM totals;",
+      "expected_rows": [
+        [
+          390
+        ]
+      ],
+      "expected_affected_by": [],
+      "source": "proper WITH CTE control; actual SQL text/path must be recorded"
+    },
+    {
+      "task_id": "VF01",
+      "family": "figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "Show a bar chart of total transfer amount for each status.",
+      "reference_sql": "SELECT status, SUM(amount) AS total FROM transfers GROUP BY status ORDER BY status;",
+      "expected_rows": [
+        [
+          "OUTSIDE",
+          70
+        ],
+        [
+          "WITHIN",
+          320
+        ]
+      ],
+      "figure_contract": "returned tuple contains a nonempty Plotly figure with data derived from the query result",
+      "expected_affected_by": [
+        "VANNA_ASK_FIGURE"
+      ],
+      "source": "upstream computed-figure return contract; author-chosen data/task"
+    },
+    {
+      "task_id": "VF02",
+      "family": "figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "Show a scatter plot of amount against transfer id for all transfers.",
+      "reference_sql": "SELECT id, amount FROM transfers ORDER BY id;",
+      "expected_rows": [
+        [
+          1,
+          100
+        ],
+        [
+          2,
+          220
+        ],
+        [
+          3,
+          30
+        ],
+        [
+          4,
+          40
+        ]
+      ],
+      "figure_contract": "returned tuple contains a nonempty Plotly figure with data derived from the query result",
+      "expected_affected_by": [
+        "VANNA_ASK_FIGURE"
+      ],
+      "source": "same independent bug, second task observation; not a second independent defect"
+    },
+    {
+      "task_id": "VC01",
+      "family": "ask_no_figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "How many transfers are there in total?",
+      "reference_sql": "SELECT COUNT(*) AS count FROM transfers;",
+      "expected_rows": [
+        [
+          4
+        ]
+      ],
+      "figure_contract": "visualize=False returns None figure; SQL/data remain correct",
+      "expected_affected_by": [],
+      "source": "unaffected public ask visualize=False branch"
+    },
+    {
+      "task_id": "VC02",
+      "family": "ask_no_figure",
+      "case": "VANNA_ASK_FIGURE",
+      "question": "What is the largest transfer amount?",
+      "reference_sql": "SELECT MAX(amount) AS maximum FROM transfers;",
+      "expected_rows": [
+        [
+          220
+        ]
+      ],
+      "figure_contract": "visualize=False returns None figure; SQL/data remain correct",
+      "expected_affected_by": [],
+      "source": "second nonvisual control; not an independent defect"
+    }
+  ],
+  "impact_evidence_note": "Both Vanna faults reside in the same base.py module. Honest file-level impact remains broad. Selective evidence would require production call/function traces (extract_sql versus ask visualization branch) and its acquisition cost; do not claim file-level selectivity. Some ordinary SQL tasks also call extract_sql, so branch-sensitive selection can still be imperfect.",
+  "failure_judgment_note": "Full reference checks executed SQL result semantics plus figure data and tuple contract. Weaker operational checks can deliberately test only SQL validity/HTTP200 or tuple shape; interventions and their missed contract clauses must be declared prospectively."
+}

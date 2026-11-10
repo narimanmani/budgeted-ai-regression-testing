@@ -1,0 +1,40 @@
+{
+  "status": "PASS_RECORDED_STOP_INTEGRITY_ONLY",
+  "at_utc": "2026-11-01T15:09:44.264436+00:00",
+  "stage": "development",
+  "auditor_source_sha256": "edda82b21304a5c4dc1284c40597dd55daf787b7090cb4e69c4bdd11d3630131",
+  "study_freeze_sha256": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08",
+  "complete_registered_frame": false,
+  "native_observations_checked": 0,
+  "planned_native_observations": 32,
+  "incidents_retained": [
+    "dev-vanna-H-DVVS01"
+  ],
+  "normalized_records_checked": 0,
+  "development_admission_passed": null,
+  "fresh_live_policy_cells_checked": [],
+  "joined_completed_sdk_boundaries": 0,
+  "actual_backend_generation_starts": 0,
+  "source_bindings_checked": 14,
+  "rasa_cpu_resources_checked": [],
+  "ledger_events_checked": 4,
+  "ledger_committed_resources": {
+    "native_query_units": 1,
+    "queryfree_native_check_units": 0,
+    "provider_chat_units": 0,
+    "provider_embedding_units": 0,
+    "generation_allocation_seconds": 2.0428896000084933,
+    "end_to_end_seconds": 5.031808500003535
+  },
+  "ledger_unsettled_operations_retained": [],
+  "ledger_over_cap_dimensions": [],
+  "native_or_provider_dispatches_during_audit": 0,
+  "legacy_account_reopened": false,
+  "independent_contract_checks": 0,
+  "contracts_recomputed_independently": false,
+  "independent_reference_sql_checks": 0,
+  "reference_sql_executed_in_separate_memory_database": false,
+  "original_host_method_path_fallback": false,
+  "scientific_effectiveness_not_established_by_audit": true,
+  "independent_applications_or_defects_added_by_audit": 0
+}

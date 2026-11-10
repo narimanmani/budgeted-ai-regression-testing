@@ -1,0 +1,144 @@
+{
+  "package": "pyTelegramBotAPI",
+  "version": "4.7.0",
+  "files": {
+    "pyTelegramBotAPI-4.7.0.egg-info/dependency_links.txt": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "pyTelegramBotAPI-4.7.0.egg-info/installed-files.txt": {
+      "sha256": "e8b184bf08958ae1e019e60a2a8e8ddfd5fd9bef901cf66f90e6a15c1dd68bd2",
+      "bytes": 961
+    },
+    "pyTelegramBotAPI-4.7.0.egg-info/PKG-INFO": {
+      "sha256": "b191fae43d047d5ef45846c1bc2a599677b2c77ca3f685d89ff5e02c1612a0c1",
+      "bytes": 51233
+    },
+    "pyTelegramBotAPI-4.7.0.egg-info/requires.txt": {
+      "sha256": "bd8ad7aae194e554750bb042f690e9844af81fac73b6a5bec447b3f8cf06f192",
+      "bytes": 137
+    },
+    "pyTelegramBotAPI-4.7.0.egg-info/SOURCES.txt": {
+      "sha256": "0463819ef0f9b319d0eac29aba7a1c1140a1e63f673c24240a0568522c9d456d",
+      "bytes": 1043
+    },
+    "pyTelegramBotAPI-4.7.0.egg-info/top_level.txt": {
+      "sha256": "5032b39cd96fd4ab60eee789e489dc20070a153f7052e3273b13044cdeb6fd1b",
+      "bytes": 8
+    },
+    "telebot/__init__.py": {
+      "sha256": "864e2ded8a6916e9783a38bbdca485ba61f3554e252af8531f0a894993cfdd66",
+      "bytes": 276271
+    },
+    "telebot/apihelper.py": {
+      "sha256": "58a0e976d1b46898fd21c27aead5195e90b1657268676dc5f46d2486f982086d",
+      "bytes": 77661
+    },
+    "telebot/async_telebot.py": {
+      "sha256": "ca461ad1cb6ac6df0b71b6658baef57676f597a9480dfc6c198a7944774cf2e0",
+      "bytes": 248690
+    },
+    "telebot/asyncio_filters.py": {
+      "sha256": "6b96fc88109c313d12320134a613a17c6e038e086b9d571252f5052fd65834c7",
+      "bytes": 13004
+    },
+    "telebot/asyncio_handler_backends.py": {
+      "sha256": "edb004fed81d64c0edcc7d7dbf1749bb1256c5287c2974ef7b6b01074284861f",
+      "bytes": 2930
+    },
+    "telebot/asyncio_helper.py": {
+      "sha256": "0613bd179c298851431d53216dc9a6df064f6691e98806edc64373d04ba87500",
+      "bytes": 77089
+    },
+    "telebot/asyncio_storage/__init__.py": {
+      "sha256": "8363d0405d2c8660712fc00f1511d4c4388aaae4691680c0659ad47077374fa9",
+      "bytes": 425
+    },
+    "telebot/asyncio_storage/base_storage.py": {
+      "sha256": "0e3d34c224ea408890fe98e6f1ff21a0247af9e39282fbd5e4295d7d4055e958",
+      "bytes": 1808
+    },
+    "telebot/asyncio_storage/memory_storage.py": {
+      "sha256": "4a222414c314360dbfa79c09d8cdc13d79ff8b8574247f8b540a80a2fd7b4bf1",
+      "bytes": 2396
+    },
+    "telebot/asyncio_storage/pickle_storage.py": {
+      "sha256": "4506f119dc54570583c498eb9792556d43921e8a065752988f11bf42931957dc",
+      "bytes": 3897
+    },
+    "telebot/asyncio_storage/redis_storage.py": {
+      "sha256": "7ca949c889cdb693640ca9abcb39e492a3e0d2ae2c2b516f6e72acd4d5a7c349",
+      "bytes": 5766
+    },
+    "telebot/callback_data.py": {
+      "sha256": "a0bc570be3b7e65913d6367bcefa6ad2d398f20fc27707d092d60b11931ca4b1",
+      "bytes": 5203
+    },
+    "telebot/custom_filters.py": {
+      "sha256": "a57586aa0c71c10d3692e10fc9dd817c70407e82bc7f257ca092c2d407316288",
+      "bytes": 13098
+    },
+    "telebot/ext/__init__.py": {
+      "sha256": "fe649e354d5c89bddc59267a29bea72b2f739c463013318d442619b03eb5acb9",
+      "bytes": 66
+    },
+    "telebot/ext/aio/__init__.py": {
+      "sha256": "db28bb8edbc4207d43a80b1e15ebdfba33588bb65287968f30e286af1220aacc",
+      "bytes": 143
+    },
+    "telebot/ext/aio/webhooks.py": {
+      "sha256": "b1f34cd63c7d69be17dbc70365999e401f991c56b50bfbf181c677cd05db8232",
+      "bytes": 3813
+    },
+    "telebot/ext/sync/__init__.py": {
+      "sha256": "2e3fb5e5d8f54d891fd75774bd8d78ff69acb27a05479524df6d21b966bfac67",
+      "bytes": 140
+    },
+    "telebot/ext/sync/webhooks.py": {
+      "sha256": "86c451d8188cebd161ad7358b8bf88396500010533a815f5f5c48c101b736b0e",
+      "bytes": 3565
+    },
+    "telebot/formatting.py": {
+      "sha256": "9b4e912f817e35289334527b28968011eaea0cf1e58823518e8dcedc34b37eeb",
+      "bytes": 8674
+    },
+    "telebot/handler_backends.py": {
+      "sha256": "7e6234ffad2baa13f0b9d19aa12294f882541eab34d0b2d4239b10658381ae71",
+      "bytes": 8123
+    },
+    "telebot/storage/__init__.py": {
+      "sha256": "091d883b7629623d722ae6f1c0f2ebb23bf0113bf4cbe37667683151f2ef46c1",
+      "bytes": 393
+    },
+    "telebot/storage/base_storage.py": {
+      "sha256": "7f9015e5493fef2c3afd4c65eae7de63a073bc7db8488c030aa52ab6d6ed5206",
+      "bytes": 1700
+    },
+    "telebot/storage/memory_storage.py": {
+      "sha256": "a3bec0e02aace45944eda407545dd65893cd9856edfea5ddef455933cd2210d5",
+      "bytes": 2349
+    },
+    "telebot/storage/pickle_storage.py": {
+      "sha256": "1d54227ccd3dd1cad8aa1f988808c95b908d22e54607b0885fd8b4fc0658f455",
+      "bytes": 4080
+    },
+    "telebot/storage/redis_storage.py": {
+      "sha256": "8213763e8207dab70cef6ce176f1c56928acbbf126d0e66b31e3ec97721e4a68",
+      "bytes": 5664
+    },
+    "telebot/types.py": {
+      "sha256": "c815429e7405ebb8a7874eea9c5066c043671f696d108dd8de4f0fdf4f0a3716",
+      "bytes": 276942
+    },
+    "telebot/util.py": {
+      "sha256": "4185c51d41a8be772b30cf4a1f7e468bcb47ef3beaea16e47619ad6cb17e9242",
+      "bytes": 20176
+    },
+    "telebot/version.py": {
+      "sha256": "efa8a975741d2bdc6931b99686d406ffe73e7eda5b718ac15ed2d008d92fbbae",
+      "bytes": 98
+    }
+  },
+  "provider_boundaries": 0,
+  "source_only_dependency_environment": true
+}

@@ -1,0 +1,23 @@
+# Downloaded sealed assets and isolated reproduction outputs are kept separate.
+/downloads/
+/extracted/
+/reproduced/
+/reproduction-output/
+/verification-output/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Native/local service state and credentials are never repository inputs.
+.env
+.env.local
+*.gguf
+*.safetensors
+*.sqlite
+*.sqlite3
+*.db
+*.difypkg

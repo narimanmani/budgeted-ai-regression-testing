@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "id": "DOW01",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW01? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW02",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW02? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW03",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW03? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW04",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW04? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW05",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW05? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW06",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW06? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW07",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW07? Return only the text inside its square brackets."
+    },
+    {
+      "id": "DOW08",
+      "data_version": "v1",
+      "question": "What is the access label for record DOW08? Return only the text inside its square brackets."
+    }
+  ]
+}

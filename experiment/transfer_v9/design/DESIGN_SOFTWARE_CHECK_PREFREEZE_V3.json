@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-11-01T14:55:43.640297+00:00",
+  "prefreeze_amendment": "Separate native-wall allocation and measured controller CPU; explicitly labeled hybrid proxy; controller wall unmeasured; register four actual cold-A native policy confirmations with88maximum units and32development units inside376/400total ceiling",
+  "prior_software_records_retained": [
+    "DESIGN_SOFTWARE_CHECK.json",
+    "DESIGN_SOFTWARE_CHECK_PREFREEZE_V2.json"
+  ],
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "experiment\\transfer_v9\\design",
+    "-p",
+    "test_*.py"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "..............................\n----------------------------------------------------------------------\nRan 30 tests in 3.743s\n\nOK\n",
+  "fixtures_are_synthetic_not_empirical": true,
+  "new_native_or_model_calls": 0,
+  "files": {
+    "BANK_SCHEMA.md": "006a51e515881d55a5f76bebb9dad0ded07aab6af4d45c8ed8a506784185864d",
+    "DESIGN_SOFTWARE_CHECK.json": "787abf94750f100b5bee93d96016d2fc45c3d5aee88145287fb215339b123f88",
+    "DESIGN_SOFTWARE_CHECK_PREFREEZE_V2.json": "f22db58f6035f00a3b934962eb14331e4a66a1d0110518610f1c86dc256957a4",
+    "PROTOCOL.md": "bfa0b3d354e4b21a3a6834b0c8753d1999488eaa476a4e20aa2f130f2330344e",
+    "protocol.template.json": "ab56218744d38d5de77e195eda257d7408bbbb6ca808e06b35c05130ebbac2c0",
+    "README.md": "1fda21f8cb9525c04612ced3050852dd38b13e9dbaeca62b9909c37c78ea5680",
+    "registry.template.json": "6f8f84a8abd96c341737addabee8f2c03644f5fb38bd656ffcf98f4d0cc08106",
+    "replay.py": "52c9801863b85af4801b9bd2e9624d352b9f8edf3f61d135fe9a89c3aae2215c",
+    "test_replay.py": "fd816d8f1d02b250f545294d3dfecdddc3c9660eca22ff95e381cbfc179a6e08",
+    "test_validate_design.py": "304b042976960a4af458f89f585efc0db9e27e230a5cdb000838db26f29cd43e",
+    "validate_design.py": "dc212c3ef64c04af789b711910379d1655017c9d94d61c41bb25c8d2eef0bf34"
+  }
+}

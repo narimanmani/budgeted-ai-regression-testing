@@ -1,0 +1,199 @@
+{
+  "application_id": "rasa",
+  "training_examples": [
+    {
+      "text": "hello",
+      "intent": "greet"
+    },
+    {
+      "text": "hi there",
+      "intent": "greet"
+    },
+    {
+      "text": "ciao",
+      "intent": "goodbye"
+    },
+    {
+      "text": "bye",
+      "intent": "goodbye"
+    },
+    {
+      "text": "I am so hungry",
+      "intent": "hungry"
+    },
+    {
+      "text": "I want pizza",
+      "intent": "hungry"
+    },
+    {
+      "text": "I want pizza, now!!",
+      "intent": "hangry"
+    },
+    {
+      "text": "just gimme a pizza already",
+      "intent": "hangry"
+    },
+    {
+      "text": "I need to book a hotel",
+      "intent": "book_hotel"
+    },
+    {
+      "text": "Please reserve a hotel room",
+      "intent": "book_hotel"
+    },
+    {
+      "text": "Please cancel my hotel booking",
+      "intent": "cancel_hotel"
+    },
+    {
+      "text": "I want to cancel the hotel reservation",
+      "intent": "cancel_hotel"
+    },
+    {
+      "text": "I would like to order coffee",
+      "intent": "order_coffee"
+    },
+    {
+      "text": "Please bring me a coffee",
+      "intent": "order_coffee"
+    },
+    {
+      "text": "I would like to order tea",
+      "intent": "order_tea"
+    },
+    {
+      "text": "Please bring me a tea",
+      "intent": "order_tea"
+    },
+    {
+      "text": "I need to pay an invoice",
+      "intent": "pay_invoice"
+    },
+    {
+      "text": "Please pay my outstanding invoice",
+      "intent": "pay_invoice"
+    },
+    {
+      "text": "Please refund my invoice payment",
+      "intent": "refund_invoice"
+    },
+    {
+      "text": "I need an invoice refund",
+      "intent": "refund_invoice"
+    },
+    {
+      "text": "Please track my parcel",
+      "intent": "track_parcel"
+    },
+    {
+      "text": "Where is my parcel delivery",
+      "intent": "track_parcel"
+    },
+    {
+      "text": "What is the weather forecast",
+      "intent": "weather_forecast"
+    },
+    {
+      "text": "Please tell me the weather forecast",
+      "intent": "weather_forecast"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "RF01",
+      "kind": "form",
+      "input": {
+        "form_name": "test_form",
+        "slot_name": "city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": "London",
+        "user_text": "I live in London",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": true,
+        "second_slot": null
+      }
+    },
+    {
+      "task_id": "RF02",
+      "kind": "form",
+      "input": {
+        "form_name": "booking_form",
+        "slot_name": "num_people",
+        "slot_type": "float",
+        "entity_name": "number",
+        "entity_value": 5,
+        "user_text": "A booking for five people",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": true,
+        "second_slot": null
+      }
+    },
+    {
+      "task_id": "RF03",
+      "kind": "form",
+      "input": {
+        "form_name": "test_form",
+        "slot_name": "city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": null,
+        "user_text": "Continue",
+        "prefilled_value": "Rome",
+        "include_entity": false,
+        "conditional_mapping": true,
+        "second_slot": null
+      }
+    },
+    {
+      "task_id": "RF04",
+      "kind": "form",
+      "input": {
+        "form_name": "test_form",
+        "slot_name": "city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": "Paris",
+        "user_text": "I live in Paris",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": false,
+        "second_slot": null
+      }
+    },
+    {
+      "task_id": "RR01",
+      "kind": "ranking",
+      "input": {
+        "text": "Please track my parcel",
+        "ranking_length": 10
+      }
+    },
+    {
+      "task_id": "RR02",
+      "kind": "ranking",
+      "input": {
+        "text": "What is the weather forecast",
+        "ranking_length": 10
+      }
+    },
+    {
+      "task_id": "RR03",
+      "kind": "ranking",
+      "input": {
+        "text": "hello",
+        "ranking_length": 10
+      }
+    },
+    {
+      "task_id": "RR04",
+      "kind": "ranking",
+      "input": {
+        "text": "bye",
+        "ranking_length": 10
+      }
+    }
+  ]
+}

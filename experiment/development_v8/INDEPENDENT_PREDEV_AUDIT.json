@@ -1,0 +1,96 @@
+{
+  "checked_at_utc": "2026-11-01T05:04:12.263355+00:00",
+  "review_scope": "Independent read-only pre-development review of metered acquisition, native scope/configuration propagation, no-gold payload paths and source isolation",
+  "passed_for_prospective_root_freeze": true,
+  "native_or_API_or_Docker_or_model_calls_by_auditor": 0,
+  "pure_tests_passed": 42,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/test_native_runtimes.py experiment/development_v8/test_acquisition.py experiment/development_v8/protocol/test_gates.py -q",
+  "actual_cohort_constructor_scope_checks": [
+    {
+      "app": "openwebui",
+      "cohort_id": "development",
+      "prompt_candidate_id": "P0",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "openwebui",
+      "cohort_id": "development",
+      "prompt_candidate_id": "P1",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "dify",
+      "cohort_id": "development",
+      "prompt_candidate_id": "P0",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "dify",
+      "cohort_id": "development",
+      "prompt_candidate_id": "P1",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "openwebui",
+      "cohort_id": "validation",
+      "prompt_candidate_id": "P0",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "openwebui",
+      "cohort_id": "validation",
+      "prompt_candidate_id": "P1",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "dify",
+      "cohort_id": "validation",
+      "prompt_candidate_id": "P0",
+      "constructor_performed_dispatch_or_created_directory": false
+    },
+    {
+      "app": "dify",
+      "cohort_id": "validation",
+      "prompt_candidate_id": "P1",
+      "constructor_performed_dispatch_or_created_directory": false
+    }
+  ],
+  "canonical_acquisition_native_scope_fields": [
+    "cohort_id",
+    "prompt_candidate_id",
+    "prompt_text_sha256",
+    "input_freeze_sha256"
+  ],
+  "required_root_config_and_freeze_field": "prompt_id (native adds canonical prompt_candidate_id alias)",
+  "gold_dataflow": "Native queries parse tasks and native source bytes only; no contract or component-projection parsing enters query payload. Frozen-file hashing may read contract bytes solely to authenticate integrity.",
+  "native_payload": "Actual user question, native dataset/knowledge IDs and native context; no accepted_values or component outcome labels",
+  "resident_state_review": "Both native adapters now stop all unwanted states before starting any requested state; one/two-state limits enforced. Previously interleaved OpenWebUI loop was fixed before this audit.",
+  "required_before_first_dispatch": [
+    "Root input freezes bind exact eight source bytes, questions, contracts, source manifests, prompts, generation frame and protocol/runtime/checker sources",
+    "Root freeze closure binds reused v7 native source manifests, image pins, historical overlays and inherited native client/runtime modules",
+    "Root chooses distinct immutable request namespaces for application/cohort/prompt acquisitions",
+    "Both development candidates must be complete before first-eligible selection; no validation answers during configuration selection"
+  ],
+  "current_v8_provider_counter_snapshot": {
+    "chat_requests_reserved": 0,
+    "hf_generate_invocations_started": 0,
+    "hf_generate_invocations_completed": 0,
+    "embedding_requests_started": 0,
+    "embedding_requests_completed": 0,
+    "embedding_inputs_completed": 0,
+    "chat_requests_rejected_at_cap": 0,
+    "reference_backend_startup_debited": 1,
+    "gpu_allocation_seconds_accounted": 2.6117530000046827
+  },
+  "files_sha256": {
+    "experiment/development_v8/acquisition.py": "31314f1a137fb598e5201c85f6c5b4d44697f85a5e1108f32f6b204d7c33799a",
+    "experiment/development_v8/openwebui_runtime.py": "2f497ac1167ecd4e3bd9c1b872e55dccfc61eac53bc7c9791b330350d06e00ed",
+    "experiment/development_v8/dify_runtime.py": "c82208e618432c4787d2b787d07a1cc2143f40f241f6b96d47625d303694fa78",
+    "experiment/development_v8/runtime_common.py": "e903164b09ed8304089f63b45dbf31123ac13a6f0504e88be4e7a060372918cf",
+    "experiment/development_v8/protocol/gates.py": "6d9a4bf82733b7f90cf9cbb5e401b6961b5ab3dc5d404a4eda21179ea620fecb",
+    "experiment/development_v8/protocol/PROTOCOL_DRAFT.json": "986250e5c9ca2c98d8e225e989ee333fff2cf3576b2945acd697c6037cc96794",
+    "experiment/development_v8/test_native_runtimes.py": "7fd95408d8ba9e224056e89225f50ce5e2dc9f6f4cc9d4d6717e0db539c685a9",
+    "experiment/development_v8/test_acquisition.py": "f9a4a2b1f76417b386c25fe47d2a1765df9bd685c2060a1e04940f3e302beef3",
+    "experiment/development_v8/protocol/test_gates.py": "4a83f498771f7a0aac9ecc49099efde00234b7a65dc071b4d67f735e9b10bd55"
+  }
+}

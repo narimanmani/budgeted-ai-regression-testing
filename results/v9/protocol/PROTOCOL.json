@@ -1,0 +1,221 @@
+{
+  "schema_version": "transfer-v9-design-1",
+  "status": "PROSPECTIVELY_SEALED_BEFORE_ANY_NATIVE_DEVELOPMENT_OR_VALIDATION_OUTPUT",
+  "claim_scope": "native_component_mechanism_stress_and_recorded_outcome_policy_replay",
+  "stronger_claims_not_established": [
+    "complete_application_level_external_validation",
+    "general_semantic_answer_quality",
+    "natural_industrial_maintenance_effectiveness",
+    "new_model_family_generalization"
+  ],
+  "guidance": {
+    "source": "experiment/validation_v7/guidance/policy.py",
+    "sha256": "f14903ce1c0c3f73979eca11bd531df4303ee1fdb4d996baebcc58be89dc0989",
+    "freeze_sha256": "92e6d36aa3dd29d10ad06ca040d138a2ea73504a7aa15e981af474460f4b79d9",
+    "change_after_outcomes": false
+  },
+  "legacy": {
+    "final_receipt": "experiment/runs/development_v8_20261101/FINAL_ACCOUNTING_AND_CLEANUP.json",
+    "receipt_sha256": "c6f1612ee8ce6a72c10020007d0e73d50a4da0ff5dae9d68ca4851520f3b2004",
+    "closed_native_count": 4938,
+    "closed_native_cap": 5000,
+    "closed_generation_seconds": 13459.630427200318,
+    "closed_generation_cap_seconds": 43200,
+    "reset_or_increase_legacy_caps": false
+  },
+  "new_phase_resources": {
+    "declaration_basis": "Researcher-chosen bounded envelope for the user-requested follow-up study. The user authorized the research actions, not these numerical values. The completed 5000-unit account is closed and unchanged.",
+    "native_component_request_cap": 400,
+    "new_llm_generation_request_cap": 600,
+    "paid_services_allowed": false,
+    "all_failed_attempts_and_probes_count": true,
+    "carry_legacy_counts_as_separate_closed_account": true,
+    "legacy_native_unit_equivalence_assumed": false,
+    "new_generation_allocation_seconds_cap": 1800,
+    "new_provider_meter_separate_from_closed_legacy": true,
+    "new_model_runtime_pinned_and_frozen": true,
+    "maximum_generative_native_requests": 200,
+    "maximum_queryfree_native_requests": 200,
+    "native_generation_and_queryfree_counts_reported_separately": true,
+    "new_instrumented_end_to_end_seconds_cap": 14400
+  },
+  "native_bank": {
+    "settings": 2,
+    "upstream_case_pairs_per_setting": 2,
+    "tasks_per_setting": 8,
+    "states_per_case_pair": 2,
+    "passes_per_cell": 3,
+    "fresh_confirmation_passes_per_cell": 1,
+    "freeze_before_first_validation_output": true,
+    "reference_from_frozen_contract_not_majority_vote": true,
+    "failed_source_cases_retained": true,
+    "replacement_after_policy_scores": false,
+    "native_boundary_required": "pinned_production_path_reachable_from_declared_application_entry_point",
+    "untouched_exclusions": [
+      "anythingllm",
+      "librechat",
+      "openwebui",
+      "dify"
+    ]
+  },
+  "native_policy_confirmation": {
+    "registered_before_first_validation_output": true,
+    "source_case_key": "A",
+    "source_case_choice_uses_policy_scores": false,
+    "settings": 2,
+    "methods": [
+      "CG1",
+      "budgeted_retest_all"
+    ],
+    "initial_history": "cold_empty",
+    "episodes_per_cell": 1,
+    "checker": "contract_exact",
+    "impact": "observed_native_edges",
+    "request_ceiling_per_cell": 28,
+    "cg1_profile_requests_per_cell": 24,
+    "cg1_max_selected_pairs": 2,
+    "cg1_native_requests_max_per_cell": 28,
+    "retest_all_native_requests_per_cell": 16,
+    "queries_are_fresh_actual_native_requests": true,
+    "bank_outcomes_reused_as_execution": false,
+    "current_reference_or_new_outcome_to_selection": false,
+    "longitudinal_history_factorial_remains_counterfactual": true,
+    "complete_application_level_external_validation_claimed": false
+  },
+  "development_request_ceiling": 32,
+  "replay": {
+    "label": "counterfactual_replay_conditional_on_recorded_native_outcomes_and_costs",
+    "native_execution_per_policy_cell_claimed": false,
+    "methods": [
+      "seeded_random",
+      "cost_only",
+      "impact_only",
+      "history_only",
+      "always_combined",
+      "CG1",
+      "budgeted_retest_all"
+    ],
+    "sequences": [
+      "recurrence_blocked",
+      "mechanism_interleaved"
+    ],
+    "episodes_per_sequence": 16,
+    "sequence_is_authored_intervention_order": true,
+    "unique_defects_not_multiplied_by_repetition": true,
+    "impact_levels": [
+      "observed_native_edges",
+      "seeded_edge_omission"
+    ],
+    "operational_checker_levels": [
+      "contract_exact",
+      "seeded_symmetric_flip_p25"
+    ],
+    "end_to_end_budget_native_request_units": [
+      128,
+      256
+    ],
+    "recorded_outcome_passes": 3,
+    "seed": 2026110109,
+    "history_source": "strictly_earlier_own_selected_operational_pair_results",
+    "history_acquisition": "no_free_warm_bank; history_accrues_only_from_paid_selected_pairs",
+    "current_or_future_truth_to_selector": false,
+    "selection_uses_true_failure_labels": false,
+    "reference_outcomes_to_selector": false,
+    "operational_error_mask_depends_on_truth": false,
+    "operational_error_probability": 0.25,
+    "impact_omission_depends_on_current_fault_outcomes": false,
+    "impact_omission_probability": 0.25,
+    "intended_history_labels_are_not_guaranteed_effects": true,
+    "masks_committed_before_bank_outputs": true
+  },
+  "costs": {
+    "primary_unit": "native_component_request",
+    "native_request_and_replayed_allocation_separate": true,
+    "profile_old_requests_per_task_state": 3,
+    "profile_reuse_key": "exact_pinned_code_input_config_state_digest",
+    "profile_reuse_across_distinct_states": false,
+    "profile_cost_charged_only_to_consuming_method": true,
+    "context_or_dependency_cost_charged_to_consuming_method": true,
+    "checker_execution_and_feature_cpu_seconds_recorded": true,
+    "failed_probes_and_acquisition_included": true,
+    "resource_mask_changes_never_refund_already_paid_cost": true,
+    "reference_research_costs_separate_from_deployable_policy_costs": true,
+    "native_app_setup_recorded_separately_and_equally_scoped": true,
+    "unrestricted_retest_all_diagnostic_not_budget_matched": true,
+    "oracle_diagnostic_uses_all_truth_but_not_a_deployable_baseline": true,
+    "wall_seconds_are_instrumented_not_gpu_energy_or_rental": true
+  },
+  "analysis": {
+    "primary_pairing": [
+      "setting",
+      "case_sequence",
+      "native_pass",
+      "impact_level",
+      "checker_level",
+      "end_to_end_budget"
+    ],
+    "independent_case_unit": "independently_sourced_upstream_case",
+    "replay_trajectories_not_independent_defects": true,
+    "all_fixed_arms_reported": true,
+    "simple_baseline_selected_using_validation_scores": false,
+    "report_best_simple_arm_as_descriptive_envelope": true,
+    "report_per_case_per_setting_and_fault_family": true,
+    "report_realized_error_and_edge_omission_rates": true,
+    "reference_discordance_not_automatically_checker_error": true,
+    "full_factorial_differences_descriptive_given_small_case_count": true,
+    "fixed_arm_I_by_H_difference_in_differences": true,
+    "checker_moderation_of_fixed_arm_I_by_H_contrast": true,
+    "predeclared_secondary_amortization_horizons": [
+      4,
+      8,
+      16
+    ],
+    "amortization_request_allowance_per_episode": [
+      8,
+      16
+    ],
+    "uncertainty_unit_is_upstream_case_not_request": true,
+    "success_requires_positive_gain": false,
+    "stop_on_winning_result": false
+  },
+  "coverage_gates": {
+    "minimum_new_settings": 2,
+    "minimum_distinct_upstream_cases_per_setting": 2,
+    "minimum_distinct_mechanisms_per_setting": 2,
+    "selective_native_evidence_required_for_selectivity_claim": true,
+    "changed_admission_under_omission_required_for_impact_interaction_claim": true,
+    "own_positive_history_required_for_history_interaction_claim": true,
+    "different_masks_alone_do_not_establish_effect": true,
+    "unsupported_interactions_reported_unidentified": true,
+    "small_case_count_not_tosem_readiness_guarantee": true
+  },
+  "stopping": {
+    "complete_fixed_registered_frame_or_retain_failure": true,
+    "no_replacement_or_rule_tuning_after_validation_outputs": true,
+    "native_cap_is_hard": true,
+    "precision_shortfall_reported_without_more_runs": true,
+    "protocol_amendments_separate_and_timestamped_before_new_outputs": true
+  },
+  "registered_at_utc": "2026-11-01T15:01:57.702688+00:00",
+  "formal_external_registration": false,
+  "native_configuration_development": {
+    "native_requests_per_setting": 16,
+    "settings": 2,
+    "total_native_request_plan": 32,
+    "frame_path": "experiment/transfer_v9/cohorts/FRAME.json",
+    "one_fixed_configuration": true,
+    "prompt_or_selector_search": false,
+    "complete_healthy_contracts_required": true,
+    "registered_fault_witnesses_required": true,
+    "failure_means_stop_before_fresh_validation": true,
+    "runtime_engineering_incidents_retained_and_distinguished_from_product_contract_failures": true,
+    "all_validation_case_bytes_committed_before_development_outputs": true
+  },
+  "execution_boundary_details": {
+    "vanna": "Actual pinned public generate_sql/ask APIs, actual local Qwen generation, SQLite execution and Plotly; complete-schema retrieval extension and exact historical-method overlays. No full vector-store or browser deployment claim.",
+    "rasa": "Actual pinned full Rasa source with exact historical-module overlays; native forms from parsed entity events and an actually trained CPU CountVectors/LogisticRegression pipeline. No raw-text end-to-end dialogue-agent claim.",
+    "function_evidence_granularity": "Vanna change functions are derived from upstream method diffs and matched to actual old call traces; Rasa uses actual production-file traces. Evidence granularity differs from the earlier broad-module workload; CG1 bytes do not change.",
+    "interventions": "Controlled reintroductions of four independent upstream bug fixes in frozen host implementations; authored finite conformance workloads and constructed repeated fault/repair sequences, not sampled natural industrial maintenance.",
+    "full_cost_claim": "Matched total native-request budgets with charged acquisitions and exact-state reuse. Instrumented native, checker, feature, setup and decision seconds are descriptive allocations; no matched-wall throughput or energy claim."
+  }
+}

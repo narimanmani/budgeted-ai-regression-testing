@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "at_utc": "2026-11-01T15:50:55.365148+00:00",
+  "derivative_outside_frozen_core": true,
+  "command": [
+    "C:\\Python313\\python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "experiment\\transfer_v9\\presentation",
+    "-p",
+    "test_*.py"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "........\n----------------------------------------------------------------------\nRan 8 tests in 1.286s\n\nOK\n",
+  "synthetic_fixtures_only": true,
+  "actual_study_data_files_read": false,
+  "native_or_model_dispatches": 0,
+  "files": {
+    "present_results.py": "0ce26d989f356a6e92ddd09f9992ae8744f067cbdbaa40ae605a4fadbcd21e65",
+    "README.md": "7d72d240ecf86ff3dc3816443a4334d7084943cfe794e42ac0070ef3af405347",
+    "test_present_results.py": "ff02de50ae9a9dd3531e2d842268ea8bc82d15b33131a83f2407b202842d8351"
+  }
+}

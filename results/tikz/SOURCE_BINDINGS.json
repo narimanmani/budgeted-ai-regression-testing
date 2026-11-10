@@ -1,0 +1,22 @@
+{
+  "results-cold-start.tex": {
+    "source": "overleaf-tosem/figures/results-cold-start.tex",
+    "sha256": "1a1786b28d2fdd5df5153cebf28da639bebcdc40b236bb5012f49bbe02f09b3e"
+  },
+  "results-comparators.tex": {
+    "source": "overleaf-tosem/figures/results-comparators.tex",
+    "sha256": "a1b2bdf66af7555b19fac71c6d816942aef8bb83ebf22b8ab5a0b083ab8c2372"
+  },
+  "results-interactions.tex": {
+    "source": "overleaf-tosem/figures/results-interactions.tex",
+    "sha256": "177a85c75fc7dff3531d0bfb0e594505d02e629ff916560ccc7be39069906518"
+  },
+  "results-reuse.tex": {
+    "source": "overleaf-tosem/figures/results-reuse.tex",
+    "sha256": "f4238e1ebf2a79a739ff0e0253aa35530ae6e2013802bfeedeedd97d65885f83"
+  },
+  "study-procedure.tex": {
+    "source": "overleaf-tosem/figures/study-procedure.tex",
+    "sha256": "bccabe1224f8ee4474e9c8348c6cc4374a3319b5c4b737c15d4c370e0f044403"
+  }
+}

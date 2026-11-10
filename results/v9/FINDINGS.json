@@ -1,0 +1,159 @@
+{
+  "actual_live_policy_cells": [
+    {
+      "actual_profile_native_requests": 24,
+      "actual_selected_native_requests": 4,
+      "actual_total_native_requests": 28,
+      "allocated_native_and_checker_feature_wall_seconds": 1.6109446000191383,
+      "case_id": "RASA_FORM_TRIGGER",
+      "controller_cpu_seconds": 0.015625,
+      "method": "CG1",
+      "native_request_ceiling": 28,
+      "observed_contract_regression_pairs_IN_THIS_SELECTED_LIVE_CELL": 1,
+      "recall_denominator_borrowed_from_other_cell": false,
+      "scope": "first_A_change_only_cold_exact_checker",
+      "selected_task_ids": "RF01;RF03",
+      "setting_id": "rasa",
+      "unused_native_request_allowance": 0
+    },
+    {
+      "actual_profile_native_requests": 0,
+      "actual_selected_native_requests": 16,
+      "actual_total_native_requests": 16,
+      "allocated_native_and_checker_feature_wall_seconds": 1.1018593000480905,
+      "case_id": "RASA_FORM_TRIGGER",
+      "controller_cpu_seconds": 0.0,
+      "method": "budgeted_retest_all",
+      "native_request_ceiling": 28,
+      "observed_contract_regression_pairs_IN_THIS_SELECTED_LIVE_CELL": 2,
+      "recall_denominator_borrowed_from_other_cell": false,
+      "scope": "first_A_change_only_cold_exact_checker",
+      "selected_task_ids": "RF01;RF02;RF03;RF04;RR01;RR02;RR03;RR04",
+      "setting_id": "rasa",
+      "unused_native_request_allowance": 12
+    },
+    {
+      "actual_profile_native_requests": 24,
+      "actual_selected_native_requests": 4,
+      "actual_total_native_requests": 28,
+      "allocated_native_and_checker_feature_wall_seconds": 50.274127900076564,
+      "case_id": "VANNA_SQL_WITHIN",
+      "controller_cpu_seconds": 0.0,
+      "method": "CG1",
+      "native_request_ceiling": 28,
+      "observed_contract_regression_pairs_IN_THIS_SELECTED_LIVE_CELL": 0,
+      "recall_denominator_borrowed_from_other_cell": false,
+      "scope": "first_A_change_only_cold_exact_checker",
+      "selected_task_ids": "VC01;VC02",
+      "setting_id": "vanna",
+      "unused_native_request_allowance": 0
+    },
+    {
+      "actual_profile_native_requests": 0,
+      "actual_selected_native_requests": 16,
+      "actual_total_native_requests": 16,
+      "allocated_native_and_checker_feature_wall_seconds": 36.45144589993288,
+      "case_id": "VANNA_SQL_WITHIN",
+      "controller_cpu_seconds": 0.0,
+      "method": "budgeted_retest_all",
+      "native_request_ceiling": 28,
+      "observed_contract_regression_pairs_IN_THIS_SELECTED_LIVE_CELL": 2,
+      "recall_denominator_borrowed_from_other_cell": false,
+      "scope": "first_A_change_only_cold_exact_checker",
+      "selected_task_ids": "VS01;VS02;VS03;VS04;VF01;VF02;VC01;VC02",
+      "setting_id": "vanna",
+      "unused_native_request_allowance": 12
+    }
+  ],
+  "factor_coverage_from_unchanged_evaluator": {
+    "cg1_decisions_with_own_positive_history": 1918,
+    "cg1_executed_decisions_choosing_history": 516,
+    "cg1_executed_decisions_choosing_impact": 1441,
+    "cg1_selective_admission_decisions_by_level": {
+      "observed_native_edges": 870,
+      "seeded_edge_omission": 1260
+    },
+    "controlled_endpoint_flips_across_replayed_allocations": 16848,
+    "paired_decisions_with_omission_changed_admission": 1890
+  },
+  "independent_upstream_case_count": 4,
+  "independent_upstream_case_ids": [
+    "RASA_FORM_TRIGGER",
+    "RASA_INTENT_RANKING",
+    "VANNA_ASK_FIGURE",
+    "VANNA_SQL_WITHIN"
+  ],
+  "no_native_model_calls_or_reference_relabeling_by_presenter": true,
+  "physical_primary_bank_records": 192,
+  "primary_comparison_stratum_counts": {
+    "always_combined": {
+      "analytic_strata": 32,
+      "detection_gain_strata": 1,
+      "detection_loss_strata": 1,
+      "detection_tie_strata": 30,
+      "extra_discordant_alarm_strata": 3,
+      "fewer_allocated_request_strata": 0,
+      "strata_are_not_independent_cases": true
+    },
+    "budgeted_retest_all": {
+      "analytic_strata": 32,
+      "detection_gain_strata": 0,
+      "detection_loss_strata": 15,
+      "detection_tie_strata": 17,
+      "extra_discordant_alarm_strata": 0,
+      "fewer_allocated_request_strata": 16,
+      "strata_are_not_independent_cases": true
+    },
+    "cost_only": {
+      "analytic_strata": 32,
+      "detection_gain_strata": 26,
+      "detection_loss_strata": 0,
+      "detection_tie_strata": 6,
+      "extra_discordant_alarm_strata": 1,
+      "fewer_allocated_request_strata": 16,
+      "strata_are_not_independent_cases": true
+    },
+    "history_only": {
+      "analytic_strata": 32,
+      "detection_gain_strata": 20,
+      "detection_loss_strata": 2,
+      "detection_tie_strata": 10,
+      "extra_discordant_alarm_strata": 1,
+      "fewer_allocated_request_strata": 16,
+      "strata_are_not_independent_cases": true
+    },
+    "impact_only": {
+      "analytic_strata": 32,
+      "detection_gain_strata": 8,
+      "detection_loss_strata": 1,
+      "detection_tie_strata": 23,
+      "extra_discordant_alarm_strata": 3,
+      "fewer_allocated_request_strata": 0,
+      "strata_are_not_independent_cases": true
+    },
+    "seeded_random": {
+      "analytic_strata": 32,
+      "detection_gain_strata": 2,
+      "detection_loss_strata": 15,
+      "detection_tie_strata": 15,
+      "extra_discordant_alarm_strata": 0,
+      "fewer_allocated_request_strata": 16,
+      "strata_are_not_independent_cases": true
+    }
+  },
+  "primary_counterfactual_trajectories": 672,
+  "scope_notes": [
+    "Four independently sourced historical bug/fix mechanisms; authored interventions over two pinned native-path settings.",
+    "The 672 primary counterfactual trajectories and repeated task-change opportunities are not independent defects or live policy runs.",
+    "Four fresh live cells cover only the first A change, empty history, exact contracts and a 28-request ceiling; they do not test long history or noisy checking live.",
+    "The checker-noise and edge-omission masks are controlled authored perturbations with probability 0.25, not estimates of naturally occurring error rates.",
+    "Constructed sequences repeatedly revisit the SAME two fault/repair states. Exact H/A/B profile reuse is an optimistic recurrence scenario, NOT amortization over unseen new versions.",
+    "Only interleaved 4/8/16 prefixes balance the two cases. Blocked 4/8 prefixes contain A only, whereas blocked16 includes A+B; their horizon comparison confounds case composition.",
+    "Fixed I-by-H differences and judgment moderation describe finite recorded-outcome sequential regimes, not population causal effects.",
+    "Budgets match native request allowances, not wall time. Recorded native wall, controller CPU and their explicitly labeled hybrid proxy remain distinct.",
+    "Native-path execution is not complete application-level external validation or a guarantee of portable guidance or TOSEM readiness."
+  ],
+  "secondary_counterfactual_amortization_trajectories": 1344,
+  "status": "PRESENTATION_OF_AUDITED_CLOSED_RESULTS",
+  "tosem_readiness_established": false
+}

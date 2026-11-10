@@ -1,0 +1,35 @@
+{
+  "phase": "EXTERNAL_V7",
+  "status": "GUIDANCE_AND_DESIGN_FROZEN_BEFORE_EXTERNAL_FAULT_DISCOVERY",
+  "frozen_at_utc": "2026-11-01T03:03:21.849392+00:00",
+  "formal_registration": false,
+  "authorization": "User explicitly requested freezing conditional guidance and validating independent applications",
+  "guidance_version": "CG1-2026-11-01",
+  "frozen_files_sha256": {
+    "experiment/validation_v7/guidance/policy.py": "f14903ce1c0c3f73979eca11bd531df4303ee1fdb4d996baebcc58be89dc0989",
+    "experiment/validation_v7/guidance/GUIDANCE_SPEC.md": "d4e30b081a0abc58353b3bd32e4cb6541f8d7b779044c28de3761dd07f1bd857",
+    "experiment/validation_v7/guidance/PROTOCOL_PROPOSAL.json": "934e19880a7ac896663bec2d5f27ceab96f6af389393ca62fbb1bbbf27560d24",
+    "experiment/validation_v7/guidance/test_policy.py": "1c3cf933242384123a537e8af22c9e666dacadb2afdbc9c2e2ec016d272bacbe",
+    "experiment/validation_v7/guidance/FREEZE_CHECKLIST.md": "b7d359bf55984af9888e3b97ad684666e9ad6650442da96d0e9169d11356cc06"
+  },
+  "case_search_frame_sha256": "aa356e9b58233815e77892cb054269eae5c84bcac342cf18adfea9f35c7c0ff9",
+  "prior_pilot_report_sha256": "0be7e9e5cee05415c71dcdd003087d2823aa80138cec44809164f66b7871daa6",
+  "prior_pilot_common_profile_replay_sha256": "7a13449101df9da40c73de75027411fe3018fa5fa1603f85aa72599004dd640a",
+  "prior_external_identity_reservation_sha256": "f627c946930d04bb4980f350cd38942c6f0a248692f7522e23ce230617a90f40",
+  "preparation_metadata_sha256": {
+    "experiment/validation_v7/openwebui/SOURCE_IMAGE_METADATA.json": "786b5ce10a5b018347d5cb22f4aef7436cd2465a8ca81a766b58828ee592e211",
+    "experiment/validation_v7/openwebui/PREFREEZE_EXPOSURE.json": "c6db31cec163fe7f8367727835451765650f8bf1549562093ee0fecea9df5198",
+    "experiment/validation_v7/dify/FEASIBILITY.json": "9ad1f3ab174f4f4a5293cdcc548dd1b02d31dbb8b4c8ea87c321a7be831861e7"
+  },
+  "incidental_exposure_note": "Technical workers received unsolicited deployment/issue search previews; recorded and exposed OpenWebUI issue22084 excluded. Guidance author received no external fault/outcome details. Do not claim completely unopened technical searches.",
+  "external_native_queries_before_freeze": 0,
+  "external_policy_outcomes_opened_before_freeze": false,
+  "offline_guidance_tests_passed": 16,
+  "guide_changes_require_new_version_and_new_validation_evidence": true,
+  "prior_native_query_units": 1900,
+  "shared_native_query_cap": 5000,
+  "planned_native_units": 2928,
+  "native_slack": 172,
+  "prior_generation_allocation_seconds": 9088.255871700792,
+  "shared_generation_allocation_seconds_cap": 43200
+}

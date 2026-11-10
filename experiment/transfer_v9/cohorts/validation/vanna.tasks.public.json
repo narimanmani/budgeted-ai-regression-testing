@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "task_id": "VS01",
+      "family": "sql",
+      "question": "How many transfers have status exactly WITHIN?"
+    },
+    {
+      "task_id": "VS02",
+      "family": "sql",
+      "question": "What is the total amount of transfers whose status is exactly WITHIN?"
+    },
+    {
+      "task_id": "VS03",
+      "family": "sql",
+      "question": "How many transfers have status exactly OUTSIDE?"
+    },
+    {
+      "task_id": "VS04",
+      "family": "sql",
+      "question": "Using a CTE called totals, find the sum of all transfer amounts."
+    },
+    {
+      "task_id": "VF01",
+      "family": "figure",
+      "question": "Show a bar chart of total transfer amount for each status."
+    },
+    {
+      "task_id": "VF02",
+      "family": "figure",
+      "question": "Show a scatter plot of amount against transfer id for all transfers."
+    },
+    {
+      "task_id": "VC01",
+      "family": "ask_no_figure",
+      "question": "How many transfers are there in total?"
+    },
+    {
+      "task_id": "VC02",
+      "family": "ask_no_figure",
+      "question": "What is the largest transfer amount?"
+    }
+  ]
+}

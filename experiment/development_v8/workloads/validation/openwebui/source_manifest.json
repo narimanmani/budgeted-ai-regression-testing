@@ -1,0 +1,362 @@
+{
+  "sources": [
+    {
+      "logical_id": "vow01.txt",
+      "logical_source_id": "vow01.txt",
+      "version": "v1",
+      "filename": "vow01.txt",
+      "file": "fixtures/vow01.txt",
+      "relative_path": "fixtures/vow01.txt",
+      "sha256": "ab86d9db30870b7dec707c38313ab67ddce74efaa937555c236aa6ddec20a07e",
+      "bytes": 56,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow02.txt",
+      "logical_source_id": "vow02.txt",
+      "version": "v1",
+      "filename": "vow02.txt",
+      "file": "fixtures/vow02.txt",
+      "relative_path": "fixtures/vow02.txt",
+      "sha256": "d6829b729eb7bce02ee0f78e2c98e050fbc4166142487ff2a18b137094a4c8aa",
+      "bytes": 65,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow03.txt",
+      "logical_source_id": "vow03.txt",
+      "version": "v1",
+      "filename": "vow03.txt",
+      "file": "fixtures/vow03.txt",
+      "relative_path": "fixtures/vow03.txt",
+      "sha256": "23f7ac8e6a66017243f002eb0d7bf7a1db9fbc3a1e6ec6527cb029b8bc347618",
+      "bytes": 126,
+      "encoding": "cp932",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow04.txt",
+      "logical_source_id": "vow04.txt",
+      "version": "v1",
+      "filename": "vow04.txt",
+      "file": "fixtures/vow04.txt",
+      "relative_path": "fixtures/vow04.txt",
+      "sha256": "7ad567a5ad8c259db8bc4939eba6404f433df73689d036a1f51dafa3848fd0bd",
+      "bytes": 126,
+      "encoding": "cp932",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow05.txt",
+      "logical_source_id": "vow05.txt",
+      "version": "v1",
+      "filename": "vow05.txt",
+      "file": "fixtures/vow05.txt",
+      "relative_path": "fixtures/vow05.txt",
+      "sha256": "66031023380115680e837527833c5bd7ff6df3755c788d95303e94d7c6c9275d",
+      "bytes": 39,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow06.txt",
+      "logical_source_id": "vow06.txt",
+      "version": "v1",
+      "filename": "vow06.txt",
+      "file": "fixtures/vow06.txt",
+      "relative_path": "fixtures/vow06.txt",
+      "sha256": "c2a1ecf3b1f25355d777e1da584691c36090756402dfa4103dc76a83e0ba0ef3",
+      "bytes": 38,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow07.txt",
+      "logical_source_id": "vow07.txt",
+      "version": "v1",
+      "filename": "vow07.txt",
+      "file": "fixtures/vow07.txt",
+      "relative_path": "fixtures/vow07.txt",
+      "sha256": "378998290cde9ded09a44a2635594cb719862318460819fc2e12c2897f639280",
+      "bytes": 40,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow08.txt",
+      "logical_source_id": "vow08.txt",
+      "version": "v1",
+      "filename": "vow08.txt",
+      "file": "fixtures/vow08.txt",
+      "relative_path": "fixtures/vow08.txt",
+      "sha256": "bae6ff77de44a159f79bd1a061e8280eacdcd6b9ccaf6de37b82986ce21f0fe7",
+      "bytes": 38,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    }
+  ],
+  "documents": [
+    {
+      "logical_id": "vow01.txt",
+      "logical_source_id": "vow01.txt",
+      "version": "v1",
+      "filename": "vow01.txt",
+      "file": "fixtures/vow01.txt",
+      "relative_path": "fixtures/vow01.txt",
+      "sha256": "ab86d9db30870b7dec707c38313ab67ddce74efaa937555c236aa6ddec20a07e",
+      "bytes": 56,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow02.txt",
+      "logical_source_id": "vow02.txt",
+      "version": "v1",
+      "filename": "vow02.txt",
+      "file": "fixtures/vow02.txt",
+      "relative_path": "fixtures/vow02.txt",
+      "sha256": "d6829b729eb7bce02ee0f78e2c98e050fbc4166142487ff2a18b137094a4c8aa",
+      "bytes": 65,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow03.txt",
+      "logical_source_id": "vow03.txt",
+      "version": "v1",
+      "filename": "vow03.txt",
+      "file": "fixtures/vow03.txt",
+      "relative_path": "fixtures/vow03.txt",
+      "sha256": "23f7ac8e6a66017243f002eb0d7bf7a1db9fbc3a1e6ec6527cb029b8bc347618",
+      "bytes": 126,
+      "encoding": "cp932",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow04.txt",
+      "logical_source_id": "vow04.txt",
+      "version": "v1",
+      "filename": "vow04.txt",
+      "file": "fixtures/vow04.txt",
+      "relative_path": "fixtures/vow04.txt",
+      "sha256": "7ad567a5ad8c259db8bc4939eba6404f433df73689d036a1f51dafa3848fd0bd",
+      "bytes": 126,
+      "encoding": "cp932",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow05.txt",
+      "logical_source_id": "vow05.txt",
+      "version": "v1",
+      "filename": "vow05.txt",
+      "file": "fixtures/vow05.txt",
+      "relative_path": "fixtures/vow05.txt",
+      "sha256": "66031023380115680e837527833c5bd7ff6df3755c788d95303e94d7c6c9275d",
+      "bytes": 39,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow06.txt",
+      "logical_source_id": "vow06.txt",
+      "version": "v1",
+      "filename": "vow06.txt",
+      "file": "fixtures/vow06.txt",
+      "relative_path": "fixtures/vow06.txt",
+      "sha256": "c2a1ecf3b1f25355d777e1da584691c36090756402dfa4103dc76a83e0ba0ef3",
+      "bytes": 38,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow07.txt",
+      "logical_source_id": "vow07.txt",
+      "version": "v1",
+      "filename": "vow07.txt",
+      "file": "fixtures/vow07.txt",
+      "relative_path": "fixtures/vow07.txt",
+      "sha256": "378998290cde9ded09a44a2635594cb719862318460819fc2e12c2897f639280",
+      "bytes": 40,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "vow08.txt",
+      "logical_source_id": "vow08.txt",
+      "version": "v1",
+      "filename": "vow08.txt",
+      "file": "fixtures/vow08.txt",
+      "relative_path": "fixtures/vow08.txt",
+      "sha256": "bae6ff77de44a159f79bd1a061e8280eacdcd6b9ccaf6de37b82986ce21f0fe7",
+      "bytes": 38,
+      "encoding": "utf-8",
+      "native_components": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "code_dependencies": [
+        "backend/open_webui/retrieval/loaders/main.py",
+        "backend/open_webui/retrieval/loaders/local.py",
+        "backend/open_webui/routers/retrieval.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    }
+  ],
+  "cohort": "validation",
+  "application_id": "openwebui",
+  "generator_seed": 202611010802,
+  "native_component_scope": "Production ingestion/indexing/retrieval/generation; source sensitivity is separate from native answer qualification"
+}

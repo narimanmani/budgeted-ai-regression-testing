@@ -1,0 +1,68 @@
+{
+  "schema_version": 8,
+  "seed_by_cohort": {
+    "development": 202611010801,
+    "validation": 202611010802
+  },
+  "applications": [
+    "dify",
+    "openwebui"
+  ],
+  "tasks_per_application_per_cohort": 8,
+  "values_by_cohort": {
+    "development": {
+      "dify": [
+        "ma\u00efs",
+        "a\u00efoli",
+        "GROVE SILVER",
+        "WILLOW COPPER",
+        "TUNDRA",
+        "BASALT",
+        "EMBER",
+        "DUNE"
+      ],
+      "openwebui": [
+        "MESA&NotLessSlantEqual;",
+        "FJORD&NotSquareSubset;",
+        "\u306a\u3064\u307f",
+        "\u307b\u305f\u308b",
+        "CINDER",
+        "BRONZE",
+        "CORAL",
+        "FLINT"
+      ]
+    },
+    "validation": {
+      "dify": [
+        "Ha\u00efti",
+        "Sa\u00efd",
+        "MARSH VIOLET",
+        "STREAM AMBER",
+        "HAVEN",
+        "MICA",
+        "FROST",
+        "GARNET"
+      ],
+      "openwebui": [
+        "HEATH&NotPrecedesEqual;",
+        "ESTUARY&NotNestedGreaterGreater;",
+        "\u3055\u304f\u3089",
+        "\u307f\u305a\u304d",
+        "SILICA",
+        "OCHRE",
+        "TERRACE",
+        "BAYOU"
+      ]
+    }
+  },
+  "same_applications_and_historical_fault_families_as_v7": true,
+  "fresh_identifiers_values_and_bytes_in_development_and_validation": true,
+  "native_or_model_calls_performed_by_generator": 0,
+  "prompt_candidate_order": [
+    "P0",
+    "P1"
+  ],
+  "candidate_selection": "Run both complete development candidates; choose first eligible in P0,P1 order using qualification requirements only; no policy effectiveness input",
+  "cohort_rule": "Development outputs may select the fixed prompt; validation outputs must remain unseen until root freezes the selected configuration and exact validation input hashes",
+  "generator_source_sha256": "6be71c1c88caf92db445eca5c823caf15d4912ee12a780b444dfccdbdb9347fa"
+}

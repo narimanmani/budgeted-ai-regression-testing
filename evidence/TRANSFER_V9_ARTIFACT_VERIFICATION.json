@@ -1,0 +1,310 @@
+{
+  "archive": {
+    "bytes": 35860358,
+    "path": "output/transfer_v9_evidence.zip",
+    "public_manifest_files": 4489,
+    "sha256": "5928f3a9eabf7d846f9488a3a2c99878b62bcc2babff8d7559cc0cec7300765f",
+    "uncompressed_public_bytes": 232595326,
+    "zip_crc_and_every_file_sha256_verified": true
+  },
+  "at_utc": "2026-11-01T16:36:35.921277+00:00",
+  "clean_extraction_unchanged_after_reanalysis": true,
+  "earlier_failed_packaging_attempts": [
+    {
+      "path": "experiment/transfer_v9/artifacts/PACKAGING_ATTEMPT_1.json",
+      "scientific_data_modified": false,
+      "sha256": "5741a634e13d7e832b84b9b4aa772ad31f6d0d0eea5c790092905a9968d031c1",
+      "stage": "before_zip_creation"
+    },
+    {
+      "path": "experiment/transfer_v9/artifacts/PACKAGING_ATTEMPT_2.json",
+      "scientific_data_modified": false,
+      "sha256": "d1afcf65d300c085d090aaff1a1731673d4e4145120a4a6df5020ce39d57768d",
+      "stage": "before_zip_creation"
+    }
+  ],
+  "final_accounting_receipt": {
+    "path": "experiment/runs/transfer_v9_20261101/FINAL_ACCOUNTING_AND_CLEANUP.json",
+    "sha256": "a4b7e2535cad1144cebcac4eff81a2695d55f60d0371d2505c81750b457ddd13"
+  },
+  "freeze_documents": {
+    "experiment/runs/transfer_v9_20261101/ENGINEERING_AMENDMENT_FREEZE.json": "9fc5a3ab375af1958f39b0ff700b037cf9636b6bf47dc53961a49e638806cbab",
+    "experiment/runs/transfer_v9_20261101/RASA_DEPENDENCY_AMENDMENT_FREEZE.json": "08c811db922dd708b11d53ead241b6f448b23df47c4330568923907387e74495",
+    "experiment/runs/transfer_v9_20261101/STUDY_FREEZE.json": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08"
+  },
+  "fresh_extraction": "output/transfer_v9_checked_20261101_attempt1",
+  "fresh_reanalysis_output": "output/transfer_v9_reanalysis_20261101_attempt1",
+  "guard": {
+    "ancestor_directory_metadata_only_counts": {},
+    "bytecode_disabled_requested": true,
+    "copied_launcher_outside_original_workspace": true,
+    "forbidden_attempts": [],
+    "isolated_mode_requested": true,
+    "launcher_sha256": "321c22e22e7c33b26f1be120180f2d7759963c37c4c4d8d64c3d68d2c7abeacd",
+    "network_and_subprocess_launches_blocked": true,
+    "original_workspace_evidence_file_reads_blocked": true,
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\narim\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "python_executable_sha256": "f8b45d63047da9d9adf09892e4cc4317b859e86a93a478cc9616bc69d3b176e5",
+    "status": "PASS_GUARDED_EXTRACTED_REANALYSIS"
+  },
+  "guard_receipt": {
+    "path": "output/transfer_v9_reanalysis_20261101_attempt1/GUARDED_EXECUTION.json",
+    "sha256": "69b413b87905514beee0d19893fa46c478047e85dea275e8ccac14ed5c105379"
+  },
+  "new_native_or_provider_calls_during_packaging_or_reanalysis": 0,
+  "new_nondeterministic_cpu_comparison_exclusions_only": [
+    "decision_cpu_seconds",
+    "operational_mask_cpu_seconds",
+    "total_allocated_native_wall_plus_controller_cpu_proxy_seconds"
+  ],
+  "no_original_host_path_fallback": true,
+  "no_publication_or_upload_performed": true,
+  "offline_reanalysis": {
+    "all_other_outcomes_decisions_masks_costs_and_confirmation_results_compared": true,
+    "at_utc": "2026-11-01T16:34:00.187296+00:00",
+    "frozen_file_bindings_verified": 1506,
+    "independent_native_audits": [
+      {
+        "actual_backend_generation_starts": 20,
+        "at_utc": "2026-11-01T16:33:34.580424+00:00",
+        "auditor_source_sha256": "a8674487b82abf3da9e98eb1e207cac8c3b959a14fa09fcfbbe77f07d2adf848",
+        "complete_registered_frame": true,
+        "contracts_recomputed_independently": true,
+        "development_admission_passed": true,
+        "engineering_amendment_checked": {
+          "freeze_sha256": "9fc5a3ab375af1958f39b0ff700b037cf9636b6bf47dc53961a49e638806cbab",
+          "original_stopped_frame_remains_stopped": true,
+          "retry_changes_only_dependency_environment_and_operation_namespace": true,
+          "sha256": "31f0ff48aca66152d1f60b1da5f746c10128fac4fcffee34f713b051abe04667"
+        },
+        "evidence_bindings": {
+          "experiment/runs/transfer_v9_20261101/CASE_REGISTRY.json": "f324637bae52af280e15ec49847f27e9d8a0ec4d3a3cdf58694a5791c35a05e3",
+          "experiment/runs/transfer_v9_20261101/DEVELOPMENT_GATE.json": "d33855148d7290caf5c2b1c9f4cc509ec3b7725c03b5322d304fca3a04855c19",
+          "experiment/runs/transfer_v9_20261101/DEVELOPMENT_RECORDS.json": "dc9409c0c5cd2fc612e44f2faedf720946c3e05cd89aeafd694ed77d743942bc",
+          "experiment/runs/transfer_v9_20261101/DEVELOPMENT_RESOURCE_SUMMARY.json": "b5f58f757f5ab1c71eafac8fb8f18e524314b0b7ffa933fcfb176406debecbd4",
+          "experiment/runs/transfer_v9_20261101/ENGINEERING_AMENDMENT_FREEZE.json": "9fc5a3ab375af1958f39b0ff700b037cf9636b6bf47dc53961a49e638806cbab",
+          "experiment/runs/transfer_v9_20261101/PROTOCOL.json": "6c0017819b36dfbd8b455cebd59b6212becb36f746ea8a5f262f8592d6df5c65",
+          "experiment/runs/transfer_v9_20261101/RASA_DEPENDENCY_AMENDMENT_FREEZE.json": "08c811db922dd708b11d53ead241b6f448b23df47c4330568923907387e74495",
+          "experiment/runs/transfer_v9_20261101/RESOURCE_MANIFEST.json": "a6cdd7f39e848d5bbda4343b06eda8864eb57f04bd840630a0ca7c175816cb55",
+          "experiment/runs/transfer_v9_20261101/SOURCE_MANIFEST.json": "ac704028ad6599deae6f95acccb481215263f94f8b4c3f2d50349edbf5a423a9",
+          "experiment/runs/transfer_v9_20261101/STUDY_FREEZE.json": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08",
+          "experiment/runs/transfer_v9_20261101/accounting/HEAD.json": "1523eee55e527118fab4103f06ef802888047b1562216ca079d7f8683384bc9b",
+          "experiment/runs/transfer_v9_20261101/accounting/MANIFEST.json": "a6cdd7f39e848d5bbda4343b06eda8864eb57f04bd840630a0ca7c175816cb55",
+          "experiment/runs/transfer_v9_20261101/accounting/events.jsonl": "08b82f0ac3504300e69299cc5b941e947c4ae9b88453dd3c16c9e7edeb8f0734"
+        },
+        "fresh_live_policy_cells_checked": [],
+        "incidents_retained": [],
+        "independent_applications_or_defects_added_by_audit": 0,
+        "independent_contract_checks": 32,
+        "independent_reference_sql_checks": 16,
+        "joined_completed_sdk_boundaries": 20,
+        "ledger_committed_resources": {
+          "end_to_end_seconds": 502.2150611001998,
+          "generation_allocation_seconds": 316.9463278000185,
+          "native_query_units": 189,
+          "provider_chat_units": 234,
+          "provider_embedding_units": 0,
+          "queryfree_native_check_units": 188
+        },
+        "ledger_events_checked": 1244,
+        "ledger_over_cap_dimensions": [],
+        "ledger_unsettled_operations_retained": [],
+        "legacy_account_reopened": false,
+        "locked_rasa_dependency_addition_checked": {
+          "amendment_sha256": "7326d4e849d0c75af47d2e21cfb551a4e37133c47b180e0b3bc93d7d4572dc6a",
+          "completed_vanna_queries_reacquired": 0,
+          "dependency_receipt_sha256": "5929b1f0b4e8e7763c7eab30feabccca0ff54a0c49233e9229ea12470606806c",
+          "freeze_sha256": "08c811db922dd708b11d53ead241b6f448b23df47c4330568923907387e74495",
+          "image_changed": false,
+          "original_failed_cpu_startup_retained": true,
+          "version": "4.7.0"
+        },
+        "native_observations_checked": 32,
+        "native_or_provider_dispatches_during_audit": 0,
+        "normalized_records_checked": 32,
+        "original_engineering_incidents_retained_separately": [
+          {
+            "model_boundaries": 0,
+            "native_attempts_retained": 1,
+            "operation_id": "dev-vanna-H-DVVS01",
+            "raw_sha256": "c532a4f3aaa15e610fd79a70d3c1fe9019312ff68d46d021aa818419fe2ff4aa"
+          }
+        ],
+        "original_host_method_path_fallback": false,
+        "planned_native_observations": 32,
+        "rasa_cpu_resources_checked": [
+          "A",
+          "B",
+          "H"
+        ],
+        "reference_sql_executed_in_separate_memory_database": true,
+        "scientific_effectiveness_not_established_by_audit": true,
+        "source_bindings_checked": 14,
+        "stage": "development",
+        "status": "PASS_COMPLETED_STAGE_INTEGRITY",
+        "study_freeze_sha256": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08"
+      },
+      {
+        "actual_backend_generation_starts": 214,
+        "at_utc": "2026-11-01T16:33:48.847747+00:00",
+        "auditor_source_sha256": "a8674487b82abf3da9e98eb1e207cac8c3b959a14fa09fcfbbe77f07d2adf848",
+        "complete_registered_frame": true,
+        "contracts_recomputed_independently": true,
+        "development_admission_passed": null,
+        "engineering_amendment_checked": {
+          "freeze_sha256": "9fc5a3ab375af1958f39b0ff700b037cf9636b6bf47dc53961a49e638806cbab",
+          "original_stopped_frame_remains_stopped": true,
+          "retry_changes_only_dependency_environment_and_operation_namespace": true,
+          "sha256": "31f0ff48aca66152d1f60b1da5f746c10128fac4fcffee34f713b051abe04667"
+        },
+        "evidence_bindings": {
+          "experiment/runs/transfer_v9_20261101/CASE_REGISTRY.json": "f324637bae52af280e15ec49847f27e9d8a0ec4d3a3cdf58694a5791c35a05e3",
+          "experiment/runs/transfer_v9_20261101/ENGINEERING_AMENDMENT_FREEZE.json": "9fc5a3ab375af1958f39b0ff700b037cf9636b6bf47dc53961a49e638806cbab",
+          "experiment/runs/transfer_v9_20261101/FRESH_CONFIRMATION.json": "38993509fb98426bfd99d6568a5f01716277487c7da10d180a126bb230a0b9a4",
+          "experiment/runs/transfer_v9_20261101/LIVE_POLICY_CONFIRMATION.json": "bb840c81ca87c5d8cdc5cf1a30ea26f558b0476bf53e88f4a4b51396f1a9f124",
+          "experiment/runs/transfer_v9_20261101/NATIVE_BANK.json": "7cd5876656c4aa134bd3a577413b0ea8e14828082303edc3ec1ccb34c073df2b",
+          "experiment/runs/transfer_v9_20261101/PROTOCOL.json": "6c0017819b36dfbd8b455cebd59b6212becb36f746ea8a5f262f8592d6df5c65",
+          "experiment/runs/transfer_v9_20261101/RASA_DEPENDENCY_AMENDMENT_FREEZE.json": "08c811db922dd708b11d53ead241b6f448b23df47c4330568923907387e74495",
+          "experiment/runs/transfer_v9_20261101/RESOURCE_MANIFEST.json": "a6cdd7f39e848d5bbda4343b06eda8864eb57f04bd840630a0ca7c175816cb55",
+          "experiment/runs/transfer_v9_20261101/SOURCE_MANIFEST.json": "ac704028ad6599deae6f95acccb481215263f94f8b4c3f2d50349edbf5a423a9",
+          "experiment/runs/transfer_v9_20261101/STUDY_FREEZE.json": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08",
+          "experiment/runs/transfer_v9_20261101/VALIDATION_RESOURCE_SUMMARY.json": "51718b281152c67f52fc5cecf9e5477a98cd936df2a96e5be664f87b8a1f0d6c",
+          "experiment/runs/transfer_v9_20261101/accounting/HEAD.json": "1523eee55e527118fab4103f06ef802888047b1562216ca079d7f8683384bc9b",
+          "experiment/runs/transfer_v9_20261101/accounting/MANIFEST.json": "a6cdd7f39e848d5bbda4343b06eda8864eb57f04bd840630a0ca7c175816cb55",
+          "experiment/runs/transfer_v9_20261101/accounting/events.jsonl": "08b82f0ac3504300e69299cc5b941e947c4ae9b88453dd3c16c9e7edeb8f0734"
+        },
+        "fresh_live_policy_cells_checked": [
+          {
+            "actual_native_requests": 28,
+            "independent_cases_added": 0,
+            "method": "CG1",
+            "native_request_ceiling": 28,
+            "observed_fresh_contract_regressions": 0,
+            "predecision_bound_before_dispatch": true,
+            "setting_id": "vanna"
+          },
+          {
+            "actual_native_requests": 16,
+            "independent_cases_added": 0,
+            "method": "budgeted_retest_all",
+            "native_request_ceiling": 28,
+            "observed_fresh_contract_regressions": 2,
+            "predecision_bound_before_dispatch": true,
+            "setting_id": "vanna"
+          },
+          {
+            "actual_native_requests": 28,
+            "independent_cases_added": 0,
+            "method": "CG1",
+            "native_request_ceiling": 28,
+            "observed_fresh_contract_regressions": 1,
+            "predecision_bound_before_dispatch": true,
+            "setting_id": "rasa"
+          },
+          {
+            "actual_native_requests": 16,
+            "independent_cases_added": 0,
+            "method": "budgeted_retest_all",
+            "native_request_ceiling": 28,
+            "observed_fresh_contract_regressions": 2,
+            "predecision_bound_before_dispatch": true,
+            "setting_id": "rasa"
+          }
+        ],
+        "incidents_retained": [],
+        "independent_applications_or_defects_added_by_audit": 0,
+        "independent_contract_checks": 344,
+        "independent_reference_sql_checks": 172,
+        "joined_completed_sdk_boundaries": 214,
+        "ledger_committed_resources": {
+          "end_to_end_seconds": 502.2150611001998,
+          "generation_allocation_seconds": 316.9463278000185,
+          "native_query_units": 189,
+          "provider_chat_units": 234,
+          "provider_embedding_units": 0,
+          "queryfree_native_check_units": 188
+        },
+        "ledger_events_checked": 1244,
+        "ledger_over_cap_dimensions": [],
+        "ledger_unsettled_operations_retained": [],
+        "legacy_account_reopened": false,
+        "locked_rasa_dependency_addition_checked": {
+          "amendment_sha256": "7326d4e849d0c75af47d2e21cfb551a4e37133c47b180e0b3bc93d7d4572dc6a",
+          "completed_vanna_queries_reacquired": 0,
+          "dependency_receipt_sha256": "5929b1f0b4e8e7763c7eab30feabccca0ff54a0c49233e9229ea12470606806c",
+          "freeze_sha256": "08c811db922dd708b11d53ead241b6f448b23df47c4330568923907387e74495",
+          "image_changed": false,
+          "original_failed_cpu_startup_retained": true,
+          "version": "4.7.0"
+        },
+        "native_observations_checked": 344,
+        "native_or_provider_dispatches_during_audit": 0,
+        "normalized_records_checked": 344,
+        "original_engineering_incidents_retained_separately": [
+          {
+            "model_boundaries": 0,
+            "native_attempts_retained": 1,
+            "operation_id": "dev-vanna-H-DVVS01",
+            "raw_sha256": "c532a4f3aaa15e610fd79a70d3c1fe9019312ff68d46d021aa818419fe2ff4aa"
+          }
+        ],
+        "original_host_method_path_fallback": false,
+        "planned_native_observations": 344,
+        "rasa_cpu_resources_checked": [
+          "A",
+          "B",
+          "H"
+        ],
+        "reference_sql_executed_in_separate_memory_database": true,
+        "scientific_effectiveness_not_established_by_audit": true,
+        "source_bindings_checked": 14,
+        "stage": "validation",
+        "status": "PASS_COMPLETED_STAGE_INTEGRITY",
+        "study_freeze_sha256": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08"
+      }
+    ],
+    "native_or_model_dispatches": 0,
+    "nondeterministic_new_cpu_fields_only": [
+      "decision_cpu_seconds",
+      "operational_mask_cpu_seconds",
+      "total_allocated_native_wall_plus_controller_cpu_proxy_seconds"
+    ],
+    "original_recorded_cpu_fields_preserved_in_unchanged_manifest_bound_files": true,
+    "original_workspace_fallback_used": false,
+    "primary_freeze_sha256": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08",
+    "public_files_verified": 4489,
+    "replay_core_output_files_compared": 2020,
+    "replay_executed": true,
+    "status": "PASS_ISOLATED_SAVED_DATA_REANALYSIS",
+    "unshipped_external_asset_bytes_verified": false
+  },
+  "original_cpu_measurements_preserved": true,
+  "previous_v8_report_archive_and_final_receipt_unchanged": {
+    "experiment/RESULTS_DEVELOPMENT_V8.md": "75a7806cfd30654396538270b89015baf8f366a20c57e389c5f2d7e75bfb6863",
+    "experiment/runs/development_v8_20261101/FINAL_ACCOUNTING_AND_CLEANUP.json": "c6f1612ee8ce6a72c10020007d0e73d50a4da0ff5dae9d68ca4851520f3b2004",
+    "output/development_v8_evidence.zip": "99e7167f3b77bb1729bca020f38aba446a79d6dcbf8227a9dfaff32afa8cfbd3"
+  },
+  "primary_study_freeze_sha256": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08",
+  "reanalysis_receipt": {
+    "path": "output/transfer_v9_reanalysis_20261101_attempt1/REANALYSIS_VERIFICATION.json",
+    "sha256": "b70a7b0a0d2c40edc72967f9e1ec472ed07f3e4689d3afe4f7ec34288774fcda"
+  },
+  "reviewed_report": {
+    "bytes": 18794,
+    "changed_during_packaging": false,
+    "path": "experiment/RESULTS_TRANSFER_V9.md",
+    "sha256": "830d1ace784b4f8abafd77b27b3a537baceeae5c0ad997da1f239e4a8cc921a0"
+  },
+  "status": "PASS_ACTUAL_ZIP_FRESH_EXTRACTION_AND_GUARDED_REANALYSIS",
+  "unshipped_container_image": {
+    "authority": "experiment/runs/transfer_v9_20261101/PYTHON_ENVIRONMENT.json",
+    "digest": "rasa/rasa@sha256:a48a3523e70997282c4ab8fd86bd4702f29178a840bcfd6b673b21704f731652",
+    "image_bytes_shipped_or_rehashed": false
+  },
+  "unshipped_large_model_runtime_assets": {
+    "absent_asset_bytes_verified": false,
+    "commitments": 57
+  },
+  "verified_primary_and_engineering_freeze_bindings": 1506
+}

@@ -1,0 +1,1326 @@
+{
+  "scope": "Source-component projections, not native answer qualification or policy results",
+  "dependency_versions": {
+    "ftfy": "6.3.1",
+    "chardet": "7.4.3"
+  },
+  "dependency_platform": "Windows CPython3.13 wheel; native Linux compatibility must still be confirmed in metered application ingestion",
+  "captured_sources": [
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/ow_healthy.py",
+      "original_source": "experiment/validation_v7/openwebui/sources/HEALTHY/main.py",
+      "sha256": "e1aff0ab70a65897a8d8cd26a054e1dec5c3b2a4bdb974b81e2b5a9591209b8e",
+      "captured_sha256": "e1aff0ab70a65897a8d8cd26a054e1dec5c3b2a4bdb974b81e2b5a9591209b8e"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/ow_bad_a.py",
+      "original_source": "experiment/validation_v7/openwebui/sources/A_BAD/main.py",
+      "sha256": "667df00033c8bd78ff13f27a47b1ebcc37632c70ad8907250fe5727089a20ae2",
+      "captured_sha256": "667df00033c8bd78ff13f27a47b1ebcc37632c70ad8907250fe5727089a20ae2"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/ow_bad_b.py",
+      "original_source": "experiment/validation_v7/openwebui/sources/B_BAD/main.py",
+      "sha256": "439c5fc3f8e4106b11de2c6d1f6aabe34d7570ccf7b972643b209dd870154acc",
+      "captured_sha256": "439c5fc3f8e4106b11de2c6d1f6aabe34d7570ccf7b972643b209dd870154acc"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/df_clean_healthy.py",
+      "original_source": "experiment/validation_v7/dify/metadata/impact_source/clean_processor.py",
+      "sha256": "9b6280bcd8db41ac6d13755c32e18f183a4d002d9ebc989d435abeb529fd56f3",
+      "captured_sha256": "9b6280bcd8db41ac6d13755c32e18f183a4d002d9ebc989d435abeb529fd56f3"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/df_clean_bad.py",
+      "original_source": "experiment/validation_v7/dify/sources/A_BAD/clean_processor.py",
+      "sha256": "d7387e40dd047a33d152d0bcb6b1af113fdda3738e59823158a4b4c76eb072ca",
+      "captured_sha256": "d7387e40dd047a33d152d0bcb6b1af113fdda3738e59823158a4b4c76eb072ca"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/df_fixed_healthy.py",
+      "original_source": "experiment/validation_v7/dify/metadata/impact_source/fixed_text_splitter.py",
+      "sha256": "07bd751f13a23d67a1d4c71e27df8efc2c9bb35c963d192b8d72293c493a140f",
+      "captured_sha256": "07bd751f13a23d67a1d4c71e27df8efc2c9bb35c963d192b8d72293c493a140f"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/df_fixed_bad.py",
+      "original_source": "experiment/validation_v7/dify/sources/B_BAD/fixed_text_splitter.py",
+      "sha256": "483ebc5043121c4986ac2c5f45f5683dcc773c935ccd2d54179941fec6e4e79a",
+      "captured_sha256": "483ebc5043121c4986ac2c5f45f5683dcc773c935ccd2d54179941fec6e4e79a"
+    },
+    {
+      "captured_file": "experiment/development_v8/workloads/component_source/df_base_splitter.py",
+      "original_source": "experiment/validation_v7/dify/source/api/core/rag/splitter/text_splitter.py",
+      "sha256": "655dda956140cd19de76f381d76073f1a817f208ee76440e4b684be3fac7417e",
+      "captured_sha256": "655dda956140cd19de76f381d76073f1a817f208ee76440e4b684be3fac7417e"
+    }
+  ],
+  "native_or_model_calls": 0,
+  "all_source_sensitivities_pass": false,
+  "results": [
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF01",
+      "original_sha256": "ae8baeea8f20339e8bc9353e4b35e983c2133e3ab5e1856001dd262518c86680",
+      "expected_label": "caf\u00e9-673",
+      "component_observed_labels": {
+        "HEALTHY": "caf\u00e9-673",
+        "A_BAD": "caf\u00e9-673",
+        "B_BAD": "caf\u00e9-673"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF01 access label [caf\u00e9-673] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF01 access label [caf\u00e9-673] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF01 access label [caf\u00e9-673] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF02",
+      "original_sha256": "9ba9fa57bd5a475b178231c5d789de99e7b24b4fe1459c52e8b4c492f21ad301",
+      "expected_label": "pi\u00f1ata-710",
+      "component_observed_labels": {
+        "HEALTHY": "pi\u00f1ata-710",
+        "A_BAD": "pi\u00f1ata-710",
+        "B_BAD": "pi\u00f1ata-710"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF02 access label [pi\u00f1ata-710] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF02 access label [pi\u00f1ata-710] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF02 access label [pi\u00f1ata-710] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF03",
+      "original_sha256": "311e2f16bb8a599526d97812b7ac57b431d1cdd503b026b50cf95639f5b5cf45",
+      "expected_label": "GROVE SILVER-325",
+      "component_observed_labels": {
+        "HEALTHY": "GROVE SILVER-325",
+        "A_BAD": "GROVE SILVER-325",
+        "B_BAD": "GROVE SILVER-325"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF03 access label [GROVE SILVER-325]",
+          "archive routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF03 access label [GROVE SILVER-325]",
+          "archive routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF03 access label [GROVE SILVER-325]",
+          "archive routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF04",
+      "original_sha256": "c95c86add2ed2634561dc41dec9972326c6c2d438000104e5dc00f60c460fbcf",
+      "expected_label": "WILLOW COPPER-605",
+      "component_observed_labels": {
+        "HEALTHY": "WILLOW COPPER-605",
+        "A_BAD": "WILLOW COPPER-605",
+        "B_BAD": "WILLOW COPPER-605"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF04 access label [WILLOW COPPER-605]",
+          "archive routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF04 access label [WILLOW COPPER-605]",
+          "archive routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF04 access label [WILLOW COPPER-605]",
+          "archive routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF05",
+      "original_sha256": "76cbfd07d6f31761e0683cf9e537e21e45b915dda571b7411e7df182c28ea1a6",
+      "expected_label": "TUNDRA-336",
+      "component_observed_labels": {
+        "HEALTHY": "TUNDRA-336",
+        "A_BAD": "TUNDRA-336",
+        "B_BAD": "TUNDRA-336"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF05 access label [TUNDRA-336] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF05 access label [TUNDRA-336] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF05 access label [TUNDRA-336] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF06",
+      "original_sha256": "133a366d454aec280c0f88d9e0d3e6e11cb8bad6db1c8a8b019a6c777df2237a",
+      "expected_label": "BASALT-199",
+      "component_observed_labels": {
+        "HEALTHY": "BASALT-199",
+        "A_BAD": "BASALT-199",
+        "B_BAD": "BASALT-199"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF06 access label [BASALT-199] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF06 access label [BASALT-199] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF06 access label [BASALT-199] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF07",
+      "original_sha256": "13c63fc602ab7415efe85432a57f46836c00ac7a12667016d8a51fe8c513d5e2",
+      "expected_label": "EMBER-587",
+      "component_observed_labels": {
+        "HEALTHY": "EMBER-587",
+        "A_BAD": "EMBER-587",
+        "B_BAD": "EMBER-587"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF07 access label [EMBER-587] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF07 access label [EMBER-587] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF07 access label [EMBER-587] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "dify",
+      "task_id": "DDF08",
+      "original_sha256": "de4c7e2222e094b0a7f07925c41706abc821ec41335ef23eb163da8874b405c9",
+      "expected_label": "DUNE-595",
+      "component_observed_labels": {
+        "HEALTHY": "DUNE-595",
+        "A_BAD": "DUNE-595",
+        "B_BAD": "DUNE-595"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record DDF08 access label [DUNE-595] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record DDF08 access label [DUNE-595] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record DDF08 access label [DUNE-595] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW01",
+      "original_sha256": "6b98806a7f50d43ca06cfdff0bfd503b47e8868bb804a30f1016785bb3420164",
+      "expected_label": "MESA&NotLessSlantEqual;-325",
+      "component_observed_labels": {
+        "HEALTHY": "MESA&NotLessSlantEqual;-325",
+        "A_BAD": "MESA\u2a7d\u0338-325",
+        "B_BAD": "MESA&NotLessSlantEqual;-325"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW01 access label [MESA&NotLessSlantEqual;-325]\n"
+        ],
+        "A_BAD": [
+          "Record DOW01 access label [MESA\u2a7d\u0338-325]\n"
+        ],
+        "B_BAD": [
+          "Record DOW01 access label [MESA&NotLessSlantEqual;-325]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW02",
+      "original_sha256": "495785aeec908f32cda5cfa57c59f637e944b251dc9d1cb275d590681f945f4d",
+      "expected_label": "FJORD&NotSquareSubset;-841",
+      "component_observed_labels": {
+        "HEALTHY": "FJORD&NotSquareSubset;-841",
+        "A_BAD": "FJORD\u228f\u0338-841",
+        "B_BAD": "FJORD&NotSquareSubset;-841"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW02 access label [FJORD&NotSquareSubset;-841]\n"
+        ],
+        "A_BAD": [
+          "Record DOW02 access label [FJORD\u228f\u0338-841]\n"
+        ],
+        "B_BAD": [
+          "Record DOW02 access label [FJORD&NotSquareSubset;-841]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW03",
+      "original_sha256": "3788aab0ff9e0a199b0ec440f893f955b60fdc5201d7104e72d3496c44ea8c80",
+      "expected_label": "\u306a\u3064\u307f-242",
+      "component_observed_labels": {
+        "HEALTHY": "\u306a\u3064\u307f-242",
+        "A_BAD": "\u306a\u3064\u307f-242",
+        "B_BAD": "\u5074\u506e\u5092-242"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "cp932",
+        "A_BAD": "cp932",
+        "B_BAD": "gb18030"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW03 access label [\u306a\u3064\u307f-242]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "A_BAD": [
+          "Record DOW03 access label [\u306a\u3064\u307f-242]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "B_BAD": [
+          "Record DOW03 access label [\u5074\u506e\u5092-242]\n\u5059\u509f\u507c\u5a70\u6990\u65a3\u5d0b\u5075\u61f3\u58b3\u5061\u509e\u5eb4\u6645\u5114\u5100\u5116\u507a\u5826\u68d7\u5071\u5061\u4e05\u5a70\u5d0b\u5072\u66a5\u5e24\u50aa\u5c28\u66a5\u507a\u5091\u5091\u66d0\u5e29\u505f\u5070\u5054\u5069\u505d\u5044\u4e05\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW04",
+      "original_sha256": "034fb0978b92ea93e730581b92dee8aaef85fb604e80939c79b887f6127c9ac2",
+      "expected_label": "\u307b\u305f\u308b-423",
+      "component_observed_labels": {
+        "HEALTHY": "\u307b\u305f\u308b-423",
+        "A_BAD": "\u307b\u305f\u308b-423",
+        "B_BAD": "\u508e\u5068\u509e-423"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "cp932",
+        "A_BAD": "cp932",
+        "B_BAD": "gb18030"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW04 access label [\u307b\u305f\u308b-423]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "A_BAD": [
+          "Record DOW04 access label [\u307b\u305f\u308b-423]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "B_BAD": [
+          "Record DOW04 access label [\u508e\u5068\u509e-423]\n\u5059\u509f\u507c\u5a70\u6990\u65a3\u5d0b\u5075\u61f3\u58b3\u5061\u509e\u5eb4\u6645\u5114\u5100\u5116\u507a\u5826\u68d7\u5071\u5061\u4e05\u5a70\u5d0b\u5072\u66a5\u5e24\u50aa\u5c28\u66a5\u507a\u5091\u5091\u66d0\u5e29\u505f\u5070\u5054\u5069\u505d\u5044\u4e05\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW05",
+      "original_sha256": "dbe9f8a302731bffcd697a176602baff2719c106246d6746e7c03ddb1a210095",
+      "expected_label": "CINDER-447",
+      "component_observed_labels": {
+        "HEALTHY": "CINDER-447",
+        "A_BAD": "CINDER-447",
+        "B_BAD": "CINDER-447"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW05 access label [CINDER-447]\n"
+        ],
+        "A_BAD": [
+          "Record DOW05 access label [CINDER-447]\n"
+        ],
+        "B_BAD": [
+          "Record DOW05 access label [CINDER-447]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW06",
+      "original_sha256": "f43de277a948e8721ea5d1917fa9bb5d86963ebdcb896efb03cbbf9fc71f40d5",
+      "expected_label": "BRONZE-264",
+      "component_observed_labels": {
+        "HEALTHY": "BRONZE-264",
+        "A_BAD": "BRONZE-264",
+        "B_BAD": "BRONZE-264"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW06 access label [BRONZE-264]\n"
+        ],
+        "A_BAD": [
+          "Record DOW06 access label [BRONZE-264]\n"
+        ],
+        "B_BAD": [
+          "Record DOW06 access label [BRONZE-264]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW07",
+      "original_sha256": "dfab4671d1a079a3e14ab671e29b5dba3726b23bcce965a2b9dc2634e72ca95a",
+      "expected_label": "CORAL-136",
+      "component_observed_labels": {
+        "HEALTHY": "CORAL-136",
+        "A_BAD": "CORAL-136",
+        "B_BAD": "CORAL-136"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW07 access label [CORAL-136]\n"
+        ],
+        "A_BAD": [
+          "Record DOW07 access label [CORAL-136]\n"
+        ],
+        "B_BAD": [
+          "Record DOW07 access label [CORAL-136]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "development",
+      "application_id": "openwebui",
+      "task_id": "DOW08",
+      "original_sha256": "43ae5799f1c18140864b697b3634045a5486a45d3a9e891e611469b21af3f9c6",
+      "expected_label": "FLINT-555",
+      "component_observed_labels": {
+        "HEALTHY": "FLINT-555",
+        "A_BAD": "FLINT-555",
+        "B_BAD": "FLINT-555"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record DOW08 access label [FLINT-555]\n"
+        ],
+        "A_BAD": [
+          "Record DOW08 access label [FLINT-555]\n"
+        ],
+        "B_BAD": [
+          "Record DOW08 access label [FLINT-555]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF01",
+      "original_sha256": "f995ea6563e32cef8caeb8cc880bc18d057dfa340d7708f780aa6a113487db43",
+      "expected_label": "r\u00e9sum\u00e9-778",
+      "component_observed_labels": {
+        "HEALTHY": "r\u00e9sum\u00e9-778",
+        "A_BAD": "r\u00e9sum\u00e9-778",
+        "B_BAD": "r\u00e9sum\u00e9-778"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF01 access label [r\u00e9sum\u00e9-778] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF01 access label [r\u00e9sum\u00e9-778] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF01 access label [r\u00e9sum\u00e9-778] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF02",
+      "original_sha256": "e356be86cdbb217e24e0368326fb111d9e561dd2c9100ecd15e5eb1af51ec507",
+      "expected_label": "jalape\u00f1o-675",
+      "component_observed_labels": {
+        "HEALTHY": "jalape\u00f1o-675",
+        "A_BAD": "jalape\u00f1o-675",
+        "B_BAD": "jalape\u00f1o-675"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF02 access label [jalape\u00f1o-675] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF02 access label [jalape\u00f1o-675] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF02 access label [jalape\u00f1o-675] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF03",
+      "original_sha256": "4d933f3a97a7b5e8a184755fd8529fd6e0cbcffd793b543c9d9c4a1088c10734",
+      "expected_label": "MARSH VIOLET-663",
+      "component_observed_labels": {
+        "HEALTHY": "MARSH VIOLET-663",
+        "A_BAD": "MARSH VIOLET-663",
+        "B_BAD": "MARSH VIOLET-663"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF03 access label [MARSH VIOLET-663]",
+          "archive routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF03 access label [MARSH VIOLET-663]",
+          "archive routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF03 access label [MARSH VIOLET-663]",
+          "archive routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF04",
+      "original_sha256": "83d6d35f7bdd243c97338b20e1b79fff889d3fc470887b31fe07d6ee1f279c8f",
+      "expected_label": "STREAM AMBER-341",
+      "component_observed_labels": {
+        "HEALTHY": "STREAM AMBER-341",
+        "A_BAD": "STREAM AMBER-341",
+        "B_BAD": "STREAM AMBER-341"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": false,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF04 access label [STREAM AMBER-341]",
+          "archive routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF04 access label [STREAM AMBER-341]",
+          "archive routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF04 access label [STREAM AMBER-341]",
+          "archive routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF05",
+      "original_sha256": "83acd224e77fe71268ba2a3ed28d8843b6a97efc4e91fbfb582a8bd693b6ceff",
+      "expected_label": "HAVEN-352",
+      "component_observed_labels": {
+        "HEALTHY": "HAVEN-352",
+        "A_BAD": "HAVEN-352",
+        "B_BAD": "HAVEN-352"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF05 access label [HAVEN-352] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF05 access label [HAVEN-352] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF05 access label [HAVEN-352] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF06",
+      "original_sha256": "d34775a96c9c996f1ef5ee44b58ea0dbaa3e23be8b0ca5ff7d1c50dc2565ffd8",
+      "expected_label": "MICA-224",
+      "component_observed_labels": {
+        "HEALTHY": "MICA-224",
+        "A_BAD": "MICA-224",
+        "B_BAD": "MICA-224"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF06 access label [MICA-224] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF06 access label [MICA-224] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF06 access label [MICA-224] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF07",
+      "original_sha256": "a12894a39cd3d26ff5c406e13ff2e21b84f922de650bdda11cccccde95446be5",
+      "expected_label": "FROST-676",
+      "component_observed_labels": {
+        "HEALTHY": "FROST-676",
+        "A_BAD": "FROST-676",
+        "B_BAD": "FROST-676"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF07 access label [FROST-676] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF07 access label [FROST-676] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF07 access label [FROST-676] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "dify",
+      "task_id": "VDF08",
+      "original_sha256": "8968ae8b2bee01e5eaacf80731e76847b37310ab4d9b4224cd5cc4663a26d431",
+      "expected_label": "GARNET-922",
+      "component_observed_labels": {
+        "HEALTHY": "GARNET-922",
+        "A_BAD": "GARNET-922",
+        "B_BAD": "GARNET-922"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {},
+      "chunks": {
+        "HEALTHY": [
+          "Record VDF08 access label [GARNET-922] archive",
+          "routing metadata for the catalog register"
+        ],
+        "A_BAD": [
+          "Record VDF08 access label [GARNET-922] archive",
+          "routing metadata for the catalog register"
+        ],
+        "B_BAD": [
+          "Record VDF08 access label [GARNET-922] archive",
+          "routing metadata for the catalog register"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW01",
+      "original_sha256": "ab86d9db30870b7dec707c38313ab67ddce74efaa937555c236aa6ddec20a07e",
+      "expected_label": "HEATH&NotPrecedesEqual;-323",
+      "component_observed_labels": {
+        "HEALTHY": "HEATH&NotPrecedesEqual;-323",
+        "A_BAD": "HEATH\u2aaf\u0338-323",
+        "B_BAD": "HEATH&NotPrecedesEqual;-323"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW01 access label [HEATH&NotPrecedesEqual;-323]\n"
+        ],
+        "A_BAD": [
+          "Record VOW01 access label [HEATH\u2aaf\u0338-323]\n"
+        ],
+        "B_BAD": [
+          "Record VOW01 access label [HEATH&NotPrecedesEqual;-323]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW02",
+      "original_sha256": "d6829b729eb7bce02ee0f78e2c98e050fbc4166142487ff2a18b137094a4c8aa",
+      "expected_label": "ESTUARY&NotNestedGreaterGreater;-815",
+      "component_observed_labels": {
+        "HEALTHY": "ESTUARY&NotNestedGreaterGreater;-815",
+        "A_BAD": "ESTUARY\u2aa2\u0338-815",
+        "B_BAD": "ESTUARY&NotNestedGreaterGreater;-815"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": false,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW02 access label [ESTUARY&NotNestedGreaterGreater;-815]\n"
+        ],
+        "A_BAD": [
+          "Record VOW02 access label [ESTUARY\u2aa2\u0338-815]\n"
+        ],
+        "B_BAD": [
+          "Record VOW02 access label [ESTUARY&NotNestedGreaterGreater;-815]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW03",
+      "original_sha256": "23f7ac8e6a66017243f002eb0d7bf7a1db9fbc3a1e6ec6527cb029b8bc347618",
+      "expected_label": "\u3055\u304f\u3089-492",
+      "component_observed_labels": {
+        "HEALTHY": "\u3055\u304f\u3089-492",
+        "A_BAD": "\u3055\u304f\u3089-492",
+        "B_BAD": "\u505d\u5054\u509c-492"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "cp932",
+        "A_BAD": "cp932",
+        "B_BAD": "gb18030"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW03 access label [\u3055\u304f\u3089-492]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "A_BAD": [
+          "Record VOW03 access label [\u3055\u304f\u3089-492]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "B_BAD": [
+          "Record VOW03 access label [\u505d\u5054\u509c-492]\n\u5059\u509f\u507c\u5a70\u6990\u65a3\u5d0b\u5075\u61f3\u58b3\u5061\u509e\u5eb4\u6645\u5114\u5100\u5116\u507a\u5826\u68d7\u5071\u5061\u4e05\u5a70\u5d0b\u5072\u66a5\u5e24\u50aa\u5c28\u66a5\u507a\u5091\u5091\u66d0\u5e29\u505f\u5070\u5054\u5069\u505d\u5044\u4e05\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW04",
+      "original_sha256": "7ad567a5ad8c259db8bc4939eba6404f433df73689d036a1f51dafa3848fd0bd",
+      "expected_label": "\u307f\u305a\u304d-948",
+      "component_observed_labels": {
+        "HEALTHY": "\u307f\u305a\u304d-948",
+        "A_BAD": "\u307f\u305a\u304d-948",
+        "B_BAD": "\u5092\u5062\u5052-948"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": false
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "cp932",
+        "A_BAD": "cp932",
+        "B_BAD": "gb18030"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW04 access label [\u307f\u305a\u304d-948]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "A_BAD": [
+          "Record VOW04 access label [\u307f\u305a\u304d-948]\n\u3053\u308c\u306f\u8a18\u9332\u756a\u53f7\u306b\u5bfe\u5fdc\u3059\u308b\u53d7\u4ed8\u30e9\u30d9\u30eb\u306e\u4e00\u89a7\u3067\u3059\u3002\u8a18\u53f7\u3068\u6587\u5b57\u3092\u539f\u6587\u306e\u307e\u307e\u4fdd\u6301\u3057\u3066\u304f\u3060\u3055\u3044\u3002\n"
+        ],
+        "B_BAD": [
+          "Record VOW04 access label [\u5092\u5062\u5052-948]\n\u5059\u509f\u507c\u5a70\u6990\u65a3\u5d0b\u5075\u61f3\u58b3\u5061\u509e\u5eb4\u6645\u5114\u5100\u5116\u507a\u5826\u68d7\u5071\u5061\u4e05\u5a70\u5d0b\u5072\u66a5\u5e24\u50aa\u5c28\u66a5\u507a\u5091\u5091\u66d0\u5e29\u505f\u5070\u5054\u5069\u505d\u5044\u4e05\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW05",
+      "original_sha256": "66031023380115680e837527833c5bd7ff6df3755c788d95303e94d7c6c9275d",
+      "expected_label": "SILICA-994",
+      "component_observed_labels": {
+        "HEALTHY": "SILICA-994",
+        "A_BAD": "SILICA-994",
+        "B_BAD": "SILICA-994"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW05 access label [SILICA-994]\n"
+        ],
+        "A_BAD": [
+          "Record VOW05 access label [SILICA-994]\n"
+        ],
+        "B_BAD": [
+          "Record VOW05 access label [SILICA-994]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW06",
+      "original_sha256": "c2a1ecf3b1f25355d777e1da584691c36090756402dfa4103dc76a83e0ba0ef3",
+      "expected_label": "OCHRE-350",
+      "component_observed_labels": {
+        "HEALTHY": "OCHRE-350",
+        "A_BAD": "OCHRE-350",
+        "B_BAD": "OCHRE-350"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW06 access label [OCHRE-350]\n"
+        ],
+        "A_BAD": [
+          "Record VOW06 access label [OCHRE-350]\n"
+        ],
+        "B_BAD": [
+          "Record VOW06 access label [OCHRE-350]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW07",
+      "original_sha256": "378998290cde9ded09a44a2635594cb719862318460819fc2e12c2897f639280",
+      "expected_label": "TERRACE-703",
+      "component_observed_labels": {
+        "HEALTHY": "TERRACE-703",
+        "A_BAD": "TERRACE-703",
+        "B_BAD": "TERRACE-703"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW07 access label [TERRACE-703]\n"
+        ],
+        "A_BAD": [
+          "Record VOW07 access label [TERRACE-703]\n"
+        ],
+        "B_BAD": [
+          "Record VOW07 access label [TERRACE-703]\n"
+        ]
+      },
+      "native_or_model_output": false
+    },
+    {
+      "cohort": "validation",
+      "application_id": "openwebui",
+      "task_id": "VOW08",
+      "original_sha256": "bae6ff77de44a159f79bd1a061e8280eacdcd6b9ccaf6de37b82986ce21f0fe7",
+      "expected_label": "BAYOU-987",
+      "component_observed_labels": {
+        "HEALTHY": "BAYOU-987",
+        "A_BAD": "BAYOU-987",
+        "B_BAD": "BAYOU-987"
+      },
+      "component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "expected_component_label_present": {
+        "HEALTHY": true,
+        "A_BAD": true,
+        "B_BAD": true
+      },
+      "passes_source_sensitivity": true,
+      "selected_text_codecs": {
+        "HEALTHY": "utf-8",
+        "A_BAD": "utf-8",
+        "B_BAD": "utf-8"
+      },
+      "chunks": {
+        "HEALTHY": [
+          "Record VOW08 access label [BAYOU-987]\n"
+        ],
+        "A_BAD": [
+          "Record VOW08 access label [BAYOU-987]\n"
+        ],
+        "B_BAD": [
+          "Record VOW08 access label [BAYOU-987]\n"
+        ]
+      },
+      "native_or_model_output": false
+    }
+  ]
+}

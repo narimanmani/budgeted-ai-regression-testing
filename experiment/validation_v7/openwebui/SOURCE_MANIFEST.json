@@ -1,0 +1,1198 @@
+{
+  "fixed_revision": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+  "fixed_tree": "3075fe8893cd205a5017b101463f42f0224ae2ce",
+  "official_image": "ghcr.io/open-webui/open-webui@sha256:61b567ee1e7730327535ef5224e55381c8abd2c7560a9d2c71e4690ee1a57d18",
+  "overrides": {
+    "A_BAD": {
+      "source_fix_commit": "1bfa59acbda0b0a60b73c313f64bededa7e85252",
+      "native_path": "backend/open_webui/retrieval/loaders/main.py",
+      "capture": "experiment/validation_v7/openwebui/sources/A_BAD/main.py",
+      "sha256": "667df00033c8bd78ff13f27a47b1ebcc37632c70ad8907250fe5727089a20ae2",
+      "git_blob": "e9711a6a2897f1b5d9bcfbe72ae495db785924c1",
+      "intervention": "Exact historical fix-hunk reversal on current pinned host; whole old module API-incompatible after loader framework refactor",
+      "historical_pre_fix_module_sha256": "afa4f6dfc5d68b2425225c3b49742a9e81ddb294aeb1d96cf0003d6fe494a6bc",
+      "reversal_patch_sha256": "be309474f725a78b0b7e2a49c6a65274523104f7f91da6f39d5c1441683165b2",
+      "public_change_tokens": [
+        "code:backend/open_webui/retrieval/loaders/main.py"
+      ]
+    },
+    "B_BAD": {
+      "source_fix_commit": "3c47f0d7e7489184e1f6117d6132a97aa3d99d53",
+      "native_path": "backend/open_webui/retrieval/loaders/main.py",
+      "capture": "experiment/validation_v7/openwebui/sources/B_BAD/main.py",
+      "sha256": "439c5fc3f8e4106b11de2c6d1f6aabe34d7570ccf7b972643b209dd870154acc",
+      "git_blob": "3ca990730add73d88df75cd7c04473282905a03a",
+      "intervention": "Exact historical fix-hunk reversal on current pinned host; whole old module API-incompatible after loader framework refactor",
+      "historical_pre_fix_module_sha256": "03529db61b3ab8c5e0b222bc3547059b7742451a981a735a17b995cdb23c0d05",
+      "reversal_patch_sha256": "7010f4a51a6c19aad7fca618795daea01a9e6cdd7ab69010282872ce631c2554",
+      "public_change_tokens": [
+        "code:backend/open_webui/retrieval/loaders/main.py"
+      ]
+    }
+  },
+  "expected_production_blobs": [
+    {
+      "path": "backend/open_webui/__init__.py",
+      "git_blob": "fc1804f96fc3d1b55fae765338daf9f574f0138d"
+    },
+    {
+      "path": "backend/open_webui/config.py",
+      "git_blob": "fc9c5543b78b8735a2ed963f721522459a718265"
+    },
+    {
+      "path": "backend/open_webui/constants.py",
+      "git_blob": "57aec99159a8a5020631202fdf62e063bd8503b3"
+    },
+    {
+      "path": "backend/open_webui/env.py",
+      "git_blob": "0e2797c3af8e729db2aada288123a7748a67bb3f"
+    },
+    {
+      "path": "backend/open_webui/events.py",
+      "git_blob": "b5373f386b2625828278c440da55152d4d60ef89"
+    },
+    {
+      "path": "backend/open_webui/functions.py",
+      "git_blob": "20601fee7e42e69f7d21bb452c740ec4c3df96f9"
+    },
+    {
+      "path": "backend/open_webui/internal/db.py",
+      "git_blob": "7433f1cd5f3213538848745534ac5151c01fdd15"
+    },
+    {
+      "path": "backend/open_webui/main.py",
+      "git_blob": "a1abf80e7980c25cfc1d7dbf2dd76c290fd7de7d"
+    },
+    {
+      "path": "backend/open_webui/migrations/env.py",
+      "git_blob": "0ddfc609ee754274186d145d3773779f3e28f736"
+    },
+    {
+      "path": "backend/open_webui/migrations/util.py",
+      "git_blob": "1c55faf0e9f783208b3376709a4cb15419927fd9"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/018012973d35_add_indexes.py",
+      "git_blob": "ca3313c7f0fe54bc4046a4865d99c3a51a3a5411"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/0bd252b206fb_add_missing_auth_rows.py",
+      "git_blob": "163b59cc03f09587b43067b4eadef2ba7eda24a3"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/1af9b942657b_migrate_tags.py",
+      "git_blob": "00d36375d03bf83a20aaa5f1606cb70cc9d7eda2"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/1ce6ade7d93b_add_group_member_user_id_index.py",
+      "git_blob": "a5a00b7b2a3de67667e0e0a620ee860f57cb4850"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/242a2047eae0_update_chat_table.py",
+      "git_blob": "b496b72fdfcc2ccc73b95e7c6d84d178340303df"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/2f1211949ecc_update_message_and_channel_member_table.py",
+      "git_blob": "1c0cb6da81dadbd6dba1d633ddc901ae63a996af"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/374d2f66af06_add_prompt_history_table.py",
+      "git_blob": "69dd73c7007d1f50ad9fa8b06bd022086c516f80"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/3781e22d8b01_update_message_table.py",
+      "git_blob": "7dd3ed33cb9fbe0f0b591202402621ddae55816d"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/37f288994c47_add_group_member_table.py",
+      "git_blob": "daf0aef172ab512486992f5b71880d081b4762de"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/38d63c18f30f_add_oauth_session_table.py",
+      "git_blob": "ff6fe651185e68b54cb6891c7367e30633c33f3e"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/3ab32c4b8f59_update_tags.py",
+      "git_blob": "8aaa4d4d476cb75465cd19a7f7975fc9ad3ce716"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/3af16a1c9fb6_update_user_table.py",
+      "git_blob": "e3767a71a7064a540b6291c6f40291a74247f19c"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/3c9b0ca343fd_add_knowledge_directory_table.py",
+      "git_blob": "90b1bb0085d3438afef40c282112d2ea6b250d37"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/3e0e00844bb0_add_knowledge_file_table.py",
+      "git_blob": "70c0562749d8a34f372edbdef0fb93fd69224ca0"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/3ff2c63645b8_reshape_config_to_per_key_rows.py",
+      "git_blob": "1bf3c9bb456db62fe683de55a598781e93142bfb"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/42e2978c7933_add_memory_path_and_meta.py",
+      "git_blob": "fc102620909b56597bd3994d42d949972909f320"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/461111b60977_add_missing_primary_keys_to_legacy_.py",
+      "git_blob": "1e5901e275f9ce019b1b2b23ef3d8cc9d4a44913"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/4ace53fd72c8_update_folder_table_datetime.py",
+      "git_blob": "e1e3b3263565adf0cd7f1715d4fe75cafcb9c0a5"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/4c5ce3d2f27f_add_context_summary_to_chat_message.py",
+      "git_blob": "31a693cac65ca4438c5af6cbca51b18fc9558ac5"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/4de81c2a3af1_add_pinned_note_table.py",
+      "git_blob": "1ec11a041944c3b59d8e3205912979669fe9f95d"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/55f1302ac17c_add_memory_id_user_id_covering_index.py",
+      "git_blob": "d1de5c05b84a5bf46d852e84b3638d0abcd2917f"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/56359461a091_add_calendar_tables.py",
+      "git_blob": "4796233604d931b591c5e35f7fe6e715cc3ebf5e"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/57c599a3cb57_add_channel_table.py",
+      "git_blob": "4db23c2acea304fd53d70453f4683a717726950b"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/6283dc0e4d8d_add_channel_file_table.py",
+      "git_blob": "aa1e52062bd0e1ea357f4b3e709f6c1431e6112f"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/6a39f3d8e55c_add_knowledge_table.py",
+      "git_blob": "b1fd2ab40a70063b6c2333d8575c42c4f8ef233b"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/6d09d1bf1f23_repair_double_encoded_user_oauth.py",
+      "git_blob": "d1f859505937b6ca02e22777a0fdb1e08eef8dac"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/7826ab40b532_update_file_table.py",
+      "git_blob": "b3313e376265926a75b039b26e6751b7643095bc"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/7b3f2a9c1d4e_add_memory_type.py",
+      "git_blob": "ca01fbef8fe6adb707abfc8fb80bccdefb66c52e"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/7e5b5dc7342b_init.py",
+      "git_blob": "ca75fff7d101be89dbb59e10bccb0744f9804f2d"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/81cc2ce44d79_update_channel_file_and_knowledge_table.py",
+      "git_blob": "2294f895624eb648f63fd63118aca8f8da344042"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/8452d01d26d7_add_chat_message_table.py",
+      "git_blob": "e247e5788ece4de58383a3a4eaa182f31f5a1dec"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/856c5b02fb54_add_chat_message_meta.py",
+      "git_blob": "bfbf2751bb12acfd8a441870f5799dc119dff618"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/90ef40d4714e_update_channel_and_channel_members_table.py",
+      "git_blob": "593666762470b11e519419ba79002cac896b4619"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/922e7a387820_add_group_table.py",
+      "git_blob": "4150f5ffdf66562de1b1df5d7ae5b5dd20bcecd1"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/959eaac8f909_add_automation_folder_id.py",
+      "git_blob": "1298abd41d973729a3f3b9079b096903887bbf9d"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/9a1b2c3d4e5f_add_current_message_id_to_chat.py",
+      "git_blob": "a7840bc9d363636b793566f53645f2cc85bab9b5"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/9f0c9cd09105_add_note_table.py",
+      "git_blob": "ae096e0808cf356daf0a5565a9f1e05735bc9a4d"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/a0b1c2d3e4f5_add_memory_user_id_index.py",
+      "git_blob": "b73e65414985b4c33f18c7ed37993ca4b4afdee8"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/a1b2c3d4e5f6_add_skill_table.py",
+      "git_blob": "1ffce041e1cca48779a195143772f82e435233a1"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/a3dd5bedd151_add_tasks_and_summary_to_chat.py",
+      "git_blob": "5ccff52312c61258a22db8dc8028563f2bf042af"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/a5c220713937_add_reply_to_id_column_to_message.py",
+      "git_blob": "0108e44614a5ffa7b5c101dc82be21d1b05e6042"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/a7d3e9f2b641_add_mfa_and_session_stamp.py",
+      "git_blob": "6ae864b039b78bf102e48123dc92f87ecdd38acc"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/af906e964978_add_feedback_table.py",
+      "git_blob": "65dcf6f5f960620e54a2fd904cbdcb119619e989"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/b0018471bbbe_add_user_variables.py",
+      "git_blob": "d8e94ca60b04728c932f2ef8ebcaebaeac4e5987"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/b10670c03dd5_update_user_table.py",
+      "git_blob": "1de7af315f47e668a1004d1864a1178f6e0d78aa"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/b2c3d4e5f6a7_add_scim_column_to_user_table.py",
+      "git_blob": "cf942ec8c052c111fee9b26e8b7b5a851cb25692"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/b7c8d9e0f1a2_add_last_read_at_to_chat.py",
+      "git_blob": "fd298b7929a5ff183222c86d8e7f791cb8bd26d1"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/b8e4f0a3c752_add_group_hierarchy.py",
+      "git_blob": "58977b7716e22ca679080314297649f04d6be90c"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/b8f2c6d91a04_add_postgres_pending_files_index.py",
+      "git_blob": "d6951441dd950d7eeb9ca0e164dabfb8d91a9851"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c0fbf31ca0db_update_file_table.py",
+      "git_blob": "75eada2d3fafe04c66ef02f140b87c50606a1098"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c1d2e3f4a5b6_add_shared_chat_table.py",
+      "git_blob": "771f7195b738e2ef0ccc6388313e4c7527fe24fb"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c29facfe716b_update_file_table_path.py",
+      "git_blob": "a08485f87fd869efa7bd056e81f792a773470a97"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c440947495f3_add_chat_file_table.py",
+      "git_blob": "b1d0859fe11b5f9e96678f28108590332bec2802"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c49178636c78_add_chat_variables.py",
+      "git_blob": "c4d4aaf3552b4d95adef5ac8e35e66830715fffd"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c69f45358db4_add_folder_table.py",
+      "git_blob": "646074427e6935258229c985fcb30bd7af36fe42"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/c92da83b017f_add_apps.py",
+      "git_blob": "addd71205b419b116e4cdcd7de798f346ab4e7f2"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/ca81bd47c050_add_config_table.py",
+      "git_blob": "ff54232bdd1cb1153166c932c92cbb9881a44cef"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/d31026856c01_update_folder_table_data.py",
+      "git_blob": "60c2e6e9e05f283bba7cfb2aade973069e8b4535"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/d4c1a8e37b62_add_chat_timer_at_and_chat_indexes.py",
+      "git_blob": "97b6c45011014c7eeba58b998d01cdfaf35d1174"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/d4e5f6a7b8c9_add_automation_tables.py",
+      "git_blob": "1df1cf7092c48ebf29e62b8f306bd0ae70abb692"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/d6a8c3f912ab_add_skill_history.py",
+      "git_blob": "a5cefeab3128da5b67a165139d35f5da2efad0c0"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/e1f2a3b4c5d6_add_is_pinned_to_note.py",
+      "git_blob": "7232b11b83a57b234941a05bf7a622c36eb3911e"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/e7b9d4a023bc_add_model_history.py",
+      "git_blob": "32947fe6f7e55029b062b75c3431a3ad1cfca487"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/f0bd01a18a3d_add_unique_normalized_user_email_index.py",
+      "git_blob": "13f77cb3b31101870e1da6edead021a1054ac95b"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/f1e2d3c4b5a6_add_access_grant_table.py",
+      "git_blob": "6a33d087b57e4d7c7eed6e8dfbdc3c629f9ba574"
+    },
+    {
+      "path": "backend/open_webui/migrations/versions/f8c0e5b134cd_add_tool_history_and_function_history.py",
+      "git_blob": "d703417a5643fc72b73b912ac27230548661fcfc"
+    },
+    {
+      "path": "backend/open_webui/models/access_grants.py",
+      "git_blob": "b9c2221f7a82ce6fad6c5a7f10d9f5092518f610"
+    },
+    {
+      "path": "backend/open_webui/models/analytics_sessions.py",
+      "git_blob": "4bcd0005a74a881374542034ebbbcb6035cad7ee"
+    },
+    {
+      "path": "backend/open_webui/models/apps.py",
+      "git_blob": "2501d4de46a9d850ec5eeb5c08af96e454cc47d6"
+    },
+    {
+      "path": "backend/open_webui/models/auths.py",
+      "git_blob": "f5350cc737c04fb55df37ff2c64437e680258b36"
+    },
+    {
+      "path": "backend/open_webui/models/automations.py",
+      "git_blob": "0aab02e5f69788963edc3a4bb77f2bbff293378c"
+    },
+    {
+      "path": "backend/open_webui/models/calendar.py",
+      "git_blob": "a7489e925fb936420f5bfffe596d9e6cb8a88c39"
+    },
+    {
+      "path": "backend/open_webui/models/channels.py",
+      "git_blob": "1876f41c03ea914723523e329be504a06180874c"
+    },
+    {
+      "path": "backend/open_webui/models/chat_messages.py",
+      "git_blob": "d7ed13223ca61c39224878a14d93026277991221"
+    },
+    {
+      "path": "backend/open_webui/models/chats.py",
+      "git_blob": "3391c000eb6385cdd9352c584d86f25ccb05086a"
+    },
+    {
+      "path": "backend/open_webui/models/config.py",
+      "git_blob": "f298b889d697150781337c9bb706d59b51406132"
+    },
+    {
+      "path": "backend/open_webui/models/feedbacks.py",
+      "git_blob": "ca1fe39b3882065c7c32ce02bac71a5797da6438"
+    },
+    {
+      "path": "backend/open_webui/models/files.py",
+      "git_blob": "d1f61c7cc7edbcd5159623823f664d215a533a2c"
+    },
+    {
+      "path": "backend/open_webui/models/folders.py",
+      "git_blob": "828119440d001f1dedc1ac750644dd8b753e9ab0"
+    },
+    {
+      "path": "backend/open_webui/models/function_history.py",
+      "git_blob": "47dd401aea31b8734beba8bf8a209ec6d6d7ddb3"
+    },
+    {
+      "path": "backend/open_webui/models/functions.py",
+      "git_blob": "a06f2bac1796c84a2611a8f83fb87bffded6a7b2"
+    },
+    {
+      "path": "backend/open_webui/models/groups.py",
+      "git_blob": "7d477f183674a530a6b0cbe18e36e9d4e8b239b8"
+    },
+    {
+      "path": "backend/open_webui/models/knowledge.py",
+      "git_blob": "b053344bc99c0cb4f2ee6ac532f99cddb54e7bd1"
+    },
+    {
+      "path": "backend/open_webui/models/memories.py",
+      "git_blob": "e04f16b962d9c6d6ef53d21f5e6113de08d3feba"
+    },
+    {
+      "path": "backend/open_webui/models/messages.py",
+      "git_blob": "b6e04bb973303d2ff779f49ce9f694444976eba0"
+    },
+    {
+      "path": "backend/open_webui/models/model_history.py",
+      "git_blob": "6b3ecc1a1a73d24f9d42664f47cd587842ed111e"
+    },
+    {
+      "path": "backend/open_webui/models/models.py",
+      "git_blob": "91c0e854615cb13d852825945c18c866bca43b99"
+    },
+    {
+      "path": "backend/open_webui/models/notes.py",
+      "git_blob": "b73457646edccd499b4417df78166813931a3530"
+    },
+    {
+      "path": "backend/open_webui/models/oauth_sessions.py",
+      "git_blob": "25a50ced551319aca7aab1b715ad20e730aa2ff0"
+    },
+    {
+      "path": "backend/open_webui/models/prompt_history.py",
+      "git_blob": "78c3330b4adf246c01d514d96d9739459c6899ff"
+    },
+    {
+      "path": "backend/open_webui/models/prompts.py",
+      "git_blob": "2c50b74d7e2a8cc27a892c54281f92d214ebf843"
+    },
+    {
+      "path": "backend/open_webui/models/shared_chats.py",
+      "git_blob": "8959d6c7716ed04984dd075f0c2474f62c98c877"
+    },
+    {
+      "path": "backend/open_webui/models/skill_history.py",
+      "git_blob": "d3f637eeaedd3058c118baaddfaf90cc12fb4d84"
+    },
+    {
+      "path": "backend/open_webui/models/skills.py",
+      "git_blob": "ffe58336e270da75ef3da8111b3d475215408bf0"
+    },
+    {
+      "path": "backend/open_webui/models/tags.py",
+      "git_blob": "9f24d274bbef4cfaf07c296fd8dc72476df60e93"
+    },
+    {
+      "path": "backend/open_webui/models/tool_history.py",
+      "git_blob": "1e42b0b8ea4c50a109192033209eb602d7189f46"
+    },
+    {
+      "path": "backend/open_webui/models/tools.py",
+      "git_blob": "73ed8f0991edd92906d3e74a04668941024cad82"
+    },
+    {
+      "path": "backend/open_webui/models/users.py",
+      "git_blob": "0aa6a6f167609b87117d8b746f89bc78b100947d"
+    },
+    {
+      "path": "backend/open_webui/retrieval/external.py",
+      "git_blob": "ca95153cced84c66503376d3048973b9004ca86e"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/datalab_marker.py",
+      "git_blob": "6615419b8a589e703eeb8437d9141aea0318d59b"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/external_document.py",
+      "git_blob": "c199fabcef96507155bbf7399de5ca5cb6608839"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/external_web.py",
+      "git_blob": "1e1a8178857c3552612985dd71dcdc7b9a74cda6"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/local.py",
+      "git_blob": "fad7a930be4080134682f85162e4f54bd7415da0"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/main.py",
+      "git_blob": "971b124a9e35a8f6a9db2664fcfd634fd43c0d55"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/microsoft_web_iq.py",
+      "git_blob": "5057aaeb4921d4f3325d4593b49299f09dc3fc79"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/mineru.py",
+      "git_blob": "7a0c3af9eb89ef259c17ad1fc4810cf2d0f6c48d"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/mistral.py",
+      "git_blob": "a5dbebfff12570a3f2455d874b5a4ce22125c1a3"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/paddleocr_vl.py",
+      "git_blob": "5f1107dd9ec2c966ccc124baea1b206548925452"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/pdf.py",
+      "git_blob": "2769603ff34268d16317007b48f5445f4bcc3219"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/tavily.py",
+      "git_blob": "39c39f91fb3c7485e88264371cf70c002c990e0c"
+    },
+    {
+      "path": "backend/open_webui/retrieval/loaders/youtube.py",
+      "git_blob": "a1ee8d1128cef021528f1d048d4abbdad1e9a617"
+    },
+    {
+      "path": "backend/open_webui/retrieval/models/base_reranker.py",
+      "git_blob": "78002e087a65f8224b47765b10206a78da52b46e"
+    },
+    {
+      "path": "backend/open_webui/retrieval/models/colbert.py",
+      "git_blob": "b388974701448bafa70bba8557a8230255e79049"
+    },
+    {
+      "path": "backend/open_webui/retrieval/models/external.py",
+      "git_blob": "a66a2c50bfae759b4ba2d81c52a9d30e254392b1"
+    },
+    {
+      "path": "backend/open_webui/retrieval/utils.py",
+      "git_blob": "24963eafcd0b25eb8256e49be1a15b0f4b813f2c"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/async_client.py",
+      "git_blob": "af8df23b87678d5500f2351327a392aa276371cb"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/chroma.py",
+      "git_blob": "5c5d9602e8d259e097775a71cb3843474ca0c1ea"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/elasticsearch.py",
+      "git_blob": "ca9eb1e08c654ca2f470ada19c5d104bdc0e56b8"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/mariadb_vector.py",
+      "git_blob": "bcecf89802e798b00e023b66631ae579dd924f14"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/milvus.py",
+      "git_blob": "b0787e145c2bdba9583215c005173442ea620876"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/milvus_multitenancy.py",
+      "git_blob": "cca6a444158bd81b232c758cb16c845fa81fbe11"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/opengauss.py",
+      "git_blob": "d8f84a2580122e008f081fc55ea1e2596766bd83"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/opensearch.py",
+      "git_blob": "48c538a10d174087c3e09fef13ffaf99e49b4413"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/oracle23ai.py",
+      "git_blob": "2d8fe5be3b525231457d65865a29d52b2ddf41a2"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/pgvector.py",
+      "git_blob": "04fdaed1c1466abe059ba39bf302dd461f222e44"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/pinecone.py",
+      "git_blob": "d1b7363839e018f8f4fcd1f395980729d7716b4a"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/qdrant.py",
+      "git_blob": "9ce432f86e8b0d4a0ccef1f4d0876e5d2302c48d"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/qdrant_multitenancy.py",
+      "git_blob": "bf2968dc999a11764f81d38b9b2062701ef62bd4"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/s3vector.py",
+      "git_blob": "f9bf6ac05643825eee738164f69bb509f42b4a51"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/valkey.py",
+      "git_blob": "c315a0a5fba643eceff59af38672c6d4d61d872a"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/dbs/weaviate.py",
+      "git_blob": "8ccb159721282a3dee89369e9ce148af45ebf5f8"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/factory.py",
+      "git_blob": "9e17b8717c4f67ac9245b0b31f7f8350c2c74122"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/main.py",
+      "git_blob": "dd284eae1a960f5f576afdec399af50c0e51b7a2"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/type.py",
+      "git_blob": "15e6da0f9eeed453913d15fab081950520d604b3"
+    },
+    {
+      "path": "backend/open_webui/retrieval/vector/utils.py",
+      "git_blob": "19bba9b1eff3508d4d098be3d005f92d03a263c0"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/azure.py",
+      "git_blob": "5ba57f11c564b6565399711eb5e728d044368a3c"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/bing.py",
+      "git_blob": "00449f90912493ecebefdf3ae5c024e63a602c9e"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/bocha.py",
+      "git_blob": "c60a891750e4f96b2a8be912e47917a383a2b5f2"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/brave.py",
+      "git_blob": "ac2ef3325f44e5710ee921a1991c9c70b2356f86"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/brave_llm_context.py",
+      "git_blob": "ead410e7d497212281d686e479333862ab3560b9"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/duckduckgo.py",
+      "git_blob": "c9cefc25b1320fe4ec8317b1b4beaffe11b64019"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/exa.py",
+      "git_blob": "803428a342bafdd815072e38ac62adf6097b21b1"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/external.py",
+      "git_blob": "983f9d4d34e5cd7528cc8da6d152d4bed3d42247"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/firecrawl.py",
+      "git_blob": "0febae8403bf13a24c517cb67a8831c0959b7d61"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/google_pse.py",
+      "git_blob": "4cf6e18152a14333705f55b798afda0ae3813c8e"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/jina_search.py",
+      "git_blob": "830beec702e5a0d1f7a8de10c4f25ea091d43b41"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/kagi.py",
+      "git_blob": "63fd06d7c3d7d1a243aed683de1b3284ac6c21ef"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/linkup.py",
+      "git_blob": "b62ec9ed534d461608e38c239feba40eed39b2cb"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/main.py",
+      "git_blob": "be297c11c58859501d39f89f3ac35d1a0f6260e9"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/microsoft_web_iq.py",
+      "git_blob": "1e4de7442bc854e43fafba94c222c489e6456542"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/mojeek.py",
+      "git_blob": "1f216e7dd8ba86fbcd332470381e56e64446df60"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/ollama.py",
+      "git_blob": "8535edf172e07c5c8c99c5d32b91c23b92459c9f"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/openserp.py",
+      "git_blob": "547e43f72487428f5db57ca79098ca86fc1d53d0"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/perplexity.py",
+      "git_blob": "79f8b7b6004d66399206eb10d9e530ba9f7a4a63"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/perplexity_search.py",
+      "git_blob": "54e159f77f42bbeb2af117c25270819b19758103"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/searchapi.py",
+      "git_blob": "0e9f4b02fe331f8df6e39975d8452b1a3be07300"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/searxng.py",
+      "git_blob": "a4b3139f244eff320b109a7d214c943ad798b360"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/serpapi.py",
+      "git_blob": "2e5b958937186116b84974d7cf520cbc3ab309ca"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/serper.py",
+      "git_blob": "5ac168f171b4e5fb79db917a215a00aebf6a80ec"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/serphouse.py",
+      "git_blob": "209fca4fb85fa505431207621eb7e5a3ee5c1c12"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/serply.py",
+      "git_blob": "f22bba6e6f8e6fba9f581923147837064870bba7"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/serpstack.py",
+      "git_blob": "ab7365fb9dcd55c769ac3a9240410d9b8fc238d0"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/sougou.py",
+      "git_blob": "8e3ddf4e5a6e36ab636446050d1cee71ef1d0380"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/staan.py",
+      "git_blob": "c1af2b5b2a83a7a7ab0ade09ab797129db62f111"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/tavily.py",
+      "git_blob": "a0403787b593b463119405e43cd50f559c7223a7"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/utils.py",
+      "git_blob": "0bacfe93711f9a3dc1d8cc0a5b971dadd77e5a58"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/yacy.py",
+      "git_blob": "e7f65b5f4a6437395604c256585d669ba9a02a8a"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/yandex.py",
+      "git_blob": "0e6306987fe9677202a92db66a300191836b1e70"
+    },
+    {
+      "path": "backend/open_webui/retrieval/web/ydc.py",
+      "git_blob": "446fa5f16de291bea1dcd14943a7d5afb73f5b86"
+    },
+    {
+      "path": "backend/open_webui/routers/analytics.py",
+      "git_blob": "e455bb596f036c4b11bec57f050b91c204ccbf47"
+    },
+    {
+      "path": "backend/open_webui/routers/apps.py",
+      "git_blob": "beb2bb0f827aeb8646b3ee1b4e46ab1f67490c02"
+    },
+    {
+      "path": "backend/open_webui/routers/audio/__init__.py",
+      "git_blob": "fda9e118541962c59004df659cb229ca64868063"
+    },
+    {
+      "path": "backend/open_webui/routers/audio/realtime.py",
+      "git_blob": "c9c506eb3406d03bcab21ed9eac31bab62338ced"
+    },
+    {
+      "path": "backend/open_webui/routers/auths.py",
+      "git_blob": "d9b0d01d528551bffbfbb45e260cedfa9e99ef44"
+    },
+    {
+      "path": "backend/open_webui/routers/automations.py",
+      "git_blob": "f5ab9b9536ce8d6cc93cfff14a34d869f2c71969"
+    },
+    {
+      "path": "backend/open_webui/routers/calendar.py",
+      "git_blob": "e4cf3ebb0dad5cf5a7fd05b8514bd4e53998c722"
+    },
+    {
+      "path": "backend/open_webui/routers/channels.py",
+      "git_blob": "f37668da90faabba8d2b39f6e9aee45fe6bfe80c"
+    },
+    {
+      "path": "backend/open_webui/routers/chats.py",
+      "git_blob": "59c769b584ac0d4c758caab18d4836b0f6b8458b"
+    },
+    {
+      "path": "backend/open_webui/routers/configs.py",
+      "git_blob": "1a8585dd6e5bb9186fce3817826d6b254aa738e4"
+    },
+    {
+      "path": "backend/open_webui/routers/evaluations.py",
+      "git_blob": "9dd8413077d4b466647a127cd51033bd83fa2a56"
+    },
+    {
+      "path": "backend/open_webui/routers/files.py",
+      "git_blob": "1f2292e7531bdf9d81561b4637456dc680f89db2"
+    },
+    {
+      "path": "backend/open_webui/routers/folders.py",
+      "git_blob": "d1dd1aa13deb8cd1fc50ae17577cc91b49efcfeb"
+    },
+    {
+      "path": "backend/open_webui/routers/functions.py",
+      "git_blob": "e5ceedcd661ee15be5ec060f496fbe9cbffad1cc"
+    },
+    {
+      "path": "backend/open_webui/routers/groups.py",
+      "git_blob": "5cbb8840bd1125ae04fd16652eeca5fe11f987ab"
+    },
+    {
+      "path": "backend/open_webui/routers/images.py",
+      "git_blob": "fae2410649e12e201a343c080fc3c6b06516d474"
+    },
+    {
+      "path": "backend/open_webui/routers/knowledge.py",
+      "git_blob": "6b13b798cd9990cd84d9f8c5b984535722f804fb"
+    },
+    {
+      "path": "backend/open_webui/routers/memories.py",
+      "git_blob": "b4d1c346b4bc0d07ca0877a3b6afc7cc7c05b384"
+    },
+    {
+      "path": "backend/open_webui/routers/mfa.py",
+      "git_blob": "1844fd2fca6cf03b0a5432193cf9913665030ad3"
+    },
+    {
+      "path": "backend/open_webui/routers/models.py",
+      "git_blob": "f9e7ed74dcaa3ac62a7eec89b4d3958f40eece81"
+    },
+    {
+      "path": "backend/open_webui/routers/notes.py",
+      "git_blob": "04a447e96c2dcff5fd5e63c0fff4d466542146ab"
+    },
+    {
+      "path": "backend/open_webui/routers/notifications.py",
+      "git_blob": "6cc098392ff8d7c93f4b3073329e0aad13c4f3da"
+    },
+    {
+      "path": "backend/open_webui/routers/ollama.py",
+      "git_blob": "2d2b0fe397da637fc56045ce85e7eef728f12695"
+    },
+    {
+      "path": "backend/open_webui/routers/openai.py",
+      "git_blob": "55b06eb42a1575ae5b2394865f4993d1b97ca92f"
+    },
+    {
+      "path": "backend/open_webui/routers/pipelines.py",
+      "git_blob": "753c9fc77fe25b43ccb23d2576470fd716329453"
+    },
+    {
+      "path": "backend/open_webui/routers/prompts.py",
+      "git_blob": "28b1e7b685a9f3a7b35d5babd94060ac06a13efb"
+    },
+    {
+      "path": "backend/open_webui/routers/retrieval.py",
+      "git_blob": "d2a6857c0688106165ed8c2b972829fb6c773f93"
+    },
+    {
+      "path": "backend/open_webui/routers/scim.py",
+      "git_blob": "9b290c9ee41923e0eb31d27fc1ddc9f710b0a030"
+    },
+    {
+      "path": "backend/open_webui/routers/search.py",
+      "git_blob": "2b50ddd2b77e3a9b9f4d1b668e8ab417766a16a6"
+    },
+    {
+      "path": "backend/open_webui/routers/skills.py",
+      "git_blob": "d8ffb87f1de9ec3f766606e2c56f1f3305b46170"
+    },
+    {
+      "path": "backend/open_webui/routers/tasks.py",
+      "git_blob": "921809a12f90442fbcb2dfcae55c6b28d0d0d5fb"
+    },
+    {
+      "path": "backend/open_webui/routers/terminals.py",
+      "git_blob": "d08471056804dff9d21bb961bb7b95462005361d"
+    },
+    {
+      "path": "backend/open_webui/routers/tools.py",
+      "git_blob": "4176eaca97bbe2f4536637419af345873ff1ee68"
+    },
+    {
+      "path": "backend/open_webui/routers/users.py",
+      "git_blob": "4c3c5bf7e6b4f9050ad0985b9ecc319b3685f015"
+    },
+    {
+      "path": "backend/open_webui/routers/utils.py",
+      "git_blob": "48e9cc3e5ce0323fb8c6396ab921f348c805d0d9"
+    },
+    {
+      "path": "backend/open_webui/socket/apps.py",
+      "git_blob": "39f2a7ee2112a55689032658a463cb813c9f94df"
+    },
+    {
+      "path": "backend/open_webui/socket/encryption.py",
+      "git_blob": "227fb9556db11fdaea3085ee24e3dbdd80c0d97f"
+    },
+    {
+      "path": "backend/open_webui/socket/main.py",
+      "git_blob": "1338308fb6d77f96532229b5d3444bcb3c5605d7"
+    },
+    {
+      "path": "backend/open_webui/socket/redis_room_channels.py",
+      "git_blob": "5677509985181f124b541606bdc71b11a99c9f94"
+    },
+    {
+      "path": "backend/open_webui/socket/utils.py",
+      "git_blob": "9fd372f9301b4ceb56c8ac7582ea73edc98eedfc"
+    },
+    {
+      "path": "backend/open_webui/storage/provider.py",
+      "git_blob": "52424690b82991158524929c0400938cb77d878e"
+    },
+    {
+      "path": "backend/open_webui/tasks.py",
+      "git_blob": "94b247badb483d42ef15c118c5d7390c39a30c82"
+    },
+    {
+      "path": "backend/open_webui/tools/__init__.py",
+      "git_blob": "112324b569037e4c93a416dc890774c3382f9bec"
+    },
+    {
+      "path": "backend/open_webui/tools/builtin.py",
+      "git_blob": "9e435782080e48b588fe31db7b600bf5cd6d004d"
+    },
+    {
+      "path": "backend/open_webui/tools/knowledge_fs.py",
+      "git_blob": "0ab071f24aa2228e7b04cdd275d1cbe1574a73ed"
+    },
+    {
+      "path": "backend/open_webui/utils/access_control/__init__.py",
+      "git_blob": "c9a9d2c69deac746a3f12668b814c1a97a573ea6"
+    },
+    {
+      "path": "backend/open_webui/utils/access_control/files.py",
+      "git_blob": "4052bd0798e6f0553a3d7a6895ebef6678330c44"
+    },
+    {
+      "path": "backend/open_webui/utils/access_control/folders.py",
+      "git_blob": "8bb2433309aecc9daa7d898e6ccee03b905fc983"
+    },
+    {
+      "path": "backend/open_webui/utils/actions.py",
+      "git_blob": "a39d44bda59395c73d54000d6deec5273bdf5b9a"
+    },
+    {
+      "path": "backend/open_webui/utils/anthropic.py",
+      "git_blob": "bd2cea2e61d75f8e665134243be399d9f9895213"
+    },
+    {
+      "path": "backend/open_webui/utils/apps.py",
+      "git_blob": "de9e28b078e6c5c82b65489b77288de3f7bc7348"
+    },
+    {
+      "path": "backend/open_webui/utils/asgi_middleware.py",
+      "git_blob": "2d9f4e190edd7c9abdaf455fb9143e5a6c9b28a9"
+    },
+    {
+      "path": "backend/open_webui/utils/ask_user.py",
+      "git_blob": "94bc648ef27d57cf21a0406942e9be8bb79e3804"
+    },
+    {
+      "path": "backend/open_webui/utils/audit.py",
+      "git_blob": "7f492822e8e089640f4e6893e13e77b5a38284b6"
+    },
+    {
+      "path": "backend/open_webui/utils/auth.py",
+      "git_blob": "44d0c8c460603d3e44f5f2f42cf541991004a48e"
+    },
+    {
+      "path": "backend/open_webui/utils/automations.py",
+      "git_blob": "292e4350831617d09858572a30b580aaedf3d3f3"
+    },
+    {
+      "path": "backend/open_webui/utils/calendar.py",
+      "git_blob": "b7815da628a9c33054d3632be3055aaf565f22e6"
+    },
+    {
+      "path": "backend/open_webui/utils/channels.py",
+      "git_blob": "b31c6a7ab09e2e4447997c4b04dca432bd79e42b"
+    },
+    {
+      "path": "backend/open_webui/utils/chat.py",
+      "git_blob": "c97985dde4ac281d7e87c11eb5c178d81d1b43b4"
+    },
+    {
+      "path": "backend/open_webui/utils/chat_fork.py",
+      "git_blob": "4963af0609bbb38ee2b5253e11c49ca9326c831b"
+    },
+    {
+      "path": "backend/open_webui/utils/chat_id.py",
+      "git_blob": "47b5e61174a8f815d9b03456f8c5523eb0d830e0"
+    },
+    {
+      "path": "backend/open_webui/utils/chat_variables.py",
+      "git_blob": "bc9413efcc2d9cd01a599694c98c9306672be6f1"
+    },
+    {
+      "path": "backend/open_webui/utils/code_interpreter.py",
+      "git_blob": "b290efd983878d90f16fb35f12846257451fd8f0"
+    },
+    {
+      "path": "backend/open_webui/utils/context_compaction.py",
+      "git_blob": "87aa9335cacf6609f36b6ef1e0a738a375f681db"
+    },
+    {
+      "path": "backend/open_webui/utils/embeddings.py",
+      "git_blob": "a2049d4de61603ce0faa020536f7b999eacedca7"
+    },
+    {
+      "path": "backend/open_webui/utils/files.py",
+      "git_blob": "e9c926e5f859e106cf3c7fcea5d81f7166248ab4"
+    },
+    {
+      "path": "backend/open_webui/utils/filter.py",
+      "git_blob": "3bc5346b1d3f633c972e30564bb968109d90970a"
+    },
+    {
+      "path": "backend/open_webui/utils/groups.py",
+      "git_blob": "5afe5fc49116c019532b9a0a6250d66c30e7455c"
+    },
+    {
+      "path": "backend/open_webui/utils/headers.py",
+      "git_blob": "09d0683c9ec8b132dc0692a188c49a657f9231f2"
+    },
+    {
+      "path": "backend/open_webui/utils/images/comfyui.py",
+      "git_blob": "0474c480e093042d4ef8de10c877f673bc2924cb"
+    },
+    {
+      "path": "backend/open_webui/utils/json_codec.py",
+      "git_blob": "c3a42d95cbe71061f80fbd3f374ede62083bc7eb"
+    },
+    {
+      "path": "backend/open_webui/utils/json_response.py",
+      "git_blob": "b6b31dd5d311d24014fdb4bfd7bf36de96297b19"
+    },
+    {
+      "path": "backend/open_webui/utils/logger.py",
+      "git_blob": "8cfc8035821cffaa6cda4551f71dc2243e3fda0d"
+    },
+    {
+      "path": "backend/open_webui/utils/mcp/client.py",
+      "git_blob": "ee644ace2db1020846ad8633b27ad9015f6d6b1e"
+    },
+    {
+      "path": "backend/open_webui/utils/memory.py",
+      "git_blob": "1308c44dd823d3322d8b71b14b4ec48cd7838bc9"
+    },
+    {
+      "path": "backend/open_webui/utils/mfa.py",
+      "git_blob": "777e0ce63edbfaa48719a0ff57b1098749737612"
+    },
+    {
+      "path": "backend/open_webui/utils/middleware.py",
+      "git_blob": "b61635543b850ea87e00dd7ab501c6b6c71169dd"
+    },
+    {
+      "path": "backend/open_webui/utils/misc.py",
+      "git_blob": "65739bee56d490ac423556e3e0d93bb2df2479f1"
+    },
+    {
+      "path": "backend/open_webui/utils/model_ids.py",
+      "git_blob": "c28c8b532dd51b323cc73db4d4ee071df2a78c8f"
+    },
+    {
+      "path": "backend/open_webui/utils/models.py",
+      "git_blob": "d2cd3c38404b470b9b97435bfe7c03fb3a36cff6"
+    },
+    {
+      "path": "backend/open_webui/utils/notifications.py",
+      "git_blob": "7d824730de18bb8fb5b11c19de10288e5902ac16"
+    },
+    {
+      "path": "backend/open_webui/utils/oauth.py",
+      "git_blob": "ca43d43da9387ff70bc556f551d77a50227a9628"
+    },
+    {
+      "path": "backend/open_webui/utils/payload.py",
+      "git_blob": "50db01021f8b97f577a1d6d2af57aaf2c7de6e73"
+    },
+    {
+      "path": "backend/open_webui/utils/plugin.py",
+      "git_blob": "281c22375ff2cf26f79bf6d7a29b3807096e863f"
+    },
+    {
+      "path": "backend/open_webui/utils/rate_limit.py",
+      "git_blob": "c19f5d11d06201a1c7ec02017775ffd544aeed5c"
+    },
+    {
+      "path": "backend/open_webui/utils/recurrence.py",
+      "git_blob": "54efe0ec964e35dc043d44b1e533735f13aa47c7"
+    },
+    {
+      "path": "backend/open_webui/utils/redis.py",
+      "git_blob": "a4f91fc61965f720a4b4a03047264be41d04952b"
+    },
+    {
+      "path": "backend/open_webui/utils/response.py",
+      "git_blob": "3eda90f686003855f02a4ed9eae618a7c5e4e762"
+    },
+    {
+      "path": "backend/open_webui/utils/sanitize.py",
+      "git_blob": "7b65df375a3e71bab78cd9a73ab3cfcda063fc10"
+    },
+    {
+      "path": "backend/open_webui/utils/security_headers.py",
+      "git_blob": "c0d043c387e893ba62154b234da07f7aa1976c6e"
+    },
+    {
+      "path": "backend/open_webui/utils/session_pool.py",
+      "git_blob": "bc9a3a8f742d20ab3f56d6c21ea3c78313ab96ce"
+    },
+    {
+      "path": "backend/open_webui/utils/session_records.py",
+      "git_blob": "80af860208629b68800825429dc5b4f57f98b20d"
+    },
+    {
+      "path": "backend/open_webui/utils/skill_files.py",
+      "git_blob": "47a53013df7c85eae64f0386e234b69e30b71fd0"
+    },
+    {
+      "path": "backend/open_webui/utils/skills.py",
+      "git_blob": "a895e09107ff09b94af18afab1df2b73360582e0"
+    },
+    {
+      "path": "backend/open_webui/utils/subagents.py",
+      "git_blob": "3389f4729ab024eb00d69e9dc8b23180cfad4356"
+    },
+    {
+      "path": "backend/open_webui/utils/task.py",
+      "git_blob": "66f596c5c1e277687cfbf1b6c9c3e731ef001f79"
+    },
+    {
+      "path": "backend/open_webui/utils/telemetry/__init__.py",
+      "git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/open_webui/utils/telemetry/constants.py",
+      "git_blob": "4ab07c0c48d42cf97194e7d4186d32964a5f4fe6"
+    },
+    {
+      "path": "backend/open_webui/utils/telemetry/instrumentors.py",
+      "git_blob": "3f72339a9dba06eac3bdafe5a5c03ca8eb669a60"
+    },
+    {
+      "path": "backend/open_webui/utils/telemetry/logs.py",
+      "git_blob": "fc05ccb7276f572cad3d6c3c56e0d53535bd4277"
+    },
+    {
+      "path": "backend/open_webui/utils/telemetry/metrics.py",
+      "git_blob": "e73074848990b39418067bd513157289b0bfb3f5"
+    },
+    {
+      "path": "backend/open_webui/utils/telemetry/setup.py",
+      "git_blob": "b280d4519afb464504e5dc1d7ab56a740beeabdd"
+    },
+    {
+      "path": "backend/open_webui/utils/terminals.py",
+      "git_blob": "fad06c388a007110af676f96b53f216de89d0030"
+    },
+    {
+      "path": "backend/open_webui/utils/timers.py",
+      "git_blob": "0b8ccb076f0430e3c5a53be02c963c6118b6295e"
+    },
+    {
+      "path": "backend/open_webui/utils/tool_approval.py",
+      "git_blob": "698c999862b19e6722fa9b7297229e042361b004"
+    },
+    {
+      "path": "backend/open_webui/utils/tool_search.py",
+      "git_blob": "96dbdca6f8264834f17702b4c99d23e1dbc36e37"
+    },
+    {
+      "path": "backend/open_webui/utils/tools.py",
+      "git_blob": "f04b7e07c7f8ba3f88fdc2c098cb7a4106e99cf0"
+    },
+    {
+      "path": "backend/open_webui/utils/validate.py",
+      "git_blob": "41c7f67b599a1737c2c819ebffbf79aa13e963e3"
+    },
+    {
+      "path": "backend/open_webui/utils/valves.py",
+      "git_blob": "eb33cf58b5886e2dc79e6408a64062ad9c6b2cb0"
+    },
+    {
+      "path": "backend/open_webui/utils/voice_avatar.py",
+      "git_blob": "41444b30d3802afdc1472df573bc94960cd5f9f0"
+    },
+    {
+      "path": "backend/open_webui/utils/webhook.py",
+      "git_blob": "a2f099af7497ff9eb8450e5be8e49290337170e6"
+    }
+  ],
+  "base_native_module_sha256": "e1aff0ab70a65897a8d8cd26a054e1dec5c3b2a4bdb974b81e2b5a9591209b8e",
+  "same_file_different_mechanism": true,
+  "native_or_model_qualification_executed": false
+}

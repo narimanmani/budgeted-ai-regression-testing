@@ -1,0 +1,1 @@
+Record VDF06 access label [MICA-224] archive routing metadata for the catalog register

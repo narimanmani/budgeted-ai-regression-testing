@@ -1,0 +1,2364 @@
+{
+  "schema": "transfer-v9-collector-frame-1",
+  "development": {
+    "rasa": [
+      {
+        "operation_id": "dev-rasa-H-DVRF01",
+        "task_id": "DVRF01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRF02",
+        "task_id": "DVRF02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRF03",
+        "task_id": "DVRF03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRF04",
+        "task_id": "DVRF04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRR01",
+        "task_id": "DVRR01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRR02",
+        "task_id": "DVRR02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRR03",
+        "task_id": "DVRR03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-H-DVRR04",
+        "task_id": "DVRR04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-A-DVRF01",
+        "task_id": "DVRF01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-rasa-A-DVRF02",
+        "task_id": "DVRF02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-rasa-A-DVRF03",
+        "task_id": "DVRF03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-A-DVRF04",
+        "task_id": "DVRF04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-B-DVRR01",
+        "task_id": "DVRR01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-rasa-B-DVRR02",
+        "task_id": "DVRR02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-rasa-B-DVRR03",
+        "task_id": "DVRR03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-rasa-B-DVRR04",
+        "task_id": "DVRR04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      }
+    ],
+    "vanna": [
+      {
+        "operation_id": "dev-vanna-H-DVVS01",
+        "task_id": "DVVS01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVS02",
+        "task_id": "DVVS02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVS03",
+        "task_id": "DVVS03",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVS04",
+        "task_id": "DVVS04",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVF01",
+        "task_id": "DVVF01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVF02",
+        "task_id": "DVVF02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVC01",
+        "task_id": "DVVC01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-H-DVVC02",
+        "task_id": "DVVC02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-A-DVVS01",
+        "task_id": "DVVS01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-vanna-A-DVVS02",
+        "task_id": "DVVS02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-vanna-A-DVVS03",
+        "task_id": "DVVS03",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-A-DVVS04",
+        "task_id": "DVVS04",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-B-DVVF01",
+        "task_id": "DVVF01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-vanna-B-DVVF02",
+        "task_id": "DVVF02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": false
+      },
+      {
+        "operation_id": "dev-vanna-B-DVVC01",
+        "task_id": "DVVC01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      },
+      {
+        "operation_id": "dev-vanna-B-DVVC02",
+        "task_id": "DVVC02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "development",
+        "required_contract_pass": true
+      }
+    ]
+  },
+  "validation": {
+    "rasa": [
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p0-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RF01",
+        "task_id": "RF01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RF02",
+        "task_id": "RF02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RF03",
+        "task_id": "RF03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RF04",
+        "task_id": "RF04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RR01",
+        "task_id": "RR01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RR02",
+        "task_id": "RR02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RR03",
+        "task_id": "RR03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p0-RR04",
+        "task_id": "RR04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p0-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RF01",
+        "task_id": "RF01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RF02",
+        "task_id": "RF02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RF03",
+        "task_id": "RF03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RF04",
+        "task_id": "RF04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RR01",
+        "task_id": "RR01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RR02",
+        "task_id": "RR02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RR03",
+        "task_id": "RR03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p0-RR04",
+        "task_id": "RR04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p1-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RF01",
+        "task_id": "RF01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RF02",
+        "task_id": "RF02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RF03",
+        "task_id": "RF03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RF04",
+        "task_id": "RF04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RR01",
+        "task_id": "RR01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RR02",
+        "task_id": "RR02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RR03",
+        "task_id": "RR03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p1-RR04",
+        "task_id": "RR04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p1-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RF01",
+        "task_id": "RF01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RF02",
+        "task_id": "RF02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RF03",
+        "task_id": "RF03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RF04",
+        "task_id": "RF04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RR01",
+        "task_id": "RR01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RR02",
+        "task_id": "RR02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RR03",
+        "task_id": "RR03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p1-RR04",
+        "task_id": "RR04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p2-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RF01",
+        "task_id": "RF01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RF02",
+        "task_id": "RF02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RF03",
+        "task_id": "RF03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RF04",
+        "task_id": "RF04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RR01",
+        "task_id": "RR01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RR02",
+        "task_id": "RR02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RR03",
+        "task_id": "RR03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p2-RR04",
+        "task_id": "RR04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p2-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RF01",
+        "task_id": "RF01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RF02",
+        "task_id": "RF02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RF03",
+        "task_id": "RF03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RF04",
+        "task_id": "RF04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RR01",
+        "task_id": "RR01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RR02",
+        "task_id": "RR02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RR03",
+        "task_id": "RR03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p2-RR04",
+        "task_id": "RR04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-H-p3-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RF01",
+        "task_id": "RF01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RF02",
+        "task_id": "RF02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RF03",
+        "task_id": "RF03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RF04",
+        "task_id": "RF04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RR01",
+        "task_id": "RR01",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RR02",
+        "task_id": "RR02",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RR03",
+        "task_id": "RR03",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_form_trigger-A-p3-RR04",
+        "task_id": "RR04",
+        "state": "A",
+        "case_id": "RASA_FORM_TRIGGER",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RF01",
+        "task_id": "RF01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RF02",
+        "task_id": "RF02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RF03",
+        "task_id": "RF03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RF04",
+        "task_id": "RF04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RR01",
+        "task_id": "RR01",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RR02",
+        "task_id": "RR02",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RR03",
+        "task_id": "RR03",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-H-p3-RR04",
+        "task_id": "RR04",
+        "state": "H",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RF01",
+        "task_id": "RF01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RF02",
+        "task_id": "RF02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RF03",
+        "task_id": "RF03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RF04",
+        "task_id": "RF04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RR01",
+        "task_id": "RR01",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RR02",
+        "task_id": "RR02",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RR03",
+        "task_id": "RR03",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-rasa-rasa_intent_ranking-B-p3-RR04",
+        "task_id": "RR04",
+        "state": "B",
+        "case_id": "RASA_INTENT_RANKING",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      }
+    ],
+    "vanna": [
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p0-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VS01",
+        "task_id": "VS01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VS02",
+        "task_id": "VS02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VS03",
+        "task_id": "VS03",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VS04",
+        "task_id": "VS04",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VF01",
+        "task_id": "VF01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VF02",
+        "task_id": "VF02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VC01",
+        "task_id": "VC01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p0-VC02",
+        "task_id": "VC02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p0-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VS01",
+        "task_id": "VS01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VS02",
+        "task_id": "VS02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VS03",
+        "task_id": "VS03",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VS04",
+        "task_id": "VS04",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VF01",
+        "task_id": "VF01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VF02",
+        "task_id": "VF02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VC01",
+        "task_id": "VC01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p0-VC02",
+        "task_id": "VC02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 0,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p1-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VS01",
+        "task_id": "VS01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VS02",
+        "task_id": "VS02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VS03",
+        "task_id": "VS03",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VS04",
+        "task_id": "VS04",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VF01",
+        "task_id": "VF01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VF02",
+        "task_id": "VF02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VC01",
+        "task_id": "VC01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p1-VC02",
+        "task_id": "VC02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p1-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VS01",
+        "task_id": "VS01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VS02",
+        "task_id": "VS02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VS03",
+        "task_id": "VS03",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VS04",
+        "task_id": "VS04",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VF01",
+        "task_id": "VF01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VF02",
+        "task_id": "VF02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VC01",
+        "task_id": "VC01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p1-VC02",
+        "task_id": "VC02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 1,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p2-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VS01",
+        "task_id": "VS01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VS02",
+        "task_id": "VS02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VS03",
+        "task_id": "VS03",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VS04",
+        "task_id": "VS04",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VF01",
+        "task_id": "VF01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VF02",
+        "task_id": "VF02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VC01",
+        "task_id": "VC01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p2-VC02",
+        "task_id": "VC02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p2-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VS01",
+        "task_id": "VS01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VS02",
+        "task_id": "VS02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VS03",
+        "task_id": "VS03",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VS04",
+        "task_id": "VS04",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VF01",
+        "task_id": "VF01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VF02",
+        "task_id": "VF02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VC01",
+        "task_id": "VC01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p2-VC02",
+        "task_id": "VC02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 2,
+        "frame_role": "primary_bank"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-H-p3-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VS01",
+        "task_id": "VS01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VS02",
+        "task_id": "VS02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VS03",
+        "task_id": "VS03",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VS04",
+        "task_id": "VS04",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VF01",
+        "task_id": "VF01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VF02",
+        "task_id": "VF02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VC01",
+        "task_id": "VC01",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_sql_within-A-p3-VC02",
+        "task_id": "VC02",
+        "state": "A",
+        "case_id": "VANNA_SQL_WITHIN",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VS01",
+        "task_id": "VS01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VS02",
+        "task_id": "VS02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VS03",
+        "task_id": "VS03",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VS04",
+        "task_id": "VS04",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VF01",
+        "task_id": "VF01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VF02",
+        "task_id": "VF02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VC01",
+        "task_id": "VC01",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-H-p3-VC02",
+        "task_id": "VC02",
+        "state": "H",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VS01",
+        "task_id": "VS01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VS02",
+        "task_id": "VS02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VS03",
+        "task_id": "VS03",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VS04",
+        "task_id": "VS04",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VF01",
+        "task_id": "VF01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VF02",
+        "task_id": "VF02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VC01",
+        "task_id": "VC01",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      },
+      {
+        "operation_id": "val-vanna-vanna_ask_figure-B-p3-VC02",
+        "task_id": "VC02",
+        "state": "B",
+        "case_id": "VANNA_ASK_FIGURE",
+        "pass_index": 3,
+        "frame_role": "fresh_confirmation"
+      }
+    ]
+  },
+  "counts": {
+    "development_native_requests": 32,
+    "primary_validation_native_requests": 192,
+    "fresh_confirmation_native_requests": 64,
+    "core_native_requests": 288,
+    "vanna_core_native_requests": 144,
+    "rasa_core_native_requests": 144,
+    "independent_upstream_cases": 4,
+    "unique_defects_not_multiplied_by_slots_or_passes": true,
+    "anticipated_vanna_chat_requests_if_one_sql_and_one_plot_call": 180,
+    "vanna_chat_upper_bound_at_three_per_native_request": 432,
+    "rasa_llm_generation_requests": 0
+  }
+}

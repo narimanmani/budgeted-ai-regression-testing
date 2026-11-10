@@ -1,0 +1,160 @@
+{
+  "schema": "transfer-v9-prospective-live-policy-confirmation-1",
+  "status": "ADDED_BEFORE_ANY_DEVELOPMENT_NATIVE_OR_VALIDATION_OUTPUT",
+  "role": "fresh_live_policy_execution_separate_from_recorded_outcome_factorial_replay",
+  "registration_basis": "Researcher-chosen bounded addition within the already declared new-phase 400-request envelope; no new user-specified numerical allowance is asserted.",
+  "base_frame": {
+    "path": "experiment/transfer_v9/cohorts/FRAME.json",
+    "sha256": "f9e771133302445373d6f2aa66e6930dff9f7f10ccf5ebf804c06955a6a27c9a",
+    "manifest_path": "experiment/transfer_v9/cohorts/COHORT_MANIFEST.json",
+    "manifest_sha256": "5d68890008b0bea7c05aa64fdbea4c57328ccf049fe35167a6755aa1f62dc286",
+    "planned_native_requests_unchanged": 288,
+    "original_frame_and_manifest_modified": false
+  },
+  "guidance": {
+    "path": "experiment/validation_v7/guidance/policy.py",
+    "sha256": "f14903ce1c0c3f73979eca11bd531df4303ee1fdb4d996baebcc58be89dc0989",
+    "changed_after_outcomes": false
+  },
+  "fixed_conditions": {
+    "cohort": "validation",
+    "case_per_setting": "first registered A mechanism only",
+    "transition": ["H", "A"],
+    "initial_history": "empty",
+    "reference": "same full source-grounded contract, applied independently to every fresh actual endpoint output",
+    "operational_checker": "contract_exact",
+    "operational_checker_error_probability": 0,
+    "impact": "actual paid old-state production traces with no edge-omission intervention",
+    "seed": 2026110109,
+    "generation_seed": 20261101,
+    "whole_native_request_ceiling_per_arm": 28,
+    "selected_old_and_new_requests_are_fresh": true,
+    "recorded_bank_outputs_may_replace_live_requests": false,
+    "profile_verdicts_may_become_paired_history": false,
+    "current_or_future_truth_may_influence_selection": false,
+    "reference_bank_failure_labels_may_influence_selection": false,
+    "extra_runs_after_favorable_or_unfavorable_result": false
+  },
+  "setting_order": ["vanna", "rasa"],
+  "method_order": ["CG1", "budgeted_retest_all"],
+  "methods": {
+    "CG1": {
+      "operation_prefix_template": "live-{setting}-cg1",
+      "profiles": {
+        "role": "profile",
+        "state": "H",
+        "samples_per_task": 3,
+        "task_scope": "all eight public tasks",
+        "task_order": "registered validation catalog order",
+        "sample_order": [0, 1, 2],
+        "loop_order": "sample_index outer, task catalog order inner",
+        "operation_id_template": "live-{setting}-cg1-profile-p{sample_index}-{task_id}",
+        "native_requests": 24,
+        "estimator": "unchanged CG1 paired_cost_profile: two times median of exactly three paid old-state query durations per task"
+      },
+      "selection": {
+        "guide": "unchanged CG1 choose",
+        "available_pair_attempts_formula": "floor((whole_native_request_ceiling_per_arm - actually_charged_profile_requests)/2)",
+        "available_pair_attempts_after_full_profile": 2,
+        "pair_limit_is_derived_from_remaining_total_budget": true,
+        "additional_artificial_K_ceiling": false,
+        "history": [],
+        "impact_tokens": "public A-change tokens from exact upstream change scope intersected with actual paid old execution traces",
+        "prefix_dispatch": "follow the guide's ordered prefix while two fresh endpoint requests fit the remaining total allowance",
+        "selection_recorded_before_any_selected_new_endpoint_output": true
+      },
+      "pairs": {
+        "role": "pair",
+        "endpoint_order": ["old", "new"],
+        "endpoint_states": {"old": "H", "new": "A"},
+        "operation_id_template": "live-{setting}-cg1-pair-{task_id}-{endpoint}",
+        "maximum_selected_pairs": 2,
+        "maximum_native_requests": 4,
+        "profile_output_reused_as_old_endpoint": false
+      },
+      "maximum_native_requests_per_setting": 28
+    },
+    "budgeted_retest_all": {
+      "operation_prefix_template": "live-{setting}-budgeted_retest_all",
+      "profile_acquisition_requests": 0,
+      "history_acquisition_requests": 0,
+      "task_order": "registered validation catalog order",
+      "pairs": {
+        "role": "pair",
+        "endpoint_order": ["old", "new"],
+        "endpoint_states": {"old": "H", "new": "A"},
+        "operation_id_template": "live-{setting}-budgeted_retest_all-pair-{task_id}-{endpoint}",
+        "registered_pairs": 8,
+        "native_requests": 16,
+        "additional_artificial_K_ceiling": false
+      },
+      "whole_native_request_ceiling_per_setting": 28,
+      "maximum_native_requests_per_setting": 16,
+      "unused_allowance_if_all_eight_pairs_complete": 12
+    }
+  },
+  "settings": {
+    "vanna": {
+      "case_id": "VANNA_SQL_WITHIN",
+      "case_inventory_path": "experiment/transfer_v9/screening/CASE_INVENTORY.json",
+      "public_datasource_path": "experiment/transfer_v9/cohorts/validation/vanna.datasource.json",
+      "public_task_path": "experiment/transfer_v9/cohorts/validation/vanna.tasks.public.json",
+      "private_contract_path": "experiment/transfer_v9/cohorts/validation/vanna.private.json",
+      "task_ids": ["VS01", "VS02", "VS03", "VS04", "VF01", "VF02", "VC01", "VC02"],
+      "generative_native_request_ceiling": 44,
+      "queryfree_native_request_ceiling": 0
+    },
+    "rasa": {
+      "case_id": "RASA_FORM_TRIGGER",
+      "case_inventory_path": "experiment/transfer_v9/screening/CASE_INVENTORY.json",
+      "public_task_path": "experiment/transfer_v9/cohorts/validation/rasa.public.json",
+      "private_contract_path": "experiment/transfer_v9/cohorts/validation/rasa.private.json",
+      "task_ids": ["RF01", "RF02", "RF03", "RF04", "RR01", "RR02", "RR03", "RR04"],
+      "generative_native_request_ceiling": 0,
+      "queryfree_native_request_ceiling": 44
+    }
+  },
+  "accounting": {
+    "additional_native_request_ceiling": 88,
+    "additional_generative_native_request_ceiling": 44,
+    "additional_queryfree_native_request_ceiling": 44,
+    "complete_plan_native_request_ceiling": 376,
+    "complete_plan_generative_native_request_ceiling": 188,
+    "complete_plan_queryfree_native_request_ceiling": 188,
+    "existing_phase_combined_native_request_ceiling": 400,
+    "existing_generative_native_request_ceiling": 200,
+    "existing_queryfree_native_request_ceiling": 200,
+    "combined_contingency_native_requests": 24,
+    "generative_contingency_native_requests": 12,
+    "queryfree_contingency_native_requests": 12,
+    "complete_plan_provider_chat_upper_bound_at_three_per_vanna_request": 564,
+    "existing_provider_chat_ceiling": 600,
+    "existing_generation_allocation_seconds_ceiling": 1800,
+    "existing_instrumented_end_to_end_seconds_ceiling": 14400,
+    "setup_and_failed_attempts_remain_paid": true,
+    "native_request_count_and_provider_chat_count_are_different_units": true,
+    "legacy_closed_account_modified": false,
+    "per_arm_setup_trace_checker_and_decision_seconds_recorded": true,
+    "matched_wall_time_or_energy_claim": false
+  },
+  "analysis": {
+    "report_each_setting_and_each_arm_separately": true,
+    "report_actual_spend_and_unused_allowance": true,
+    "report_fresh_old_pass_new_fail_contract_transitions": true,
+    "report_observed_alarms_and_misses_against_registered_contracts_without_importing_bank_outcomes_as_live_truth": true,
+    "report_any_difference_between_bank_and_fresh_endpoint_outcomes": true,
+    "fixed_repetitions_per_setting_method": 1,
+    "independent_new_cases_added": 0,
+    "independent_defects_multiplied_by_repeated_requests": false,
+    "scope": "one cold A transition per untouched native implementation; no live history, judgment-error or three-way factorial validation claim"
+  },
+  "freeze_and_stop": {
+    "must_be_in_root_study_freeze_before_first_development_output": true,
+    "no_policy_scores_seen_at_declaration": true,
+    "no_native_outputs_seen_at_declaration": true,
+    "conditional_on_positive_replay_gain": false,
+    "requires_original_development_admission_and_remaining_resource_allowance": true,
+    "new_generation_or_reference_failure_not_hidden_by_replacement": true,
+    "resource_or_execution_shortfall_retained_without_extending_caps": true
+  }
+}

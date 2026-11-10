@@ -1,0 +1,69 @@
+{
+  "at_utc": "2026-11-01T04:52:05.894391+00:00",
+  "prior_receipt_sha256": "e727aa3ecdc6818a5205692a9610c1722114a2146c640a704d479bb95ef103d6",
+  "prior_native_units": 2071,
+  "native_units_remaining": 2929,
+  "prior_generation_allocation_seconds": 9316.086159400991,
+  "shared_native_cap": 5000,
+  "shared_generation_cap_seconds": 43200,
+  "original_completed_sources_or_counters_modified": false,
+  "original_provider_meter_reused_unchanged": true,
+  "derived_files": [
+    {
+      "source": "experiment/validation_v7/control.py",
+      "source_sha256": "1312dffe4fcd46846a8240fcced9054622bbb03108c607a398cd596e4daae391",
+      "derived": "experiment/development_v8/control.py",
+      "derived_sha256": "0b47943e4239098141e79ad03926fbdee2405e2cb311af40edafd14b09bf0c0c",
+      "text_transformations": [
+        {
+          "from": "EXTERNAL_V7",
+          "to": "EXTERNAL_V8"
+        },
+        {
+          "from": "!= 1900",
+          "to": "!= 2071"
+        },
+        {
+          "from": "<= 3100",
+          "to": "<= 2929"
+        }
+      ]
+    },
+    {
+      "source": "experiment/validation_v7/provider_bridge.py",
+      "source_sha256": "19f508a24a5f3273d68d5698f14c998c3e5f1e3afbee4e48eb43bd736b09ae41",
+      "derived": "experiment/development_v8/provider_bridge.py",
+      "derived_sha256": "b505da4a70e70d8bddb4c810f4b8aaaf0c0fc7c34df6ff067d1daaae6c3164cb",
+      "text_transformations": [
+        {
+          "from": "EXTERNAL_V7",
+          "to": "EXTERNAL_V8"
+        }
+      ]
+    },
+    {
+      "source": "experiment/validation_v7/test_control.py",
+      "source_sha256": "b2059843f679ccc1597e0bb8586d15791b231ff817da449c92efd39a76808174",
+      "derived": "experiment/development_v8/test_control.py",
+      "derived_sha256": "b0339b424305ec88be31e8879c358de1f49d07d99511c78b91a9df76ab69cdfd",
+      "text_transformations": [
+        {
+          "from": "validation_v7",
+          "to": "development_v8"
+        },
+        {
+          "from": "EXTERNAL_V7",
+          "to": "EXTERNAL_V8"
+        },
+        {
+          "from": "'prior_native_query_units': 1900",
+          "to": "'prior_native_query_units': 2071"
+        },
+        {
+          "from": "== 1902",
+          "to": "== 2073"
+        }
+      ]
+    }
+  ]
+}

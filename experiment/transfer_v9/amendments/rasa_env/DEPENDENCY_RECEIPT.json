@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-11-01T15:26:07.572535+00:00",
+  "package": "pyTelegramBotAPI",
+  "version": "4.7.0",
+  "original_image": "rasa/rasa@sha256:a48a3523e70997282c4ab8fd86bd4702f29178a840bcfd6b673b21704f731652",
+  "image_changed": false,
+  "package_source_sha256": "29653a63dc6e07ecc98b3688a98c4b422c3b31f6d776273f71b7a6fae769f4f9",
+  "installed_manifest_sha256": "0eaa72db21e423a2345687c2f7d201ffee829a85814916760c2646377f910d8d",
+  "import_probe_sha256": "ee04d75321dc6cb4d57f282aac201ddddd49faa0cad786b1201ef1ccb84b31e7",
+  "source_lock_sha256": "418f1764318683933ef44954abfc308a8279ed7e669caaa59f0ea8d807d3332b",
+  "mounted_pythonpath": "/study/experiment/transfer_v9/amendments/rasa_env/pydeps",
+  "dependency_commitment_sha256": "e2ac616b2566bd288ddc0ce28d36a57bd357e1122a22d04eea05604d5d524398",
+  "source_only_import_probe_passed": true,
+  "owned_install_and_probe_processes_closed": true,
+  "native_task_queries": 0,
+  "model_training_calls": 0,
+  "provider_boundaries": 0,
+  "complete_setup_wall_seconds": 10.28033680000226,
+  "original_failures_and_same_phase_caps_retained": true
+}

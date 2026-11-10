@@ -1,0 +1,394 @@
+{
+  "sources": [
+    {
+      "logical_id": "ddf01.txt",
+      "logical_source_id": "ddf01.txt",
+      "version": "v1",
+      "filename": "ddf01.txt",
+      "file": "fixtures/ddf01.txt",
+      "relative_path": "fixtures/ddf01.txt",
+      "sha256": "ae8baeea8f20339e8bc9353e4b35e983c2133e3ab5e1856001dd262518c86680",
+      "bytes": 88,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf02.txt",
+      "logical_source_id": "ddf02.txt",
+      "version": "v1",
+      "filename": "ddf02.txt",
+      "file": "fixtures/ddf02.txt",
+      "relative_path": "fixtures/ddf02.txt",
+      "sha256": "9ba9fa57bd5a475b178231c5d789de99e7b24b4fe1459c52e8b4c492f21ad301",
+      "bytes": 90,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf03.txt",
+      "logical_source_id": "ddf03.txt",
+      "version": "v1",
+      "filename": "ddf03.txt",
+      "file": "fixtures/ddf03.txt",
+      "relative_path": "fixtures/ddf03.txt",
+      "sha256": "311e2f16bb8a599526d97812b7ac57b431d1cdd503b026b50cf95639f5b5cf45",
+      "bytes": 95,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf04.txt",
+      "logical_source_id": "ddf04.txt",
+      "version": "v1",
+      "filename": "ddf04.txt",
+      "file": "fixtures/ddf04.txt",
+      "relative_path": "fixtures/ddf04.txt",
+      "sha256": "c95c86add2ed2634561dc41dec9972326c6c2d438000104e5dc00f60c460fbcf",
+      "bytes": 96,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf05.txt",
+      "logical_source_id": "ddf05.txt",
+      "version": "v1",
+      "filename": "ddf05.txt",
+      "file": "fixtures/ddf05.txt",
+      "relative_path": "fixtures/ddf05.txt",
+      "sha256": "76cbfd07d6f31761e0683cf9e537e21e45b915dda571b7411e7df182c28ea1a6",
+      "bytes": 89,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf06.txt",
+      "logical_source_id": "ddf06.txt",
+      "version": "v1",
+      "filename": "ddf06.txt",
+      "file": "fixtures/ddf06.txt",
+      "relative_path": "fixtures/ddf06.txt",
+      "sha256": "133a366d454aec280c0f88d9e0d3e6e11cb8bad6db1c8a8b019a6c777df2237a",
+      "bytes": 89,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf07.txt",
+      "logical_source_id": "ddf07.txt",
+      "version": "v1",
+      "filename": "ddf07.txt",
+      "file": "fixtures/ddf07.txt",
+      "relative_path": "fixtures/ddf07.txt",
+      "sha256": "13c63fc602ab7415efe85432a57f46836c00ac7a12667016d8a51fe8c513d5e2",
+      "bytes": 88,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf08.txt",
+      "logical_source_id": "ddf08.txt",
+      "version": "v1",
+      "filename": "ddf08.txt",
+      "file": "fixtures/ddf08.txt",
+      "relative_path": "fixtures/ddf08.txt",
+      "sha256": "de4c7e2222e094b0a7f07925c41706abc821ec41335ef23eb163da8874b405c9",
+      "bytes": 87,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    }
+  ],
+  "documents": [
+    {
+      "logical_id": "ddf01.txt",
+      "logical_source_id": "ddf01.txt",
+      "version": "v1",
+      "filename": "ddf01.txt",
+      "file": "fixtures/ddf01.txt",
+      "relative_path": "fixtures/ddf01.txt",
+      "sha256": "ae8baeea8f20339e8bc9353e4b35e983c2133e3ab5e1856001dd262518c86680",
+      "bytes": 88,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf02.txt",
+      "logical_source_id": "ddf02.txt",
+      "version": "v1",
+      "filename": "ddf02.txt",
+      "file": "fixtures/ddf02.txt",
+      "relative_path": "fixtures/ddf02.txt",
+      "sha256": "9ba9fa57bd5a475b178231c5d789de99e7b24b4fe1459c52e8b4c492f21ad301",
+      "bytes": 90,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf03.txt",
+      "logical_source_id": "ddf03.txt",
+      "version": "v1",
+      "filename": "ddf03.txt",
+      "file": "fixtures/ddf03.txt",
+      "relative_path": "fixtures/ddf03.txt",
+      "sha256": "311e2f16bb8a599526d97812b7ac57b431d1cdd503b026b50cf95639f5b5cf45",
+      "bytes": 95,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf04.txt",
+      "logical_source_id": "ddf04.txt",
+      "version": "v1",
+      "filename": "ddf04.txt",
+      "file": "fixtures/ddf04.txt",
+      "relative_path": "fixtures/ddf04.txt",
+      "sha256": "c95c86add2ed2634561dc41dec9972326c6c2d438000104e5dc00f60c460fbcf",
+      "bytes": 96,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf05.txt",
+      "logical_source_id": "ddf05.txt",
+      "version": "v1",
+      "filename": "ddf05.txt",
+      "file": "fixtures/ddf05.txt",
+      "relative_path": "fixtures/ddf05.txt",
+      "sha256": "76cbfd07d6f31761e0683cf9e537e21e45b915dda571b7411e7df182c28ea1a6",
+      "bytes": 89,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf06.txt",
+      "logical_source_id": "ddf06.txt",
+      "version": "v1",
+      "filename": "ddf06.txt",
+      "file": "fixtures/ddf06.txt",
+      "relative_path": "fixtures/ddf06.txt",
+      "sha256": "133a366d454aec280c0f88d9e0d3e6e11cb8bad6db1c8a8b019a6c777df2237a",
+      "bytes": 89,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf07.txt",
+      "logical_source_id": "ddf07.txt",
+      "version": "v1",
+      "filename": "ddf07.txt",
+      "file": "fixtures/ddf07.txt",
+      "relative_path": "fixtures/ddf07.txt",
+      "sha256": "13c63fc602ab7415efe85432a57f46836c00ac7a12667016d8a51fe8c513d5e2",
+      "bytes": 88,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    },
+    {
+      "logical_id": "ddf08.txt",
+      "logical_source_id": "ddf08.txt",
+      "version": "v1",
+      "filename": "ddf08.txt",
+      "file": "fixtures/ddf08.txt",
+      "relative_path": "fixtures/ddf08.txt",
+      "sha256": "de4c7e2222e094b0a7f07925c41706abc821ec41335ef23eb163da8874b405c9",
+      "bytes": 87,
+      "encoding": "utf-8",
+      "native_components": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "code_dependencies": [
+        "api/core/rag/extractor/extract_processor.py",
+        "api/core/rag/cleaner/clean_processor.py",
+        "api/core/rag/splitter/fixed_text_splitter.py",
+        "api/core/rag/index_processor/processor/paragraph_index_processor.py"
+      ],
+      "origin": "New author-controlled factual instance; underlying native implementations and historical fault families reused from v7"
+    }
+  ],
+  "cohort": "development",
+  "application_id": "dify",
+  "generator_seed": 202611010801,
+  "native_component_scope": "Production ingestion/indexing/retrieval/generation; source sensitivity is separate from native answer qualification"
+}

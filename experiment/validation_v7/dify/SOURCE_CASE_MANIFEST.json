@@ -1,0 +1,73 @@
+{
+  "application": "dify",
+  "phase": "EXTERNAL_V7",
+  "fixed_revision": "50abea97062110044f15d0e03ccecadd9ccc87ca",
+  "image": "langgenius/dify-api@sha256:0120970fb4ea59aa328d63b7dda635cccc071efb8aae470cd07115a026dbffd3",
+  "guidance_freeze_sha256": "92e6d36aa3dd29d10ad06ca040d138a2ea73504a7aa15e981af474460f4b79d9",
+  "candidate_list": "CANDIDATE_LIST_CANONICAL.json",
+  "candidate_list_sha256": "bee3671556df5c24d2711deff1f60e09c2c1aeca3c9a058d4bd75f885f6a2728",
+  "source_eligibility_rejections": [
+    {
+      "commit": "6a511da325b225476a0d8ea6182011b7859d907d",
+      "reason": "Owner-boundary/security behavior excluded by frozen frame"
+    },
+    {
+      "commit": "5ea884f799d3279655b72a4eadf804bd95dbf433",
+      "reason": "Genuine dataset CRUD caller-transaction fault; outside frozen ingest/index-then-RAG-query contract. No CRUD action added to queries"
+    },
+    {
+      "commit": "f8754286ec07d83a7a3ad4033982bd5a13d41361",
+      "reason": "Remote Watercrawl non-JSON error handling; local file KB path does not invoke remote website extractor"
+    },
+    {
+      "commit": "c5aadfe557252f8f0fd8d892fbc32eb0737b20a4",
+      "reason": "Billing/vector-space cache cleanup; no source-grounded primary local RAG-query failure witness under frozen workflow"
+    }
+  ],
+  "first_source_eligible_distinct_families": {
+    "A_BAD": {
+      "fix_commit": "aeda37db6871b05c9f567e38b9f7e61c642d35fe",
+      "historical_parent": "441f9f9ec0ee834cf2d3ea45e676a127a0a68d71",
+      "native_path": "api/core/rag/cleaner/clean_processor.py",
+      "captured_path": "experiment/validation_v7/dify/sources/A_BAD/clean_processor.py",
+      "sha256": "d7387e40dd047a33d152d0bcb6b1af113fdda3738e59823158a4b4c76eb072ca",
+      "git_blob": "790253053de150e3504bed86fb3d45915ad447a5",
+      "intervention": "Exact whole historical pre-fix production module in fixed native host; not whole historical deployment",
+      "all_changed_production_paths": [
+        "api/core/indexing_runner.py",
+        "api/core/rag/cleaner/clean_processor.py"
+      ],
+      "native_api_compatibility": "Source signatures match current callers; actual image component check and native qualification required"
+    },
+    "B_BAD": {
+      "fix_commit": "e4e99d198b5461ed43c97934832a035672956686",
+      "historical_parent": "34e6e5a04917101dcbfd6359aac2441effaa592b",
+      "native_path": "api/core/rag/splitter/fixed_text_splitter.py",
+      "captured_path": "experiment/validation_v7/dify/sources/B_BAD/fixed_text_splitter.py",
+      "sha256": "483ebc5043121c4986ac2c5f45f5683dcc773c935ccd2d54179941fec6e4e79a",
+      "git_blob": "98ba4d7fcc781f978d9c19df7ba1d0f308509af9",
+      "intervention": "Exact whole historical pre-fix production module in fixed native host; not whole historical deployment",
+      "all_changed_production_paths": [
+        "api/core/rag/splitter/fixed_text_splitter.py"
+      ],
+      "native_api_compatibility": "Source signatures match current callers; actual image component check and native qualification required"
+    }
+  },
+  "native_qualification_completed": false,
+  "scope": "Controlled historical component reintroduction in independently maintained native application; authored questions, upstream-derived inputs",
+  "rag_configuration": {
+    "top_k": 20,
+    "chunk_size": 50,
+    "chunk_overlap": 0,
+    "separator": "\n\n",
+    "reranking": false,
+    "summary_generation": false,
+    "auto_generate_name": false,
+    "model": "tosem-qwen2.5-7b-q4",
+    "temperature": 0,
+    "max_tokens": 96,
+    "context_size": 4096
+  },
+  "native_queries_before_freeze": 0,
+  "model_or_embedding_calls_before_freeze": 0
+}

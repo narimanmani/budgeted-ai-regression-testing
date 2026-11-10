@@ -1,0 +1,70 @@
+{
+  "status": "ARCHITECTURE_ELIGIBLE_NATIVE_DEPLOYMENT_UNQUALIFIED",
+  "application": "langgenius/dify",
+  "source_revision": "50abea97062110044f15d0e03ccecadd9ccc87ca",
+  "source_tree": "3592855c286e1f81e999d1e6e96ad86ff624b7a7",
+  "release": "1.18.0",
+  "release_selection": "Latest stable official release metadata on study preparation date; no fault-outcome criterion",
+  "plugin_repository": "langgenius/dify-official-plugins",
+  "plugin_revision": "b4df0da33f8e6f0f4cde7b9250f317c1d69e2bb5",
+  "plugin_name": "langgenius/openai_api_compatible/openai_api_compatible",
+  "plugin_version": "0.0.73",
+  "official_image_tags": [
+    "busybox:latest",
+    "cr.weaviate.io/semitechnologies/weaviate:1.39.13",
+    "langgenius/dify-agent-backend:1.18.0",
+    "langgenius/dify-agent-local-sandbox:1.18.0",
+    "langgenius/dify-api:1.18.0",
+    "langgenius/dify-plugin-daemon:0.6.10-local",
+    "langgenius/dify-sandbox:0.2.15",
+    "langgenius/dify-web:1.18.0",
+    "nginx:latest",
+    "postgres:15-alpine",
+    "redis:6-alpine",
+    "ubuntu/squid:latest"
+  ],
+  "image_digests_pinned": false,
+  "native_deployment_qualified": false,
+  "provider_handshake_qualified": false,
+  "regression_cases_qualified": false,
+  "application_test_outcomes_opened": false,
+  "policy_outcomes_opened": false,
+  "native_queries_executed": 0,
+  "generation_or_embedding_calls_executed": 0,
+  "budget": {
+    "prior_native_queries": 1900,
+    "shared_native_cap": 5000,
+    "remaining_native_queries": 3100,
+    "prior_generation_allocation_seconds": 9088.255871700792,
+    "shared_generation_allocation_seconds_cap": 43200
+  },
+  "pre_freeze_operations": [
+    "Official repository/release identity metadata",
+    "Pinned compose/env production source/API blueprints",
+    "Official provider production interface code",
+    "Read-only local memory/disk/Docker inventory"
+  ],
+  "incidental_search_exposure": {
+    "occurred": true,
+    "description": "An initial architecture search returned deployment-discussion and release-note snippets. No linked issue/discussion was opened, no behavioral test outcomes were inspected, and no fault candidate or selection rule was derived from these snippets. Subsequent requests used direct official documentation/pinned production paths."
+  },
+  "native_path": [
+    "Native classic knowledge-base creation",
+    "Original-file multipart upload and native text processing",
+    "Asynchronous native indexing with CPU MiniLM via official compatible provider",
+    "Native retrieval and context construction",
+    "Native chat-app generation via fixed local Qwen provider",
+    "Raw answer and retriever_resources metadata capture"
+  ],
+  "unresolved_before_native_execution": [
+    "Root guidance/source freeze and stage allowance",
+    "Immutable Docker image manifest pinning and full service health",
+    "Install exact official provider package and hash dependencies",
+    "Meter credential-validation ping calls separately",
+    "Private native admin/provider/API credentials and readback",
+    "Native upload/index/source-ID/embedding-dimension roundtrip",
+    "Application-specific public workload/factual contracts and prospective case frame",
+    "Enough free memory while both native Dify and local models are resident"
+  ],
+  "native_execution_authorized_here": false
+}

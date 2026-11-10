@@ -1,0 +1,399 @@
+{
+  "catalog_role": "separate configuration development; never policy effectiveness validation",
+  "version": "source-screening-2-original-ranking-bug",
+  "application": "Rasa",
+  "native_paths": [
+    "native dialogue actions/trackers",
+    "trained CountVectors + LogisticRegression NLU pipeline"
+  ],
+  "training_source": "Original8messages from upstream regressiontest plus16authored examples for8additionalintents;12classes exercise issue11429 originaldefault10 defect. This is an authored minimal reproduction, not an unmodified upstream test.",
+  "form_protocol": "Create native Domain/tracker with ActionExecuted(action_listen),UserUttered(...entities...). Run native ActionExtractSlots before native FormAction.run and apply produced events; do not replace event extraction with expected outcomes.",
+  "tasks": [
+    {
+      "task_id": "DVRF01",
+      "kind": "form",
+      "input": {
+        "form_name": "development_visit",
+        "slot_name": "home_city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": "Tokyo",
+        "user_text": "I reside in Tokyo",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": true,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": "Tokyo",
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "upstream exact regression-test pattern; separate development identity/input, same source mechanism",
+        "expected_affected_by": [
+          "RASA_FORM_TRIGGER"
+        ]
+      }
+    },
+    {
+      "task_id": "DVRF02",
+      "kind": "form",
+      "input": {
+        "form_name": "development_booking",
+        "slot_name": "guest_count",
+        "slot_type": "float",
+        "entity_name": "number",
+        "entity_value": 3,
+        "user_text": "A reservation for three guests",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": true,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": 3,
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "authored structural variant of upstream entity/form test, with upstream float-slot pattern; separate development identity/input, same source mechanism",
+        "expected_affected_by": [
+          "RASA_FORM_TRIGGER"
+        ]
+      }
+    },
+    {
+      "task_id": "DVRF03",
+      "kind": "form",
+      "input": {
+        "form_name": "development_visit",
+        "slot_name": "home_city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": null,
+        "user_text": "Please continue the booking",
+        "prefilled_value": "Lisbon",
+        "include_entity": false,
+        "conditional_mapping": true,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": "Lisbon",
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "upstream test_activate_with_prefilled_slot_with_mapping_conditions pattern; separate development identity/input, same source mechanism",
+        "expected_affected_by": []
+      }
+    },
+    {
+      "task_id": "DVRF04",
+      "kind": "form",
+      "input": {
+        "form_name": "development_visit",
+        "slot_name": "home_city",
+        "slot_type": "text",
+        "entity_name": "location",
+        "entity_value": "Oslo",
+        "user_text": "My home is in Oslo",
+        "prefilled_value": null,
+        "include_entity": true,
+        "conditional_mapping": false,
+        "second_slot": null
+      },
+      "contract": {
+        "slot_value": "Oslo",
+        "requested_slot": null,
+        "active_loop": null
+      },
+      "provenance": {
+        "case_id": "RASA_FORM_TRIGGER",
+        "source_description": "upstream unconditioned from_entity slot pattern; pre-form native extraction must be applied; separate development identity/input, same source mechanism",
+        "expected_affected_by": []
+      }
+    },
+    {
+      "task_id": "DVRR01",
+      "kind": "ranking",
+      "input": {
+        "text": "Where is my parcel delivery",
+        "ranking_length": 10
+      },
+      "contract": {
+        "ranking_length": 10,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "book_hotel",
+          "cancel_hotel",
+          "goodbye",
+          "greet",
+          "hangry",
+          "hungry",
+          "order_coffee",
+          "order_tea",
+          "pay_invoice",
+          "refund_invoice",
+          "track_parcel",
+          "weather_forecast"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "Authored12-intent reproduction of original issue11429 default10 truncation-before-global-sort bug; target intent is lexicographic class10/11, beyond the original first10 cutoff; witness requires actual trained classifier to select it; separate development identity/input, same source mechanism",
+        "expected_affected_by": [
+          "RASA_INTENT_RANKING"
+        ]
+      }
+    },
+    {
+      "task_id": "DVRR02",
+      "kind": "ranking",
+      "input": {
+        "text": "Please tell me the weather forecast",
+        "ranking_length": 10
+      },
+      "contract": {
+        "ranking_length": 10,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "book_hotel",
+          "cancel_hotel",
+          "goodbye",
+          "greet",
+          "hangry",
+          "hungry",
+          "order_coffee",
+          "order_tea",
+          "pay_invoice",
+          "refund_invoice",
+          "track_parcel",
+          "weather_forecast"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "Authored12-intent reproduction of original issue11429 default10 truncation-before-global-sort bug; target intent is lexicographic class10/11, beyond the original first10 cutoff; witness requires actual trained classifier to select it; separate development identity/input, same source mechanism",
+        "expected_affected_by": [
+          "RASA_INTENT_RANKING"
+        ]
+      }
+    },
+    {
+      "task_id": "DVRR03",
+      "kind": "ranking",
+      "input": {
+        "text": "hi there",
+        "ranking_length": 10
+      },
+      "contract": {
+        "ranking_length": 10,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "book_hotel",
+          "cancel_hotel",
+          "goodbye",
+          "greet",
+          "hangry",
+          "hungry",
+          "order_coffee",
+          "order_tea",
+          "pay_invoice",
+          "refund_invoice",
+          "track_parcel",
+          "weather_forecast"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "Authored12-intent reproduction of original issue11429 default10 truncation-before-global-sort bug; control utterance has target intent inside the original first10 classes; native prediction and ranking are checked without asserting intent accuracy; separate development identity/input, same source mechanism",
+        "expected_affected_by": []
+      }
+    },
+    {
+      "task_id": "DVRR04",
+      "kind": "ranking",
+      "input": {
+        "text": "ciao",
+        "ranking_length": 10
+      },
+      "contract": {
+        "ranking_length": 10,
+        "first_equals_intent": true,
+        "sorted_confidences": true,
+        "valid_names": [
+          "book_hotel",
+          "cancel_hotel",
+          "goodbye",
+          "greet",
+          "hangry",
+          "hungry",
+          "order_coffee",
+          "order_tea",
+          "pay_invoice",
+          "refund_invoice",
+          "track_parcel",
+          "weather_forecast"
+        ],
+        "confidence_interval": [
+          0.0,
+          1.0
+        ]
+      },
+      "provenance": {
+        "case_id": "RASA_INTENT_RANKING",
+        "source_description": "Authored12-intent reproduction of original issue11429 default10 truncation-before-global-sort bug; control utterance has target intent inside the original first10 classes; native prediction and ranking are checked without asserting intent accuracy; separate development identity/input, same source mechanism",
+        "expected_affected_by": []
+      }
+    }
+  ],
+  "impact_evidence_note": "Form tasks reach forms.py/loops.py; ranking tasks reach logistic_regression_classifier.py. A file-level source-trace selector can genuinely separate the four-task partitions. Incomplete-impact treatments must be declared as evidence interventions, not claimed naturally observed trace omissions.",
+  "failure_judgment_note": "Reference uses full slot/event or ranking contract. Operational weak-checker condition can deliberately omit required fields (e.g. slot presence or ranking length), and noisy condition can introduce precommitted false alarms; these are controlled operational-checker interventions with unchanged contract reference.",
+  "application_id": "rasa",
+  "training_examples": [
+    {
+      "text": "hello",
+      "intent": "greet"
+    },
+    {
+      "text": "hi there",
+      "intent": "greet"
+    },
+    {
+      "text": "ciao",
+      "intent": "goodbye"
+    },
+    {
+      "text": "bye",
+      "intent": "goodbye"
+    },
+    {
+      "text": "I am so hungry",
+      "intent": "hungry"
+    },
+    {
+      "text": "I want pizza",
+      "intent": "hungry"
+    },
+    {
+      "text": "I want pizza, now!!",
+      "intent": "hangry"
+    },
+    {
+      "text": "just gimme a pizza already",
+      "intent": "hangry"
+    },
+    {
+      "text": "I need to book a hotel",
+      "intent": "book_hotel"
+    },
+    {
+      "text": "Please reserve a hotel room",
+      "intent": "book_hotel"
+    },
+    {
+      "text": "Please cancel my hotel booking",
+      "intent": "cancel_hotel"
+    },
+    {
+      "text": "I want to cancel the hotel reservation",
+      "intent": "cancel_hotel"
+    },
+    {
+      "text": "I would like to order coffee",
+      "intent": "order_coffee"
+    },
+    {
+      "text": "Please bring me a coffee",
+      "intent": "order_coffee"
+    },
+    {
+      "text": "I would like to order tea",
+      "intent": "order_tea"
+    },
+    {
+      "text": "Please bring me a tea",
+      "intent": "order_tea"
+    },
+    {
+      "text": "I need to pay an invoice",
+      "intent": "pay_invoice"
+    },
+    {
+      "text": "Please pay my outstanding invoice",
+      "intent": "pay_invoice"
+    },
+    {
+      "text": "Please refund my invoice payment",
+      "intent": "refund_invoice"
+    },
+    {
+      "text": "I need an invoice refund",
+      "intent": "refund_invoice"
+    },
+    {
+      "text": "Please track my parcel",
+      "intent": "track_parcel"
+    },
+    {
+      "text": "Where is my parcel delivery",
+      "intent": "track_parcel"
+    },
+    {
+      "text": "What is the weather forecast",
+      "intent": "weather_forecast"
+    },
+    {
+      "text": "Please tell me the weather forecast",
+      "intent": "weather_forecast"
+    }
+  ],
+  "ranking_reproduction_justification": {
+    "upstream_issue": "https://github.com/RasaHQ/rasa/issues/11429",
+    "full_class_order": [
+      "book_hotel",
+      "cancel_hotel",
+      "goodbye",
+      "greet",
+      "hangry",
+      "hungry",
+      "order_coffee",
+      "order_tea",
+      "pay_invoice",
+      "refund_invoice",
+      "track_parcel",
+      "weather_forecast"
+    ],
+    "cutoff": 10,
+    "late_target_classes": [
+      "track_parcel",
+      "weather_forecast"
+    ],
+    "new_config_feature_test_replaced_before_outputs": true,
+    "no_classification_accuracy_claim": true,
+    "witness_gate": "An enrolled affected task must actually violate the fixed ranking invariant under the buggy method and satisfy it under the fixed method; no tuning if that witness is absent."
+  },
+  "cohort_id": "development",
+  "same_historical_fault_families_across_cohorts": true,
+  "independent_native_defect_count": 2,
+  "reference_origin": "upstream dialogue-mapping and global-ranking invariants; no intent-accuracy assumption"
+}

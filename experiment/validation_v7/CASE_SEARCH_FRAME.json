@@ -1,0 +1,48 @@
+{
+  "recorded_at_utc": "2026-11-01T03:03:21.849392+00:00",
+  "phase": "EXTERNAL_V7",
+  "guide_fixed_before_fault_discovery": true,
+  "search_since_author_time": "2026-07-01T00:00:00Z",
+  "search_until": "Pinned fixed source tip; no descendants",
+  "candidate_message_pattern": "(?i)\\b(fix|fixed|fixes|bug|correct|prevent|handle)\\b",
+  "candidate_order": "Upstream author timestamp ascending, then complete commit SHA; serialize full scoped list before native qualification",
+  "source_first_eligibility": "First two distinct source-verified benign production fault families with API-compatible native reproduction. Record every rejection; no selection by CG1 results or disjoint-component convenience.",
+  "source_intervention_order": [
+    "Exact historical pre-fix production bytes when native APIs compatible",
+    "Deterministic reversal of exact historical fix hunk on pinned host if whole-file override is incompatible; preserve exact patch and limited scope"
+  ],
+  "no_arbitrary_mutation_or_fault_label_feature": true,
+  "security_exploitation_cases_excluded": true,
+  "applications": [
+    {
+      "id": "openwebui",
+      "repository": "open-webui/open-webui",
+      "tip": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+      "scope_paths": [
+        "backend/open_webui/retrieval/",
+        "backend/open_webui/routers/retrieval.py",
+        "backend/open_webui/utils/middleware.py"
+      ],
+      "excluded_exposure_ids": [
+        "open-webui/open-webui#22084"
+      ]
+    },
+    {
+      "id": "dify",
+      "repository": "langgenius/dify",
+      "tip": "50abea97062110044f15d0e03ccecadd9ccc87ca",
+      "scope_paths": [
+        "api/core/rag/",
+        "api/core/dataset/",
+        "api/core/indexing_runner.py",
+        "api/services/dataset_service.py",
+        "api/core/model_runtime/"
+      ],
+      "excluded_exposure_ids": []
+    }
+  ],
+  "all_changed_production_paths_used_as_public_tokens": true,
+  "qualification_and_reference_contract_ids_freeze_before_first_native_output": true,
+  "samefile_different_mechanism_eligible": true,
+  "external_outcome_based_guide_tuning": false
+}

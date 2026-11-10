@@ -1,0 +1,108 @@
+{
+  "phase": "EXTERNAL_V7",
+  "status": "READY_FOR_ROOT_PROSPECTIVE_FREEZE_NOT_YET_FROZEN_BY_AGENT",
+  "formal_registration": false,
+  "guide": "CG1-2026-11-01",
+  "guide_evidence": "Completed v6 only; no external outcome/fault-candidate access during guide development.",
+  "guide_specification": "experiment/validation_v7/guidance/GUIDANCE_SPEC.md",
+  "guide_code": "experiment/validation_v7/guidance/policy.py",
+  "native_query_unit_definition": "Root-reserved native query/probe dispatch. Provider generation and embedding boundaries are separately metered, including setup credential checks that actually generate.",
+  "research_scope": {
+    "required_new_implementation_lineages": 2,
+    "prior_pilot_and_prior_native_apps_do_not_count_as_new": ["AnythingLLM", "LibreChat"],
+    "workload": "Twelve new public factual-contract tasks per new application. Prefer actual upstream-native test/data inputs where applicable; do not reuse v6 fact values/task identities. Author-derived tasks remain a controlled workload, not independent deployment evidence.",
+    "families_per_app": 2,
+    "primary_judgment": "Frozen source-grounded executable factual/format contracts, separate from returned-source metadata.",
+    "semantic_quality_or_oracle_technique_comparison": false,
+    "native_pipeline": "Actual native ingestion/index/retrieval/generation through the subject application; no simulated RAG replacement or component-only substitution.",
+    "version_scope": "Root must record whole-native-version versus controlled historical reintroduction explicitly. Controlled cases cannot be called natural release histories.",
+    "independence_scope": "New application implementations, source histories and workload facts. Shared fixed LLM/embedding providers and authored contracts are disclosed common infrastructure."
+  },
+  "case_selection": {
+    "guide_freeze_before_case_discovery": true,
+    "root_freezes_application_pins_candidate_search_window_and_order_before_behavioral_qualification": true,
+    "production_scope": ["native ingestion", "native retrieval", "public generation/provider configuration"],
+    "candidate_order": "Serialize the complete scoped candidate metadata list, ordered by upstream author timestamp then full commit ID, before native qualification. Select the first two source-verified, API-compatible candidates meeting the frozen validity criteria; retain all screened candidates and reasons.",
+    "forbidden_selection_criteria": ["guide beats a baseline", "families have convenient disjoint change tokens", "a desired method winner", "favorable native detection labels"],
+    "historical_source_authority": "Exact source versions/fix evidence and original input bytes pinned before first native generation. No arbitrary post-result source mutation.",
+    "ineligible_or_uncertain_candidates": "Retain every attempt and cost. Do not rerun for favorable output or silently substitute applications/families. A prospective engineering amendment must identify prior exposure and preserve frozen guidance."
+  },
+  "arms": ["I0_H0", "I1_H0", "I0_H1", "I1_H1", "CG1"],
+  "task_catalog_size_per_app": 12,
+  "pair_ceilings": {"LOW": 2, "HIGH": 4},
+  "history_regimes": ["COLD", "WARM"],
+  "whole_trajectory_repetitions": 2,
+  "trajectory_count": 80,
+  "controlled_sequence": [
+    {"index": 1, "old": "HEALTHY", "new": "A_BAD", "role": "family A regression; recurrence only in WARM"},
+    {"index": 2, "old": "A_BAD", "new": "HEALTHY", "role": "repair control"},
+    {"index": 3, "old": "HEALTHY", "new": "B_BAD", "role": "different family regression"}
+  ],
+  "guidance_forbidden_inputs": ["fault-family labels", "expected answers", "reference-bank outputs or timings", "current/future new-state traces", "unselected outcomes", "another trajectory's history", "application-name lookup tables"],
+  "own_history": {
+    "cold": "Empty before episode 1; later history comes only from that trajectory's selected timely factual pairs.",
+    "warm": "Each individual arm/budget/application/repetition trajectory physically executes its own twelve HEALTHY-to-A_BAD calibration pairs before episode 1. No shared or reference-derived warm labels.",
+    "warm_query_units": 960,
+    "calibration_index": 0,
+    "native_comparison_budget_includes_own_warm_cost_in_complete_operational_view": true
+  },
+  "common_paid_old_features": {
+    "block": "application x repetition x logical old-state",
+    "old_states_required": ["HEALTHY", "A_BAD"],
+    "paid_queries_per_task": 3,
+    "pair_cost_estimator": "2 * median(three measured old-state end-to-end query wall costs)",
+    "impact": "Conservative union of the three actual old returned-context observations, mapped through native upload/index/source evidence; unknown tasks remain admitted.",
+    "history_labels_from_profiles": false,
+    "physical_research_query_units": 288,
+    "allocation_to_strategy_scenario": "The exact same observed feature block is supplied to all five strategies; each standalone strategy cost view includes its complete required block cost. Physical shared acquisition is debited once in the research ledger. Never sum allocated duplicate scenario charges as new physical queries.",
+    "HEALTHY_release_guard": "Acquire before any episode-1 scheduling in the application/repetition block.",
+    "A_BAD_release_guard": "Acquire only after ALL five arms in BOTH cold/warm regimes and BOTH budgets have closed episode 1 for that application/repetition. It first becomes available for episode 2, when A_BAD is the logical old version. Never expose it to any episode-1 decision.",
+    "B_BAD_profile": "Not acquired: B_BAD never becomes the old state of a scored episode.",
+    "model_prompt_or_answer_reuse": false
+  },
+  "native_state_isolation": "Root adapter must pin source/configuration and workload for each application/repetition/state. Common immutable indexes may serve independent fresh query sessions with native conversational history disabled; any query-induced mutable state must be isolated/reset. Record that sharing instead of calling it independent deployments.",
+  "order": "Block by logical episode to enforce feature release. Before outcomes, serialize arm/budget/history-regime order for each app/repetition; mirror the complete order in repetition two. No outcome-dependent scheduling or stop-on-winner.",
+  "qualification": {
+    "physical_query_units": 96,
+    "per_app": "48: HEALTHY twelve tasks x2; each bad state six predeclared tasks x2.",
+    "bad_state_subset": "From source/input requirements before model output: one anticipated witness plus five controls/additional affected tasks, with at least two independently expected unaffected controls. Freeze exact IDs before qualification.",
+    "requirements": ["All HEALTHY primary contracts pass in both fresh passes.", "Each designated fault witness fails its unchanged primary contract in both bad-state passes.", "At least two predeclared unaffected controls retain primary correctness in each bad state.", "Native source/model/context/cost joins are valid; setup/transport/accounting incidents are never product failures."],
+    "not_a_statistical_or_selection_utility_gate": true
+  },
+  "reference": {
+    "physical_query_units": 144,
+    "per_app": "Separate complete 3 states x12 tasks x2 fresh executions =72; no favorable qualification reuse.",
+    "finite_bank_not_population_truth": true,
+    "uncertain_or_incomplete_cells": "Retain and report; do not choose among outputs or force a stable label.",
+    "policy_access": false
+  },
+  "comparison_physical_query_ceiling": 1440,
+  "main_physical_query_ceiling": 2832,
+  "planned_total_physical_query_ceiling": 2928,
+  "nonbenchmark_native_probe_and_incident_slack": 172,
+  "v7_physical_native_query_cap": 3100,
+  "prior_shared_native_query_units": 1900,
+  "shared_native_query_cap": 5000,
+  "prior_shared_generation_allocation_seconds": 9088.255871700792,
+  "remaining_shared_generation_allocation_seconds": 34111.74412829921,
+  "shared_generation_allocation_seconds_cap": 43200,
+  "cost_rules": ["Reserve before every native query/probe; no phase/counter reset hides prior work.", "Actual setup chat/provider credentials checks debit slack and all physical generation/embedding costs.", "Reference/qualification cost is distinct from operation, but all count in shared resource use.", "Before efficacy execution, reprice the complete remaining design from paid OLD observations using a formula frozen before held-out outcomes. Do not enlarge global caps.", "If the remaining complete design cannot fit, stop/report feasibility before efficacy rather than trimming weak conditions after outcomes.", "Fixed K is the primary experimental resource ceiling; numeric episode wall safeguards and global actual model allocation are separately recorded, with no claim that nonbinding guards validate wall-time optimization."],
+  "primary_analysis": {
+    "unit": "Application/fault family and complete trajectory, not repeated task cells as independent applications or defects.",
+    "metrics": ["actual timely factual pair alarms", "stable-reference detection and misses", "repair alarms", "reference-discordant alarms", "admission misses", "actual native/provider/GPU/embedding costs", "chosen-arm distribution", "nominal/actual schedule deviations"],
+    "comparator_of_record": "Always-combined I1_H1, selected by the development pilot, plus all other fixed arms.",
+    "feature_control": "All arms use byte/hash-identical old cost/context blocks for a matched application/repetition/old-state; histories remain physically own and selected.",
+    "strata": ["application", "LOW/HIGH", "COLD/WARM", "A recurrence/first exposure", "B different family", "repair", "impact density", "public history compatibility"],
+    "source_metadata_is_secondary": true,
+    "raw_selected_output_vs_reference_disagreement": "Preserve both. A discordant pair can contain a real factual error; it is not automatically an erroneous judgment.",
+    "population_significance_or_portable_universal_rule_claim": false
+  },
+  "prospective_interpretation": {
+    "executable_transfer": "Both independent native implementations complete all frozen blocks with valid source/provider/accounting and the same unmodified CG1 code.",
+    "directional_retention": "For every app x budget x history-regime stratum aggregated over the two repetitions, CG1 detects at least as many stable reference opportunities as always-combined and has no increase in reference-discordant or repair alarms. Any violation is reported as an operating limit.",
+    "selection_utility": "Beyond retention, require at least one strict matched-stratum detection gain against always-combined OR equal detection with fewer actual native queries including complete acquisition cost. Merely choosing a simpler label or a nominally identical prefix is not measured cost benefit.",
+    "weak_or_null_result": "Transfer without selection utility supports implementation/retention only, not superiority of guidance. Mixed-app results bound the conditions; do not tune CG1 and call the same cases fresh validation.",
+    "adverse_result": "Disclose every guided loss, admission miss, discordance, excess cost and invalid block. Retain the frozen guide and all physical attempts. Revised guidance needs new held-out evidence.",
+    "journal_target_remains_broader": "Two implementations with authored factual contracts do not establish independent industrial deployment performance, alternative failure-judgment interactions, model-update effectiveness, or universal portability."
+  }
+}

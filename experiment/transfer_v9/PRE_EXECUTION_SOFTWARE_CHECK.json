@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "command": "experiment/transfer_v9/env/Scripts/python.exe -B -m unittest experiment.transfer_v9.runtime.test_ledger experiment.transfer_v9.runtime.test_rasa_native experiment.transfer_v9.screening.test_vanna_adapter_audit experiment.transfer_v9.screening.test_local_model_audit experiment.transfer_v9.screening.test_integration_audit experiment.transfer_v9.design.test_validate_design experiment.transfer_v9.design.test_replay experiment.transfer_v9.test_collect",
+  "tests": 97,
+  "elapsed_seconds": 8.652,
+  "native_application_or_model_calls": 0,
+  "is_evidence_of_guidance_effectiveness": false,
+  "independent_reviews": ["upstream source and native boundary", "provider failure and accounting", "full collection frame fixture", "replay truth isolation and cost allocation"],
+  "review_boundary": "Frozen empirical bank still requires a separate raw-receipt/provider/source/contract audit. Matched budgets constrain request ceilings; wall components are descriptive."
+}

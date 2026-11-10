@@ -1,0 +1,1555 @@
+{
+  "status": "PASSED_FRESH_EXTRACTED_ISOLATED_REANALYSIS_WITH_ORIGINAL_HOST_BLOCKED",
+  "finished_at_utc": "2026-11-01T08:54:36.040838+00:00",
+  "archive_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\output\\development_v8_evidence.zip",
+  "archive_sha256": "99e7167f3b77bb1729bca020f38aba446a79d6dcbf8227a9dfaff32afa8cfbd3",
+  "archive_bytes": 152224642,
+  "manifest_files": 18642,
+  "uncompressed_public_bytes": 1352332775,
+  "extraction_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\output\\development_v8_checked_20261101_attempt2",
+  "zip_hashes_members_and_secret_checks": "package.create called verify_zip before returning; SHA rechecked before fresh extraction",
+  "verified_immutable_bindings": 402147,
+  "historical_source_aliases": 4,
+  "explicit_unshipped_dependency_hash_declarations": 28,
+  "upstream_notices": 2,
+  "component_deps_shipped": false,
+  "accounting": {
+    "new_native_units": 2867,
+    "prior_native_units": 2071,
+    "cumulative_native_units": 4938,
+    "phase_native_units": {
+      "development": 240,
+      "setup_probe": 3,
+      "qualification": 64,
+      "reference": 96,
+      "profile": 192,
+      "calibration": 640,
+      "comparison": 1440,
+      "secondary_retestall": 192
+    },
+    "root_operations_joined": 2986,
+    "provider_chat_boundaries": 2867,
+    "provider_embedding_boundaries": 2020,
+    "scientific_model_parameter_checks": 2864,
+    "current_generation_allocation_seconds": 4143.544267799327,
+    "prior_generation_allocation_seconds": 9316.086159400991,
+    "cumulative_generation_allocation_seconds": 13459.630427200318
+  },
+  "primary_method_totals": {
+    "CG1": {
+      "detected": 27,
+      "missed": 37,
+      "credited_alarms": 29,
+      "reference_discordant_alarms": 2,
+      "repair_alarms": 0,
+      "allocated_standalone_native_query_units": 1184
+    },
+    "I0_H0": {
+      "detected": 16,
+      "missed": 48,
+      "credited_alarms": 16,
+      "reference_discordant_alarms": 0,
+      "repair_alarms": 0,
+      "allocated_standalone_native_query_units": 1184
+    },
+    "I0_H1": {
+      "detected": 25,
+      "missed": 39,
+      "credited_alarms": 27,
+      "reference_discordant_alarms": 2,
+      "repair_alarms": 0,
+      "allocated_standalone_native_query_units": 1184
+    },
+    "I1_H0": {
+      "detected": 16,
+      "missed": 48,
+      "credited_alarms": 16,
+      "reference_discordant_alarms": 0,
+      "repair_alarms": 0,
+      "allocated_standalone_native_query_units": 1184
+    },
+    "I1_H1": {
+      "detected": 25,
+      "missed": 39,
+      "credited_alarms": 27,
+      "reference_discordant_alarms": 2,
+      "repair_alarms": 0,
+      "allocated_standalone_native_query_units": 1184
+    }
+  },
+  "primary_strata": [
+    {
+      "application_id": "dify",
+      "budget_id": "HIGH",
+      "history_regime": "COLD",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 533.6048767000611
+        },
+        "I0_H0": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 531.6872735000215
+        },
+        "I0_H1": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 531.8947239999543
+        },
+        "I1_H0": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 532.2398392999894
+        },
+        "I1_H1": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 531.7920180000074
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": false,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 1,
+          "combined_detected": 1,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 2,
+          "combined_detected": 2,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "dify",
+      "budget_id": "HIGH",
+      "history_regime": "WARM",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 6,
+          "missed": 2,
+          "credited_alarms": 6,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 606.3252508999722
+        },
+        "I0_H0": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 610.0405578000646
+        },
+        "I0_H1": {
+          "detected": 5,
+          "missed": 3,
+          "credited_alarms": 5,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 604.8784992000146
+        },
+        "I1_H0": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 3,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 604.8261859999911
+        },
+        "I1_H1": {
+          "detected": 5,
+          "missed": 3,
+          "credited_alarms": 5,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 604.9165687000495
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": true,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 4,
+          "combined_detected": 4,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 2,
+          "combined_detected": 1,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "dify",
+      "budget_id": "LOW",
+      "history_regime": "COLD",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 475.2656818999967
+        },
+        "I0_H0": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 476.3310700999864
+        },
+        "I0_H1": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 475.3242363000172
+        },
+        "I1_H0": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 475.35801139997784
+        },
+        "I1_H1": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 474.7950689000136
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": false,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 1,
+          "combined_detected": 1,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "dify",
+      "budget_id": "LOW",
+      "history_regime": "WARM",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 5,
+          "missed": 3,
+          "credited_alarms": 5,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 548.5075580000121
+        },
+        "I0_H0": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 548.3097693000163
+        },
+        "I0_H1": {
+          "detected": 4,
+          "missed": 4,
+          "credited_alarms": 4,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 548.3136070999899
+        },
+        "I1_H0": {
+          "detected": 1,
+          "missed": 7,
+          "credited_alarms": 1,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 547.0429707999574
+        },
+        "I1_H1": {
+          "detected": 4,
+          "missed": 4,
+          "credited_alarms": 4,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 549.5170225999609
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": true,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 4,
+          "combined_detected": 4,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 1,
+          "combined_detected": 0,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "openwebui",
+      "budget_id": "HIGH",
+      "history_regime": "COLD",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 650.8736819000333
+        },
+        "I0_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 641.8421028000012
+        },
+        "I0_H1": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 640.1050902999996
+        },
+        "I1_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 639.9209518000716
+        },
+        "I1_H1": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 144,
+          "allocated_standalone_wall_seconds": 650.2985016000457
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": false,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 2,
+          "combined_detected": 2,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "openwebui",
+      "budget_id": "HIGH",
+      "history_regime": "WARM",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 5,
+          "missed": 3,
+          "credited_alarms": 6,
+          "reference_discordant_alarms": 1,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 728.0756373000331
+        },
+        "I0_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 730.7261853000382
+        },
+        "I0_H1": {
+          "detected": 5,
+          "missed": 3,
+          "credited_alarms": 6,
+          "reference_discordant_alarms": 1,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 724.0688073000347
+        },
+        "I1_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 725.6619583000429
+        },
+        "I1_H1": {
+          "detected": 5,
+          "missed": 3,
+          "credited_alarms": 6,
+          "reference_discordant_alarms": 1,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 176,
+          "allocated_standalone_wall_seconds": 722.7740887999244
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": false,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 4,
+          "combined_detected": 4,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 1,
+          "combined_detected": 1,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "openwebui",
+      "budget_id": "LOW",
+      "history_regime": "COLD",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 573.675683999958
+        },
+        "I0_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 577.0891529000364
+        },
+        "I0_H1": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 574.9887146000401
+        },
+        "I1_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 574.8362852000573
+        },
+        "I1_H1": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 120,
+          "allocated_standalone_wall_seconds": 574.0022427999938
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": false,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 2,
+          "combined_detected": 2,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    },
+    {
+      "application_id": "openwebui",
+      "budget_id": "LOW",
+      "history_regime": "WARM",
+      "complete": true,
+      "totals": {
+        "CG1": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 4,
+          "reference_discordant_alarms": 1,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 656.4550816000556
+        },
+        "I0_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 653.9881448000378
+        },
+        "I0_H1": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 4,
+          "reference_discordant_alarms": 1,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 655.7345064000983
+        },
+        "I1_H0": {
+          "detected": 2,
+          "missed": 6,
+          "credited_alarms": 2,
+          "reference_discordant_alarms": 0,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 656.748410900007
+        },
+        "I1_H1": {
+          "detected": 3,
+          "missed": 5,
+          "credited_alarms": 4,
+          "reference_discordant_alarms": 1,
+          "repair_alarms": 0,
+          "allocated_standalone_native_query_units": 152,
+          "allocated_standalone_wall_seconds": 655.7180526000157
+        }
+      },
+      "directional_retention": true,
+      "strict_selection_utility_before_retention_gate": false,
+      "per_episode_diagnostics": [
+        {
+          "episode_index": 1,
+          "CG1_detected": 3,
+          "combined_detected": 3,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 2,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        },
+        {
+          "episode_index": 3,
+          "CG1_detected": 0,
+          "combined_detected": 0,
+          "guided_loss": false
+        }
+      ],
+      "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+    }
+  ],
+  "primary_retention": true,
+  "primary_utility": true,
+  "secondary_retestall": {
+    "present": true,
+    "complete": true,
+    "secondary_blocks": 4,
+    "unique_native_queries": 192,
+    "registration_sha256": "61bd64afe585a8dc8c667434affb84201a7ae6b7b2b8a7b22fed9b1fc8188e1d",
+    "source_sha256": "6d27217253b1f94fd68c7b82c5caa7b7fede490b2e8e65c4c3779c41079859f2",
+    "attribution": {
+      "added_after_primary_main_started": true,
+      "motivation": "A complete cold selected trajectory allocates48 profile queries plus12/24 selected queries; warm adds16 own-history queries. Unrestricted paired retesting of8 tasks at3changes requires48 queries without profiling/history. Measure that separate engineering-cost tradeoff while preserving the hard K2/K4 primary comparison.",
+      "not_K2_K4_budget_matched": true,
+      "counts_toward_primary_80": false,
+      "cannot_rescue_primary_result": true
+    },
+    "blocks": [
+      {
+        "application_id": "openwebui",
+        "repetition": 1,
+        "native_queries": 48,
+        "pairs": 24,
+        "detected": 4,
+        "missed": 0,
+        "credited_alarms": 4,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "physical_usage": {
+          "native_query_units": 48,
+          "provider_chat_boundaries": 48,
+          "embedding_boundaries": 99,
+          "gpu_allocation_seconds": 80.40572960014106,
+          "embedding_cpu_seconds": 0.8374300000141375
+        },
+        "unrestricted_pairs_without_K_ceiling_or_policy_deadline": true
+      },
+      {
+        "application_id": "dify",
+        "repetition": 1,
+        "native_queries": 48,
+        "pairs": 24,
+        "detected": 4,
+        "missed": 0,
+        "credited_alarms": 4,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "physical_usage": {
+          "native_query_units": 48,
+          "provider_chat_boundaries": 48,
+          "embedding_boundaries": 16,
+          "gpu_allocation_seconds": 54.52946939994581,
+          "embedding_cpu_seconds": 0.17340920001151972
+        },
+        "unrestricted_pairs_without_K_ceiling_or_policy_deadline": true
+      },
+      {
+        "application_id": "openwebui",
+        "repetition": 2,
+        "native_queries": 48,
+        "pairs": 24,
+        "detected": 4,
+        "missed": 0,
+        "credited_alarms": 4,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "physical_usage": {
+          "native_query_units": 48,
+          "provider_chat_boundaries": 48,
+          "embedding_boundaries": 99,
+          "gpu_allocation_seconds": 81.59033040006761,
+          "embedding_cpu_seconds": 0.823704600072233
+        },
+        "unrestricted_pairs_without_K_ceiling_or_policy_deadline": true
+      },
+      {
+        "application_id": "dify",
+        "repetition": 2,
+        "native_queries": 48,
+        "pairs": 24,
+        "detected": 4,
+        "missed": 0,
+        "credited_alarms": 4,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "physical_usage": {
+          "native_query_units": 48,
+          "provider_chat_boundaries": 48,
+          "embedding_boundaries": 0,
+          "gpu_allocation_seconds": 53.6310370999272,
+          "embedding_cpu_seconds": 0.0
+        },
+        "unrestricted_pairs_without_K_ceiling_or_policy_deadline": true
+      }
+    ],
+    "generation_allocation_seconds_after_secondary_baseline": 270.1565665000817,
+    "counts_toward_primary_80": false,
+    "K_budget_matched": false,
+    "cannot_rescue_primary_result": true,
+    "no_secondary_outcomes_entered_primary_policy_or_criteria": true,
+    "new_native_or_model_calls": 0
+  },
+  "posthoc_instance_alignment_sensitivity": {
+    "present": true,
+    "posthoc": true,
+    "primary_replaced": false,
+    "new_gold_or_population_accuracy_estimate": false,
+    "summary_path": "experiment/runs/development_v8_20261101/evaluation/sensitivity-instance-alignment/SUMMARY.json",
+    "summary_sha256": "45ec45c5f4b24fdf9845af357ec48bb1c6410a0c2fcf65fc8e34c5d5e9234b0d",
+    "source_sha256": "671af59521c96102c5a6b17a560769a406fffbe4c8d4fc8d6ffc547c5a7549f9",
+    "forensic_receipt_sha256": "81ebb733fec1a484c16fa7d617b6e1fb9fd826b1008fe621c2bec804eeebdfee",
+    "paid_OLD_profile_proofs_rechecked": 3,
+    "original_and_aligned_all80_scores_separately_recomputed": true,
+    "trajectory_count": 80,
+    "original_totals_independently_reproduced": {
+      "I0_H0": {
+        "detected": 16,
+        "missed": 48,
+        "reference_regression_cells": 64,
+        "credited_alarms": 16,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 4
+      },
+      "I1_H0": {
+        "detected": 16,
+        "missed": 48,
+        "reference_regression_cells": 64,
+        "credited_alarms": 16,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 4
+      },
+      "I0_H1": {
+        "detected": 25,
+        "missed": 39,
+        "reference_regression_cells": 64,
+        "credited_alarms": 27,
+        "reference_discordant_alarms": 2,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 6
+      },
+      "I1_H1": {
+        "detected": 25,
+        "missed": 39,
+        "reference_regression_cells": 64,
+        "credited_alarms": 27,
+        "reference_discordant_alarms": 2,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 6
+      },
+      "CG1": {
+        "detected": 27,
+        "missed": 37,
+        "reference_regression_cells": 64,
+        "credited_alarms": 29,
+        "reference_discordant_alarms": 2,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 6
+      }
+    },
+    "sensitivity_totals": {
+      "I0_H0": {
+        "detected": 16,
+        "missed": 52,
+        "reference_regression_cells": 68,
+        "credited_alarms": 16,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 0
+      },
+      "I1_H0": {
+        "detected": 16,
+        "missed": 52,
+        "reference_regression_cells": 68,
+        "credited_alarms": 16,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 0
+      },
+      "I0_H1": {
+        "detected": 27,
+        "missed": 41,
+        "reference_regression_cells": 68,
+        "credited_alarms": 27,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 0
+      },
+      "I1_H1": {
+        "detected": 27,
+        "missed": 41,
+        "reference_regression_cells": 68,
+        "credited_alarms": 27,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 0
+      },
+      "CG1": {
+        "detected": 29,
+        "missed": 39,
+        "reference_regression_cells": 68,
+        "credited_alarms": 29,
+        "reference_discordant_alarms": 0,
+        "repair_alarms": 0,
+        "allocated_standalone_native_query_units": 1184,
+        "operational_reference_pair_mismatches": 0
+      }
+    },
+    "matched_strata": [
+      {
+        "application_id": "dify",
+        "budget_id": "HIGH",
+        "history_regime": "COLD",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 533.6048767000611
+          },
+          "I0_H0": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 531.6872735000215
+          },
+          "I0_H1": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 531.8947239999543
+          },
+          "I1_H0": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 532.2398392999894
+          },
+          "I1_H1": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 531.7920180000074
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": false,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 1,
+            "combined_detected": 1,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 2,
+            "combined_detected": 2,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "dify",
+        "budget_id": "HIGH",
+        "history_regime": "WARM",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 6,
+            "missed": 2,
+            "credited_alarms": 6,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 606.3252508999722
+          },
+          "I0_H0": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 610.0405578000646
+          },
+          "I0_H1": {
+            "detected": 5,
+            "missed": 3,
+            "credited_alarms": 5,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 604.8784992000146
+          },
+          "I1_H0": {
+            "detected": 3,
+            "missed": 5,
+            "credited_alarms": 3,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 604.8261859999911
+          },
+          "I1_H1": {
+            "detected": 5,
+            "missed": 3,
+            "credited_alarms": 5,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 604.9165687000495
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": true,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 4,
+            "combined_detected": 4,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 2,
+            "combined_detected": 1,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "dify",
+        "budget_id": "LOW",
+        "history_regime": "COLD",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 475.2656818999967
+          },
+          "I0_H0": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 476.3310700999864
+          },
+          "I0_H1": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 475.3242363000172
+          },
+          "I1_H0": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 475.35801139997784
+          },
+          "I1_H1": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 474.7950689000136
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": false,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 1,
+            "combined_detected": 1,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "dify",
+        "budget_id": "LOW",
+        "history_regime": "WARM",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 5,
+            "missed": 3,
+            "credited_alarms": 5,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 548.5075580000121
+          },
+          "I0_H0": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 548.3097693000163
+          },
+          "I0_H1": {
+            "detected": 4,
+            "missed": 4,
+            "credited_alarms": 4,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 548.3136070999899
+          },
+          "I1_H0": {
+            "detected": 1,
+            "missed": 7,
+            "credited_alarms": 1,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 547.0429707999574
+          },
+          "I1_H1": {
+            "detected": 4,
+            "missed": 4,
+            "credited_alarms": 4,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 549.5170225999609
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": true,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 4,
+            "combined_detected": 4,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 1,
+            "combined_detected": 0,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "openwebui",
+        "budget_id": "HIGH",
+        "history_regime": "COLD",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 650.8736819000333
+          },
+          "I0_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 641.8421028000012
+          },
+          "I0_H1": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 640.1050902999996
+          },
+          "I1_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 639.9209518000716
+          },
+          "I1_H1": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 144,
+            "allocated_standalone_wall_seconds": 650.2985016000457
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": false,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 2,
+            "combined_detected": 2,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "openwebui",
+        "budget_id": "HIGH",
+        "history_regime": "WARM",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 6,
+            "missed": 3,
+            "credited_alarms": 6,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 728.0756373000331
+          },
+          "I0_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 730.7261853000382
+          },
+          "I0_H1": {
+            "detected": 6,
+            "missed": 3,
+            "credited_alarms": 6,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 724.0688073000347
+          },
+          "I1_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 725.6619583000429
+          },
+          "I1_H1": {
+            "detected": 6,
+            "missed": 3,
+            "credited_alarms": 6,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 176,
+            "allocated_standalone_wall_seconds": 722.7740887999244
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": false,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 5,
+            "combined_detected": 5,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 1,
+            "combined_detected": 1,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "openwebui",
+        "budget_id": "LOW",
+        "history_regime": "COLD",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 573.675683999958
+          },
+          "I0_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 577.0891529000364
+          },
+          "I0_H1": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 574.9887146000401
+          },
+          "I1_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 574.8362852000573
+          },
+          "I1_H1": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 120,
+            "allocated_standalone_wall_seconds": 574.0022427999938
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": false,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 2,
+            "combined_detected": 2,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      },
+      {
+        "application_id": "openwebui",
+        "budget_id": "LOW",
+        "history_regime": "WARM",
+        "complete": true,
+        "totals": {
+          "CG1": {
+            "detected": 4,
+            "missed": 5,
+            "credited_alarms": 4,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 656.4550816000556
+          },
+          "I0_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 653.9881448000378
+          },
+          "I0_H1": {
+            "detected": 4,
+            "missed": 5,
+            "credited_alarms": 4,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 655.7345064000983
+          },
+          "I1_H0": {
+            "detected": 2,
+            "missed": 7,
+            "credited_alarms": 2,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 656.748410900007
+          },
+          "I1_H1": {
+            "detected": 4,
+            "missed": 5,
+            "credited_alarms": 4,
+            "reference_discordant_alarms": 0,
+            "repair_alarms": 0,
+            "allocated_standalone_native_query_units": 152,
+            "allocated_standalone_wall_seconds": 655.7180526000157
+          }
+        },
+        "directional_retention": true,
+        "strict_selection_utility_before_retention_gate": false,
+        "per_episode_diagnostics": [
+          {
+            "episode_index": 1,
+            "CG1_detected": 4,
+            "combined_detected": 4,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 2,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          },
+          {
+            "episode_index": 3,
+            "CG1_detected": 0,
+            "combined_detected": 0,
+            "guided_loss": false
+          }
+        ],
+        "family_specific_losses_must_not_be_hidden_by_aggregate_gain": false
+      }
+    ],
+    "prospective_formula_retention_under_posthoc_assumption": true,
+    "prospective_formula_utility_under_posthoc_assumption": true,
+    "original_retention": true,
+    "original_utility": true,
+    "qualitative_retention_or_utility_conclusion_changed": false,
+    "family_specific_loss_vs_always_combined": false,
+    "new_native_or_model_calls": 0
+  },
+  "verify_guard": {
+    "protected_original_workspace": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM",
+    "allowed_extraction": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\output\\development_v8_checked_20261101_attempt2",
+    "guarded_filesystem_calls": {
+      "io.open": 55794,
+      "os.scandir": 1198,
+      "os.stat": 880014
+    },
+    "blocked_original_workspace_attempts": [],
+    "subprocess_attempts": [],
+    "network_attempts": []
+  },
+  "reanalysis_guard": {
+    "protected_original_workspace": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM",
+    "allowed_extraction": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\output\\development_v8_checked_20261101_attempt2",
+    "guarded_filesystem_calls": {
+      "io.open": 100756,
+      "os.scandir": 1198,
+      "os.stat": 970020
+    },
+    "blocked_original_workspace_attempts": [],
+    "subprocess_attempts": [],
+    "network_attempts": []
+  },
+  "source_receipt_bytes_rewritten": false,
+  "original_workspace_fallback_used": false,
+  "new_native_or_provider_queries": 0,
+  "sealed_report_sha256": "75a7806cfd30654396538270b89015baf8f366a20c57e389c5f2d7e75bfb6863",
+  "final_accounting_sha256": "c6f1612ee8ce6a72c10020007d0e73d50a4da0ff5dae9d68ca4851520f3b2004",
+  "reanalysis_output_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\output\\DEVELOPMENT_V8_EXTRACTED_002_REANALYSIS.json"
+}

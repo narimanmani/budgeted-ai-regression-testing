@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T05:33:25.336004+00:00",
+  "tests_passed": 9,
+  "new_native_or_model_calls": 0,
+  "guarded_files_modified": false,
+  "files_sha256": {
+    "experiment/development_v8/audits/audit_acquisition.py": "c71b554cebc6d0ecd689affafeb32c395b694b82e7ffbee75e4de56c8c75ff34",
+    "experiment/development_v8/audits/audit_native_dify.py": "de9fd04b9dcd47f905299aac250ce2d0ba959c01c0b7ff86429bfb4a996174be",
+    "experiment/development_v8/audits/explain_native_label_chain.py": "1afcaa47bedbac5b8eaa08f48208473a09b86c97a1756c978bc31970163dbdab",
+    "experiment/development_v8/audits/test_audit_acquisition.py": "6588aaea9543136193543e2e230562dade17fc9a759e2ab91b78e94c496e43b9",
+    "experiment/development_v8/audits/test_native_dify_audit.py": "cef295404577d73d2c89162a808b78fe5265ecadd128d412d433f0c9f3a41fd7"
+  },
+  "native_context_parser_note": "Dify introduction contains a literal empty XML tag pair before its actual newline-delimited retrieved context; parser verifies exact actual block equality and changes no data/primary judgments"
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T05:05:25.527625+00:00",
+  "tests_passed": 57,
+  "new_native_or_model_calls": 0,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/test_control.py experiment/development_v8/test_acquisition.py experiment/development_v8/test_native_runtimes.py experiment/development_v8/protocol/test_gates.py experiment/development_v8/workloads/test_workloads.py -q",
+  "tested_files_sha256": {
+    "experiment\\development_v8\\test_control.py": "b0339b424305ec88be31e8879c358de1f49d07d99511c78b91a9df76ab69cdfd",
+    "experiment\\development_v8\\test_acquisition.py": "f9a4a2b1f76417b386c25fe47d2a1765df9bd685c2060a1e04940f3e302beef3",
+    "experiment\\development_v8\\test_native_runtimes.py": "7fd95408d8ba9e224056e89225f50ce5e2dc9f6f4cc9d4d6717e0db539c685a9",
+    "experiment\\development_v8\\protocol\\test_gates.py": "4a83f498771f7a0aac9ecc49099efde00234b7a65dc071b4d67f735e9b10bd55",
+    "experiment\\development_v8\\workloads\\test_workloads.py": "b8c4b4e88921945f2e210eab6820e6d15c1bead3267107494a39720ff70a2231"
+  }
+}

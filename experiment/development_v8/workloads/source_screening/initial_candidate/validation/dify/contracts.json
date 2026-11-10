@@ -1,0 +1,125 @@
+{
+  "contracts": [
+    {
+      "id": "VDF01",
+      "data_version": "v1",
+      "accepted_values": [
+        "r\u00e9sum\u00e9-778"
+      ],
+      "required_logical_source_id": "vdf01.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf01.txt",
+        "sha256": "f995ea6563e32cef8caeb8cc880bc18d057dfa340d7708f780aa6a113487db43",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF02",
+      "data_version": "v1",
+      "accepted_values": [
+        "jalape\u00f1o-675"
+      ],
+      "required_logical_source_id": "vdf02.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf02.txt",
+        "sha256": "e356be86cdbb217e24e0368326fb111d9e561dd2c9100ecd15e5eb1af51ec507",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF03",
+      "data_version": "v1",
+      "accepted_values": [
+        "MARSH VIOLET-663"
+      ],
+      "required_logical_source_id": "vdf03.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf03.txt",
+        "sha256": "4d933f3a97a7b5e8a184755fd8529fd6e0cbcffd793b543c9d9c4a1088c10734",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF04",
+      "data_version": "v1",
+      "accepted_values": [
+        "STREAM AMBER-341"
+      ],
+      "required_logical_source_id": "vdf04.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf04.txt",
+        "sha256": "83d6d35f7bdd243c97338b20e1b79fff889d3fc470887b31fe07d6ee1f279c8f",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF05",
+      "data_version": "v1",
+      "accepted_values": [
+        "HAVEN-352"
+      ],
+      "required_logical_source_id": "vdf05.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf05.txt",
+        "sha256": "83acd224e77fe71268ba2a3ed28d8843b6a97efc4e91fbfb582a8bd693b6ceff",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF06",
+      "data_version": "v1",
+      "accepted_values": [
+        "MICA-224"
+      ],
+      "required_logical_source_id": "vdf06.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf06.txt",
+        "sha256": "d34775a96c9c996f1ef5ee44b58ea0dbaa3e23be8b0ca5ff7d1c50dc2565ffd8",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF07",
+      "data_version": "v1",
+      "accepted_values": [
+        "FROST-676"
+      ],
+      "required_logical_source_id": "vdf07.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf07.txt",
+        "sha256": "a12894a39cd3d26ff5c406e13ff2e21b84f922de650bdda11cccccde95446be5",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VDF08",
+      "data_version": "v1",
+      "accepted_values": [
+        "GARNET-922"
+      ],
+      "required_logical_source_id": "vdf08.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vdf08.txt",
+        "sha256": "8968ae8b2bee01e5eaacf80731e76847b37310ab4d9b4224cd5cc4663a26d431",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    }
+  ],
+  "scope": "Executable factual-contract study over author-controlled record catalogs; no open-ended semantic-quality claim"
+}

@@ -1,0 +1,125 @@
+{
+  "contracts": [
+    {
+      "id": "DOW01",
+      "data_version": "v1",
+      "accepted_values": [
+        "MESA&NotLessSlantEqual;-325"
+      ],
+      "required_logical_source_id": "dow01.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow01.txt",
+        "sha256": "6b98806a7f50d43ca06cfdff0bfd503b47e8868bb804a30f1016785bb3420164",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW02",
+      "data_version": "v1",
+      "accepted_values": [
+        "FJORD&NotSquareSubset;-841"
+      ],
+      "required_logical_source_id": "dow02.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow02.txt",
+        "sha256": "495785aeec908f32cda5cfa57c59f637e944b251dc9d1cb275d590681f945f4d",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW03",
+      "data_version": "v1",
+      "accepted_values": [
+        "\u306a\u3064\u307f-242"
+      ],
+      "required_logical_source_id": "dow03.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow03.txt",
+        "sha256": "3788aab0ff9e0a199b0ec440f893f955b60fdc5201d7104e72d3496c44ea8c80",
+        "encoding": "cp932",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW04",
+      "data_version": "v1",
+      "accepted_values": [
+        "\u307b\u305f\u308b-423"
+      ],
+      "required_logical_source_id": "dow04.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow04.txt",
+        "sha256": "034fb0978b92ea93e730581b92dee8aaef85fb604e80939c79b887f6127c9ac2",
+        "encoding": "cp932",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW05",
+      "data_version": "v1",
+      "accepted_values": [
+        "CINDER-447"
+      ],
+      "required_logical_source_id": "dow05.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow05.txt",
+        "sha256": "dbe9f8a302731bffcd697a176602baff2719c106246d6746e7c03ddb1a210095",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW06",
+      "data_version": "v1",
+      "accepted_values": [
+        "BRONZE-264"
+      ],
+      "required_logical_source_id": "dow06.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow06.txt",
+        "sha256": "f43de277a948e8721ea5d1917fa9bb5d86963ebdcb896efb03cbbf9fc71f40d5",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW07",
+      "data_version": "v1",
+      "accepted_values": [
+        "CORAL-136"
+      ],
+      "required_logical_source_id": "dow07.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow07.txt",
+        "sha256": "dfab4671d1a079a3e14ab671e29b5dba3726b23bcce965a2b9dc2634e72ca95a",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "DOW08",
+      "data_version": "v1",
+      "accepted_values": [
+        "FLINT-555"
+      ],
+      "required_logical_source_id": "dow08.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "dow08.txt",
+        "sha256": "43ae5799f1c18140864b697b3634045a5486a45d3a9e891e611469b21af3f9c6",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    }
+  ],
+  "scope": "Executable factual-contract study over author-controlled record catalogs; no open-ended semantic-quality claim"
+}

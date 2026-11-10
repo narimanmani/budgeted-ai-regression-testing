@@ -1,0 +1,114 @@
+{
+  "phase": "EXTERNAL_V8",
+  "status": "READY_FOR_ROOT_PROSPECTIVE_DEVELOPMENT_FREEZE",
+  "formal_registration": false,
+  "scientific_target": "Held-out workload transfer of the unchanged CG1 selector on two independent native implementations after separate application-configuration development",
+  "unchanged_policy": {
+    "path": "experiment/validation_v7/guidance/policy.py",
+    "sha256": "f14903ce1c0c3f73979eca11bd531df4303ee1fdb4d996baebcc58be89dc0989",
+    "original_freeze": "experiment/validation_v7/GUIDANCE_FREEZE.json",
+    "original_freeze_sha256": "92e6d36aa3dd29d10ad06ca040d138a2ea73504a7aa15e981af474460f4b79d9",
+    "new_policy_tuning_allowed": false
+  },
+  "prior_exposure": {
+    "closed_v7": "OpenWebUI qualified and completed a reference bank. Dify completed 48 qualification questions, with 10/24 healthy answers passing. No CG1 or fixed-arm efficacy comparisons occurred.",
+    "v7_cases_are_not_fresh_v8_cases": true,
+    "v8_design_uses_v7_qualification_failures_to_design_development_workloads": true,
+    "same_application_implementations_and_historical_fault_families": true,
+    "freshness_claim": "New source bytes, record identities, fact values, questions and acquisition outputs; not new applications, fault families or unseen-application validation"
+  },
+  "applications": ["openwebui", "dify"],
+  "cohorts": ["development", "validation"],
+  "task_catalog_size_per_application_and_cohort": 8,
+  "source_categories_per_application": {"A_affected": 2, "B_affected": 2, "ASCII_controls": 4},
+  "task_shape": "Source-backed record-key to literal-label lookup; expected values are grounded in original bytes and the prospectively declared native transformation contract, not generated answers",
+  "workload_freshness_controls": [
+    "Generator source, separate cohort seeds, category quotas and both complete task/source/contract frames are committed before first development answers.",
+    "Development and validation record identities, fact values and questions do not overlap each other or the observed v7 cohort.",
+    "The native runtime receives public questions and original sources, never expected contract values.",
+    "No validation answer is acquired, previewed or scored during development configuration selection.",
+    "After development selection, root freezes selected prompt/configuration, exact validation byte hashes, runtime/runner/checker code and full remaining budget before first validation answer."
+  ],
+  "development": {
+    "candidate_order": ["P0", "P1"],
+    "candidate_scope": "Two fixed generic application instructions; no gold value, task-specific response rule, application-name selection table or changed source intervention",
+    "candidate_execution": "Both candidates execute the entire 8 tasks x 3 states x 2 fresh passes, even if P0 passes first.",
+    "native_units_per_application_candidate": 48,
+    "total_native_units": 192,
+    "requirements": [
+      "Every healthy task passes its primary contract in both passes (16/16).",
+      "The first ascending source-designated A and B affected tasks each fail their unchanged primary contracts in both corresponding bad-state passes.",
+      "The two predeclared unaffected controls retain primary correctness in both bad states and both passes.",
+      "Complete exact state/task/pass frame and valid native/source/context/model/accounting provenance are required."
+    ],
+    "selection": "Select P0 if eligible; otherwise P1 if eligible. Do not rank by additional fault counts, CG1 predictions, detection improvement or policy cost savings.",
+    "neither_eligible": "Stop this application and the planned two-application comparison. Retain all observations/costs. No third prompt, replacement task, case, oracle, model or unplanned rerun in this protocol.",
+    "guide_or_policy_execution_during_development": false
+  },
+  "fresh_validation": {
+    "qualification": {
+      "per_application": "8 healthy tasks x2 plus 4 predeclared A tasks x2 plus 4 predeclared B tasks x2 =32 native questions",
+      "bad_subsets": "Two source-designated affected tasks plus the first two predeclared ASCII controls; first ascending affected task is the witness",
+      "total_native_units": 64,
+      "gate_requirements": "Same healthy, witness, control and provenance requirements as development; all expected values and source interventions unchanged",
+      "failure": "Stop before reference/main execution; preserve the failed fresh validation. No tuning or same-case fresh-validation claim."
+    },
+    "reference": {
+      "per_application": "Separate complete 8 tasks x3 states x2 fresh passes =48 native questions",
+      "total_native_units": 96,
+      "qualification_outputs_reused_as_reference": false,
+      "policy_access_to_reference_labels_or_timings": false,
+      "interpretation": "Finite repeated factual-contract bank, not independent human judgments or population truth"
+    },
+    "main_gate": "Both applications must complete passed fresh qualification and separate reference acquisitions, provenance audits and the predeclared full remaining resource projection before any own warm calibration or policy comparison."
+  },
+  "main": {
+    "arms": ["I0_H0", "I1_H0", "I0_H1", "I1_H1", "CG1"],
+    "budgets": {"LOW": 2, "HIGH": 4},
+    "history_regimes": ["COLD", "WARM"],
+    "trajectory_repetitions": 2,
+    "trajectory_count": 80,
+    "block_order": [["openwebui", 1], ["dify", 1], ["openwebui", 2], ["dify", 2]],
+    "sequence": [["HEALTHY", "A_BAD"], ["A_BAD", "HEALTHY"], ["HEALTHY", "B_BAD"]],
+    "own_warm_history": "Each warm trajectory physically acquires its own eight HEALTHY-to-A_BAD pairs before episode1; no shared warm outcomes or reference-derived labels",
+    "warm_native_units": 640,
+    "common_old_features": "Three actual paid old queries per task in HEALTHY and A_BAD; identical measured cost/context blocks across matched arms; A_BAD profile released only after all20 episode1 trajectories close; no B_BAD profile",
+    "old_feature_native_units": 192,
+    "selected_comparison_native_units_ceiling": 1440,
+    "main_native_units_ceiling": 2272,
+    "per_application_repetition_native_units_ceiling": 568,
+    "resource_semantics": "K bounds attempted old/new pairs. Numeric episode guards and actual global model-allocation budgets remain separately recorded; a nominal identical prefix alone is not measured cost saving.",
+    "application_preparation": "At most two native state APIs resident. Paid common preparation makes HEALTHY/A_BAD ready before profiles/calibration/episodes1and2, and HEALTHY/B_BAD ready before episode3. All start/stop acquisition costs are retained outside individual policy-deadline timing and included in standalone operational cost views.",
+    "native_cache_scope": "Fixed indexed corpus/configuration may be shared across fresh conversations. Record query embedding caches, usage counters and logs that mutate. COLD means decision-history state, not cold native process/cache.",
+    "order_control": "Logical episode blocking; complete trajectory order mirrored in repetition2. No stop-on-winner or outcome-dependent condition trimming."
+  },
+  "resources": {
+    "prior_native_units": 2071,
+    "new_phase_native_cap": 2929,
+    "shared_native_cap": 5000,
+    "planned_scientific_native_units": 2624,
+    "planned_provider_probe_units": 3,
+    "slack_after_science_and_planned_probes": 302,
+    "prior_shared_generation_allocation_seconds": 9316.086159400991,
+    "shared_generation_allocation_seconds_cap": 43200,
+    "all_startup_probe_setup_development_qualification_reference_and_main_costs_retained": true,
+    "counter_reset_or_cap_increase_allowed": false,
+    "main_continuation": "Seal exact cumulative main-start native/GPU baselines and all four output slots before policy execution. Project the whole remaining design from paid OLD costs using the frozen safeguard. If the full remaining design cannot fit, stop and report feasibility without trimming conditions after policy outcomes.",
+    "incident_handling": "Retain every reserved attempt and actual provider boundary. Unknown or in-flight cost stops further dispatch. A source-supported setup correction requires a prospective engineering amendment and cannot relabel setup failure as a scientific regression."
+  },
+  "prospective_effectiveness_criteria": {
+    "comparator_of_record": "I1_H1 always-combined, plus all other fixed arms",
+    "retention": "For every application x budget x history-regime stratum aggregated over two repetitions, CG1 detections are at least always-combined and neither reference-discordant nor repair alarms increase.",
+    "utility": "After retention, require at least one strict matched-stratum detection gain over always-combined, or equal detections with fewer actual native queries including required acquisition. Simpler mechanism labels alone do not count.",
+    "negative_or_null": "Preserve all guided losses, misses, discordance, excess cost and invalid/incomplete blocks. No selector changes followed by reuse of these observations as fresh validation.",
+    "primary_unit": "Application/fault family and complete trajectory; repeated task cells are not independent applications or defects",
+    "population_significance_claim": false
+  },
+  "claim_limits": [
+    "Held-out workload instances within two previously developed native application configurations; no untouched-application or new-fault discovery claim.",
+    "Controlled historical fault reintroductions and authored factual workloads, not natural release histories or sampled industrial deployment workloads.",
+    "Current source changes traverse broad native ingestion modules, so impact admission may include the entire catalog; selective-impact advantage remains untested when no strict subsets occur.",
+    "One fixed factual-contract judgment mechanism; no semantic quality, human agreement, model-weight change or judgment-mechanism interaction claim.",
+    "Success would support a bounded pilot transfer/operating-limit result. It does not by itself establish the full proposed TOSEM contribution."
+  ]
+}

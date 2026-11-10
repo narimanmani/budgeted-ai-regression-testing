@@ -1,0 +1,17 @@
+analysis_frame,horizon,impact_level,request_budget,sequence_order,setting_id,allocated_requests,detected_true_regressions,reference_discordant_alarms,contrast,population_oracle_accuracy_estimated
+primary,16,observed_native_edges,128,recurrence_blocked,rasa,0,-1,-1,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,256,recurrence_blocked,rasa,0,-6,5,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,128,recurrence_blocked,rasa,0,-1,-1,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,256,recurrence_blocked,rasa,0,-6,5,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,128,mechanism_interleaved,rasa,0,0,3,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,256,mechanism_interleaved,rasa,0,-3,-2,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,128,mechanism_interleaved,rasa,0,0,3,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,256,mechanism_interleaved,rasa,0,-3,-2,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,128,recurrence_blocked,vanna,0,0,-2,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,256,recurrence_blocked,vanna,0,0,-2,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,128,recurrence_blocked,vanna,0,-3,-4,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,256,recurrence_blocked,vanna,0,0,-2,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,128,mechanism_interleaved,vanna,0,0,0,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,observed_native_edges,256,mechanism_interleaved,vanna,0,-4,7,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,128,mechanism_interleaved,vanna,0,-3,-1,noisy_checker_I_by_H - exact_checker_I_by_H,False
+primary,16,seeded_edge_omission,256,mechanism_interleaved,vanna,0,-2,4,noisy_checker_I_by_H - exact_checker_I_by_H,False

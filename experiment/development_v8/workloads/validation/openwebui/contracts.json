@@ -1,0 +1,125 @@
+{
+  "contracts": [
+    {
+      "id": "VOW01",
+      "data_version": "v1",
+      "accepted_values": [
+        "HEATH&NotPrecedesEqual;-323"
+      ],
+      "required_logical_source_id": "vow01.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow01.txt",
+        "sha256": "ab86d9db30870b7dec707c38313ab67ddce74efaa937555c236aa6ddec20a07e",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW02",
+      "data_version": "v1",
+      "accepted_values": [
+        "ESTUARY&NotNestedGreaterGreater;-815"
+      ],
+      "required_logical_source_id": "vow02.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow02.txt",
+        "sha256": "d6829b729eb7bce02ee0f78e2c98e050fbc4166142487ff2a18b137094a4c8aa",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW03",
+      "data_version": "v1",
+      "accepted_values": [
+        "\u3055\u304f\u3089-492"
+      ],
+      "required_logical_source_id": "vow03.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow03.txt",
+        "sha256": "23f7ac8e6a66017243f002eb0d7bf7a1db9fbc3a1e6ec6527cb029b8bc347618",
+        "encoding": "cp932",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW04",
+      "data_version": "v1",
+      "accepted_values": [
+        "\u307f\u305a\u304d-948"
+      ],
+      "required_logical_source_id": "vow04.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow04.txt",
+        "sha256": "7ad567a5ad8c259db8bc4939eba6404f433df73689d036a1f51dafa3848fd0bd",
+        "encoding": "cp932",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW05",
+      "data_version": "v1",
+      "accepted_values": [
+        "SILICA-994"
+      ],
+      "required_logical_source_id": "vow05.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow05.txt",
+        "sha256": "66031023380115680e837527833c5bd7ff6df3755c788d95303e94d7c6c9275d",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW06",
+      "data_version": "v1",
+      "accepted_values": [
+        "OCHRE-350"
+      ],
+      "required_logical_source_id": "vow06.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow06.txt",
+        "sha256": "c2a1ecf3b1f25355d777e1da584691c36090756402dfa4103dc76a83e0ba0ef3",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW07",
+      "data_version": "v1",
+      "accepted_values": [
+        "TERRACE-703"
+      ],
+      "required_logical_source_id": "vow07.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow07.txt",
+        "sha256": "378998290cde9ded09a44a2635594cb719862318460819fc2e12c2897f639280",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    },
+    {
+      "id": "VOW08",
+      "data_version": "v1",
+      "accepted_values": [
+        "BAYOU-987"
+      ],
+      "required_logical_source_id": "vow08.txt",
+      "required_source_version": "v1",
+      "original_byte_authority": {
+        "filename": "vow08.txt",
+        "sha256": "bae6ff77de44a159f79bd1a061e8280eacdcd6b9ccaf6de37b82986ce21f0fe7",
+        "encoding": "utf-8",
+        "derivation": "Unique square-bracket span following the matching literal record identifier in original source bytes"
+      }
+    }
+  ],
+  "scope": "Executable factual-contract study over author-controlled record catalogs; no open-ended semantic-quality claim"
+}

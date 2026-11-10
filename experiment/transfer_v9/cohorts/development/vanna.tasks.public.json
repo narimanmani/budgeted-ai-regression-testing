@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    {
+      "task_id": "DVVS01",
+      "family": "sql",
+      "question": "Count the transfer records with status exactly WITHIN."
+    },
+    {
+      "task_id": "DVVS02",
+      "family": "sql",
+      "question": "Calculate the sum of amounts for records with status exactly WITHIN."
+    },
+    {
+      "task_id": "DVVS03",
+      "family": "sql",
+      "question": "Count transfer records whose status is exactly OUTSIDE."
+    },
+    {
+      "task_id": "DVVS04",
+      "family": "sql",
+      "question": "Use a CTE named totals to calculate the sum of every transfer amount."
+    },
+    {
+      "task_id": "DVVF01",
+      "family": "figure",
+      "question": "Draw a bar chart for transfer amounts summed by status."
+    },
+    {
+      "task_id": "DVVF02",
+      "family": "figure",
+      "question": "Draw a scatter plot with transfer id on the x axis and amount on the y axis."
+    },
+    {
+      "task_id": "DVVC01",
+      "family": "ask_no_figure",
+      "question": "Give the total number of transfer records."
+    },
+    {
+      "task_id": "DVVC02",
+      "family": "ask_no_figure",
+      "question": "Find the maximum amount among all transfers."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "real_artifact_build",
+  "status": "STOPPED_BEFORE_ZIP_CREATION",
+  "reason": "The initial generic archive allowlist rejected the exact 210674-byte public pyTelegramBotAPI-4.7.0 source archive required by RASA_DEPENDENCY_AMENDMENT_FREEZE.json.",
+  "required_file": "experiment/transfer_v9/amendments/rasa_env/downloads/pyTelegramBotAPI-4.7.0.tar.gz",
+  "correction_scope": "New post-freeze artifact tooling only: narrowly admit the registered public dependency source archive and pure Python source/egg-info files whose bytes are pinned by the existing engineering amendment.",
+  "scientific_source_or_report_modified": false,
+  "new_native_or_model_calls": 0,
+  "partial_zip_created": false,
+  "reviewed_report_sha256_preserved": "830d1ace784b4f8abafd77b27b3a537baceeae5c0ad997da1f239e4a8cc921a0"
+}

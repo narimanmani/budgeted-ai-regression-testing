@@ -1,0 +1,12 @@
+{
+  "scope": "Auditor interpreter compatibility only; no acquisition/source/scientific-data changes or task reexecution.",
+  "failed_report": "INDEPENDENT_COMPLETED_DEVELOPMENT.json",
+  "failed_report_sha256": "c8464b3cfae39683b948e4bac36625b21cf471ba70c212ca6a6f47d4bcf6abcc",
+  "passing_report": "INDEPENDENT_COMPLETED_DEVELOPMENT_PY312.json",
+  "passing_report_sha256": "c217e59a92914af68c3460eb4b9014148bd1e0a6a6755b546bbee36d25cecdc2",
+  "identical_auditor_source_sha256": "ed1d75433cc76f5def2a2232fba7769a0e56ce377ea33f0f80d9e61e6ac0e0a2",
+  "failed_audit_interpreter": "3.13.13 (tags/v3.13.13:01104ce, Apr  7 2026, 19:25:48) [MSC v.1944 64 bit (AMD64)]",
+  "successful_audit_interpreter": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "resolution": "Run the identical auditor with Python3.12 matching the frozen method-AST dump producer.",
+  "native_or_provider_dispatches_during_resolution": 0
+}

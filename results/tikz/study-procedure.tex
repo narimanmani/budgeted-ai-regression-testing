@@ -1,0 +1,54 @@
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[
+  >=Stealth,
+  stage/.style={draw,rounded corners,align=center,font=\small,
+    inner sep=2.5mm,minimum height=13mm},
+  shared/.style={stage,text width=130mm,fill=black!4},
+  native/.style={stage,text width=59mm,fill=blue!5},
+  recorded/.style={stage,text width=59mm,fill=orange!9,dashed}]
+  \node[shared] (design) at (0,0)
+    {\textbf{1--3. Declare and freeze the study}\\
+     Screen historical source cases; separate cohorts and contracts;\\
+     commit source, inputs, rules, settings, masks and resources};
+  \node[shared] (qualify) at (0,-23mm)
+    {\textbf{4. Native development qualification: 32 observations}\\
+     Retain incidents and prospective dependency amendments};
+  \node[native] (bank) at (-35mm,-50mm)
+    {\textbf{5. Native observation bank}\\
+     192 primary observations\\
+     + 64 fresh stability observations};
+  \node[native] (live) at (35mm,-50mm)
+    {\textbf{6. Fresh native policy cells}\\
+     CG1 versus full paired retesting\\
+     Four cold-A cells: 88 observations};
+  \node[recorded] (replay) at (-35mm,-80mm)
+    {\textbf{7. Recorded-outcome replay}\\
+     Seven arms; 672 primary\\
+     + 1,344 prefix trajectories\\
+     No new native requests};
+  \node[shared] (evaluate) at (0,-112mm)
+    {\textbf{8. Reference evaluation and complete accounting}\\
+     Selected alarms versus unchanged contracts; source/provider joins;\\
+     physical requests and replay allocations reported separately};
+  \draw[->] (design)--(qualify);
+  \draw[->] (qualify.south)--++(0,-5mm)-|(bank.north);
+  \draw[->] (qualify.south)--++(0,-5mm)-|(live.north);
+  \draw[->] (bank)--node[right,font=\scriptsize,fill=white]{primary bank only}(replay);
+  \coordinate (join) at (0,-98mm);
+  \draw (replay.south)|-(join);
+  \draw (live.south)|-(join);
+  \draw[->] (join)--(evaluate.north);
+\end{tikzpicture}
+\caption{Main-study evidence flow. Solid blue boxes contain physically executed
+native observations; the dashed orange box contains replay over the recorded
+primary bank. The fourth pass is a separate stability diagnostic. Both branches
+use the same frozen reference requirements, with
+reference outcomes withheld from selection. Arrows show evidence flow, not
+concurrent execution. The earlier OpenWebUI/Dify native study remains separate.}
+\Description{A frozen design and development qualification lead to a native
+observation bank and separate fresh cold policy executions. Only the bank feeds
+recorded-outcome replay. Reference evaluation and accounting distinguish both
+branches and charge physical requests separately from replay allocations.}
+\label{fig:study-procedure}
+\end{figure}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research artifact when using its code or evidence."
+type: software
+title: "Budgeted AI Regression Testing: Case Studies, Experiments and Results"
+authors:
+  - family-names: Mani
+    given-names: Nariman
+  - family-names: Weerasinghe
+    given-names: Shakthi
+  - family-names: Abdelfattah
+    given-names: Amr S.
+  - family-names: Cerny
+    given-names: Tomas
+version: 1.0.0
+date-released: 2026-11-10
+url: "https://github.com/narimanmani/budgeted-ai-regression-testing"
+repository-code: "https://github.com/narimanmani/budgeted-ai-regression-testing"
+keywords:
+  - regression testing
+  - AI applications
+  - test selection
+  - test history
+  - evidence acquisition
+abstract: >-
+  Code, case definitions, completed results and sealed evidence for two controlled
+  studies of regression-testing acquisition costs, impact-history interactions,
+  operational judgments and frozen history gating. Recorded-outcome replay and
+  fresh native executions are documented separately. The artifact supports a
+  bounded empirical characterization rather than portable selection guidance.

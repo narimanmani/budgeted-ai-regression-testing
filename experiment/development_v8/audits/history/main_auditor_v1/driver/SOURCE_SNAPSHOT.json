@@ -1,0 +1,8 @@
+{
+  "source_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\experiment\\development_v8\\audits\\audit_main_blocks.py",
+  "source_sha256": "1d8280707b7daaaaca5b662be41ac6dcaac95c8e0976a53fe1bc2030aef70acf",
+  "snapshot_path": "C:\\Users\\narim\\OneDrive\\Documents\\ChatGPT\\TOSEM\\experiment\\development_v8\\audits\\history\\main_auditor_v1\\driver\\audit_main_blocks.py",
+  "snapshot_sha256": "1d8280707b7daaaaca5b662be41ac6dcaac95c8e0976a53fe1bc2030aef70acf",
+  "at_utc": "2026-11-01T06:47:39.693964+00:00",
+  "reason": "Preserve pre-integration auditor before adding canonical root seal plus documented MainBudgetCampaign annotation verification"
+}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T06:57:48.693503+00:00",
+  "tests_passed": 9,
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/test_secondary_retestall.py -q",
+  "files_sha256": {
+    "experiment/development_v8/secondary_retestall.py": "6d27217253b1f94fd68c7b82c5caa7b7fede490b2e8e65c4c3779c41079859f2",
+    "experiment/development_v8/test_secondary_retestall.py": "0cb47ca90db2eb1704f107d8f95002dca1f2a73dfac2734705186886d99dc621"
+  },
+  "new_native_or_model_calls": 0,
+  "guarded_existing_files_modified": false,
+  "scope": [
+    "exact24pairs/48freshqueryplan",
+    "allfourprimarydriversand60closuresrequired",
+    "full600secondadmissionreserve",
+    "sameadmittedDifyindexrequired/no replacementprobes",
+    "saved24pair/48raw/rootseal/factualcheckerreconstruction",
+    "rejectpartial/duplicateexecution/changedjudgment/unknownpostsealfields",
+    "full48querydriverwithfakeonlyruntime/campaignprovider/noexternalservices"
+  ],
+  "primary_frame_or_criteria_changed": false
+}

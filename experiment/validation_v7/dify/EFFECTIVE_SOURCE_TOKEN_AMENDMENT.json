@@ -1,0 +1,40 @@
+{
+  "phase": "EXTERNAL_V7",
+  "recorded_at_utc": "2026-11-01T03:28:55.105833+00:00",
+  "reason": "Disambiguate original upstream multi-file fix provenance from actual single-module historical state substitutions. Only actual mutated production paths are CG1 public tokens.",
+  "source_case_manifest_sha256": "428d74244157cf3cb495f73deb66f0b8a64de269e08089661ba83928992010aa",
+  "original_task_contract_freeze_sha256": "ab45ecdb8f03497b2b8f954e20d041fd3f0cc4a8f4ac2bca24a6cddf5da3d8d2",
+  "original_frozen_files_preserved": true,
+  "changed_input_or_contract_bytes": false,
+  "changed_CG1": false,
+  "native_or_generation_outputs_opened": 0,
+  "effective_source_tokens": {
+    "A_BAD": {
+      "all_actual_changed_production_paths": [
+        "api/core/rag/cleaner/clean_processor.py"
+      ],
+      "guidance_public_tokens": [
+        "api/core/rag/cleaner/clean_processor.py"
+      ],
+      "actual_mutated_source_sha256": "d7387e40dd047a33d152d0bcb6b1af113fdda3738e59823158a4b4c76eb072ca",
+      "fixed_counterpart_sha256": "9b6280bcd8db41ac6d13755c32e18f183a4d002d9ebc989d435abeb529fd56f3",
+      "historical_fix_provenance_paths_only": [
+        "api/core/indexing_runner.py",
+        "api/core/rag/cleaner/clean_processor.py"
+      ]
+    },
+    "B_BAD": {
+      "all_actual_changed_production_paths": [
+        "api/core/rag/splitter/fixed_text_splitter.py"
+      ],
+      "guidance_public_tokens": [
+        "api/core/rag/splitter/fixed_text_splitter.py"
+      ],
+      "actual_mutated_source_sha256": "483ebc5043121c4986ac2c5f45f5683dcc773c935ccd2d54179941fec6e4e79a",
+      "fixed_counterpart_sha256": "07bd751f13a23d67a1d4c71e27df8efc2c9bb35c963d192b8d72293c493a140f",
+      "historical_fix_provenance_paths_only": [
+        "api/core/rag/splitter/fixed_text_splitter.py"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Record VDF08 access label [GARNET-922] archive routing metadata for the catalog register

@@ -1,0 +1,65 @@
+{
+  "status": "PASS_COMPLETED_STAGE_INTEGRITY",
+  "at_utc": "2026-11-01T15:34:09.793893+00:00",
+  "stage": "development",
+  "auditor_source_sha256": "ed1d75433cc76f5def2a2232fba7769a0e56ce377ea33f0f80d9e61e6ac0e0a2",
+  "study_freeze_sha256": "b5b6df9abfe80799509dcb84b3230737c7edbf0b784f988bf081c98b101b1d08",
+  "complete_registered_frame": true,
+  "native_observations_checked": 32,
+  "planned_native_observations": 32,
+  "incidents_retained": [],
+  "normalized_records_checked": 32,
+  "development_admission_passed": true,
+  "fresh_live_policy_cells_checked": [],
+  "engineering_amendment_checked": {
+    "sha256": "31f0ff48aca66152d1f60b1da5f746c10128fac4fcffee34f713b051abe04667",
+    "freeze_sha256": "9fc5a3ab375af1958f39b0ff700b037cf9636b6bf47dc53961a49e638806cbab",
+    "original_stopped_frame_remains_stopped": true,
+    "retry_changes_only_dependency_environment_and_operation_namespace": true
+  },
+  "locked_rasa_dependency_addition_checked": {
+    "amendment_sha256": "7326d4e849d0c75af47d2e21cfb551a4e37133c47b180e0b3bc93d7d4572dc6a",
+    "freeze_sha256": "08c811db922dd708b11d53ead241b6f448b23df47c4330568923907387e74495",
+    "dependency_receipt_sha256": "5929b1f0b4e8e7763c7eab30feabccca0ff54a0c49233e9229ea12470606806c",
+    "version": "4.7.0",
+    "image_changed": false,
+    "original_failed_cpu_startup_retained": true,
+    "completed_vanna_queries_reacquired": 0
+  },
+  "original_engineering_incidents_retained_separately": [
+    {
+      "operation_id": "dev-vanna-H-DVVS01",
+      "raw_sha256": "c532a4f3aaa15e610fd79a70d3c1fe9019312ff68d46d021aa818419fe2ff4aa",
+      "native_attempts_retained": 1,
+      "model_boundaries": 0
+    }
+  ],
+  "joined_completed_sdk_boundaries": 20,
+  "actual_backend_generation_starts": 20,
+  "source_bindings_checked": 14,
+  "rasa_cpu_resources_checked": [
+    "A",
+    "B",
+    "H"
+  ],
+  "ledger_events_checked": 120,
+  "ledger_committed_resources": {
+    "native_query_units": 17,
+    "queryfree_native_check_units": 16,
+    "provider_chat_units": 20,
+    "provider_embedding_units": 0,
+    "generation_allocation_seconds": 24.467821600002935,
+    "end_to_end_seconds": 103.7183723000926
+  },
+  "ledger_unsettled_operations_retained": [],
+  "ledger_over_cap_dimensions": [],
+  "native_or_provider_dispatches_during_audit": 0,
+  "legacy_account_reopened": false,
+  "independent_contract_checks": 32,
+  "contracts_recomputed_independently": true,
+  "independent_reference_sql_checks": 16,
+  "reference_sql_executed_in_separate_memory_database": true,
+  "original_host_method_path_fallback": false,
+  "scientific_effectiveness_not_established_by_audit": true,
+  "independent_applications_or_defects_added_by_audit": 0
+}

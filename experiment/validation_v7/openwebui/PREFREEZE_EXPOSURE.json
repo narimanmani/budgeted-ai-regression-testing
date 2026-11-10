@@ -1,0 +1,18 @@
+{
+  "status": "INCIDENTAL_SEARCH_PREVIEW_EXPOSURE_RECORDED_NOT_USED",
+  "stage": "Pre-guidance-freeze architecture and deployment feasibility",
+  "cause": "The first documentation search used site.docs.openwebui.com rather than an engine domains filter and returned additional issue and third-party previews.",
+  "opened_issue_or_third_party_pages": false,
+  "executed_application_or_model": false,
+  "used_to_choose_guidance_or_fault_cases": false,
+  "guidance_worker_received_preview_details": false,
+  "excluded_case_identifier": "open-webui/open-webui#22084",
+  "excluded_preview_urls": [
+    "https://github.com/open-webui/open-webui/issues/22084",
+    "https://www.reddit.com/r/OpenWebUI/comments/1s9segw/",
+    "https://www.reddit.com/r/OpenWebUI/comments/1wfhuo8/",
+    "https://www.reddit.com/r/OpenWebUI/comments/1xcdg67/"
+  ],
+  "remedy": "Use only direct official docs and pinned source for architecture; exclude the previewed issue from held-out defect selection; preserve this record and do not claim completely unopened pre-freeze search results.",
+  "scope": "Metadata readiness is still distinct from native qualification. Parent decides whether other restrictions are required before external-case eligibility is frozen."
+}

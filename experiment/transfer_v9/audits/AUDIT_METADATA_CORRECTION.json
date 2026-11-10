@@ -1,0 +1,13 @@
+{
+  "correction_scope": "Auditor reporting metadata only; zero observed native outputs require zero/false contract and reference-SQL audit claims. Original stage integrity result, scientific data, counters and stopped decision unchanged.",
+  "original_report_preserved": true,
+  "original_auditor_preserved": true,
+  "superseding_report": "INDEPENDENT_ORIGINAL_DEVELOPMENT_STOP_V2.json",
+  "native_or_provider_dispatches_during_correction": 0,
+  "bindings": {
+    "INDEPENDENT_ORIGINAL_DEVELOPMENT_STOP.json": "a0fdd6804a84ac3c1c84a9cae160ccac6c4706bc382b6c3acb42680017a168ff",
+    "INDEPENDENT_ORIGINAL_DEVELOPMENT_STOP_V2.json": "0783be075f4587c9acb17db5437a498ed36c6e20957d247acf7eb6046ff06283",
+    "history/audit_native_before_zero_observation_metadata.py": "a88a7dfa29eadb7fb0b36655391b9015955e2e1c73dfd807847d5185e35ad619",
+    "audit_native.py": "edda82b21304a5c4dc1284c40597dd55daf787b7090cb4e69c4bdd11d3630131"
+  }
+}

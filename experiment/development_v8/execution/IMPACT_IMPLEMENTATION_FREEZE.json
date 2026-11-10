@@ -1,0 +1,48 @@
+{
+  "recorded_at_utc": "2026-11-01T05:14:16.188095+00:00",
+  "status": "PURE_IMPACT_IMPLEMENTATION_READY_FOR_FRESH_VALIDATION_FREEZE",
+  "command": "C:/Python313/python.exe -B -m pytest experiment/development_v8/execution/test_impact.py -q",
+  "software_tests_passed": 18,
+  "native_or_model_calls_by_builder_or_tests": 0,
+  "v8_development_or_validation_answer_outputs_read_by_builder_author": 0,
+  "interface": "build_impact(feature, bindings, changes, episode, evidence_dir=None)",
+  "static_source_closure_function": "required_source_files(application)",
+  "production_verification_counts": {
+    "openwebui": 290,
+    "dify": 2459
+  },
+  "tasks_per_paid_old_profile": 8,
+  "paid_old_observations_per_task": 3,
+  "semantic_source_of_dependencies": "Full scoped production verification plus canonical TXT indexing/loader source edges and actual native indexed document/file identities",
+  "all_eight_admit_for_selected_changes": "Expected consequence of coarse module dependencies shared by every TXT path; no manufactured selectivity or task-family lookup",
+  "inputs_excluded": [
+    "questions",
+    "contracts",
+    "expected_source_hints",
+    "component_sensitivity_outcome_groups",
+    "native_answer_values",
+    "reference_judgments",
+    "current_or_future_outcomes"
+  ],
+  "conservative_behavior": "Invalid binding source provenance or unsupported changed module admits the full catalog; unresolved actual returned IDs keep their task admitted; foreign/unpaid/changed OLD receipts stop the builder",
+  "scope_barriers": "Only validation-scoped HEALTHY release1 and A_BAD release2 profiles, no B_BAD profile; actual root reservation/native/configuration scope fields and release episode agree",
+  "metadata_wrapper_required": false,
+  "files_sha256": {
+    "experiment/development_v8/execution/impact.py": "6f7afcce7d087c299d49c03cd2ecd97f348b3cebd0a96a57f542420530d2f0e9",
+    "experiment/development_v8/execution/test_impact.py": "db3a56b07efd8ca490e52c28a26bf347222d05f44db1e770f846e9d89a40da3d",
+    "experiment/validation_v7/dify/SOURCE_CASE_MANIFEST.json": "428d74244157cf3cb495f73deb66f0b8a64de269e08089661ba83928992010aa",
+    "experiment/validation_v7/dify/metadata/IMAGE_SOURCE_VERIFICATION.json": "afcc18b1b13ed509cffb999407b80e3525fb2abe58dbbbe3c10ce70b2db4c101",
+    "experiment/validation_v7/dify/IMPACT_SOURCE_PROOF.json": "667fa63b77fd332027b385fb359e7366408017465b54405537bbc36d41321b60",
+    "experiment/validation_v7/dify/metadata/impact_source/extract_processor.py": "96f99cd36ea6002ff0815466cfb21fad94770aeccdec2bf42e608b964657c78f",
+    "experiment/validation_v7/dify/metadata/impact_source/paragraph_index_processor.py": "af0876aff8e15a5ffdb8ffc2934411fb948724ca897cefb00a6c6e937fcdc7f2",
+    "experiment/validation_v7/dify/metadata/impact_source/index_processor_base.py": "e891f0654b81b4c3fee9b1baf0cafe2179b72794220fe40c8d9c3005ff208a1b",
+    "experiment/validation_v7/dify/metadata/impact_source/clean_processor.py": "9b6280bcd8db41ac6d13755c32e18f183a4d002d9ebc989d435abeb529fd56f3",
+    "experiment/validation_v7/dify/metadata/impact_source/fixed_text_splitter.py": "07bd751f13a23d67a1d4c71e27df8efc2c9bb35c963d192b8d72293c493a140f",
+    "experiment/validation_v7/dify/sources/A_BAD/clean_processor.py": "d7387e40dd047a33d152d0bcb6b1af113fdda3738e59823158a4b4c76eb072ca",
+    "experiment/validation_v7/dify/sources/B_BAD/fixed_text_splitter.py": "483ebc5043121c4986ac2c5f45f5683dcc773c935ccd2d54179941fec6e4e79a",
+    "experiment/validation_v7/openwebui/SOURCE_MANIFEST.json": "9fcd6f5e315619ea22a24d56a5d63523ff3b918bd6a3dd636c8cf64b6448d393",
+    "experiment/validation_v7/openwebui/sources/HEALTHY/main.py": "e1aff0ab70a65897a8d8cd26a054e1dec5c3b2a4bdb974b81e2b5a9591209b8e",
+    "experiment/validation_v7/openwebui/sources/A_BAD/main.py": "667df00033c8bd78ff13f27a47b1ebcc37632c70ad8907250fe5727089a20ae2",
+    "experiment/validation_v7/openwebui/sources/B_BAD/main.py": "439c5fc3f8e4106b11de2c6d1f6aabe34d7570ccf7b972643b209dd870154acc"
+  }
+}

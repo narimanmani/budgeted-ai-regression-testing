@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "at_utc": "2026-11-01T07:16:04.892588+00:00",
+  "tests_passed": 11,
+  "new_native_or_model_calls": 0,
+  "guarded_existing_files_modified": false,
+  "files_sha256": {
+    "experiment\\development_v8\\audits\\audit_main_blocks.py": "405ba3eeb00e53d23986e974927b2371b9a20765ec522b4d09a357404c60895a",
+    "experiment\\development_v8\\audits\\test_audit_main_blocks.py": "fcaa9eb9e0139c6dfc5dc85b86c28ec7389de435d18a38fdbb0b9c3c67c8fa3f"
+  },
+  "robustness_hardening_only": "Exact canonical dictionary comparison after removing only main_admission_guard; deleted canonical null fields now rejected for query and setup receipts. Actual completed data already preserve all fields; no experiment changed or rerun.",
+  "prior_versions_retained": [
+    "history/main_auditor_v1",
+    "history/main_auditor_v2"
+  ],
+  "new_completed_block_receipts": [
+    "INDEPENDENT_MAIN_OPENWEBUI_R1_V3.json",
+    "INDEPENDENT_MAIN_DIFY_R1_V3.json"
+  ]
+}
