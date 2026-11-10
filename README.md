@@ -226,6 +226,11 @@ reexecution is a different task: it requires separately acquired pinned model,
 binary, container and application assets and adaptation of recorded host paths.
 This repository does not promise a portable one-command native relaunch.
 
+Both studies passed fresh guarded saved-data reconstruction during publication,
+with zero forbidden-access attempts and no new native/model calls. The public
+release ZIPs were downloaded again and matched the original hashes. See the
+[publication verification summary](evidence/PUBLICATION_REPRODUCTION_CHECKS.json).
+
 The release helpers provide a checked entry point from the cloned repository:
 
 ```text

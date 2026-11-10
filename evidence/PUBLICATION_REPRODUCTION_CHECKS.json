@@ -1,0 +1,71 @@
+{
+  "status": "PASS_BOTH_NEW_GUARDED_SAVED_DATA_RECONSTRUCTIONS",
+  "release": "https://github.com/narimanmani/budgeted-ai-regression-testing/releases/tag/v1.0.0",
+  "publication_date": "2026-11-10",
+  "studies": {
+    "v8": {
+      "status": "PASS_GUARDED_SAVED_DATA_REANALYSIS",
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive_sha256": "99e7167f3b77bb1729bca020f38aba446a79d6dcbf8227a9dfaff32afa8cfbd3",
+      "isolated_python": true,
+      "manifest_bound_archive_members_verified": 18644,
+      "network_and_process_launches_blocked": true,
+      "external_file_reads_restricted": true,
+      "writes_restricted_to_new_output_directory": true,
+      "forbidden_attempts": 0,
+      "new_native_or_model_calls": 0,
+      "full_local_report_sha256": "830e640624c5cb490a036545cd3d7c7813f0e32e7871e688e7b7c19be6d5658c",
+      "reconstruction_result_keys": [
+        "accounting",
+        "acquisitions",
+        "development_selection",
+        "evidence_bytes_or_recorded_paths_modified",
+        "external_dependency_hash_declarations_not_shipped",
+        "fresh_qualification_passed",
+        "main",
+        "new_native_or_model_calls",
+        "original_workspace_used",
+        "posthoc_instance_alignment_sensitivity",
+        "retained_upstream_notice_files",
+        "secondary_retestall",
+        "verified_files",
+        "verified_immutable_source_receipt_bindings"
+      ]
+    },
+    "v9": {
+      "status": "PASS_GUARDED_SAVED_DATA_REANALYSIS",
+      "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+      "archive_sha256": "5928f3a9eabf7d846f9488a3a2c99878b62bcc2babff8d7559cc0cec7300765f",
+      "isolated_python": true,
+      "manifest_bound_archive_members_verified": 4490,
+      "network_and_process_launches_blocked": true,
+      "external_file_reads_restricted": true,
+      "writes_restricted_to_new_output_directory": true,
+      "forbidden_attempts": 0,
+      "new_native_or_model_calls": 0,
+      "full_local_report_sha256": "9bf4113f5cff4bc36de3a7ef3c7a848a2c8f71a8d3388a2bab820ba132a8e96b",
+      "reconstruction_result_keys": [
+        "all_other_outcomes_decisions_masks_costs_and_confirmation_results_compared",
+        "at_utc",
+        "frozen_file_bindings_verified",
+        "independent_native_audits",
+        "native_or_model_dispatches",
+        "nondeterministic_new_cpu_fields_only",
+        "original_recorded_cpu_fields_preserved_in_unchanged_manifest_bound_files",
+        "original_workspace_fallback_used",
+        "primary_freeze_sha256",
+        "public_files_verified",
+        "replay_core_output_files_compared",
+        "replay_executed",
+        "status",
+        "unshipped_external_asset_bytes_verified"
+      ]
+    }
+  },
+  "reproduction_helper_sha256": {
+    "download_evidence.py": "166786c4fd59c2229065f5daf5c9fdf2f32a03730825118ec0371abaa716f3ed",
+    "reproduce.py": "1819e223b2b3caf1971ebe6a8b44d1f7f804c1130970fa613cfcca8fbf471023",
+    "verify_repository.py": "83904bf9100c2e0f4ceaf40613b5003199fd1d5de17c74503eb13381922942c5"
+  },
+  "scope": "Fresh isolated extraction and saved-data reconstruction from original sealed ZIP bytes. Independently downloaded GitHub release ZIPs match the same hashes. This is not a new native experiment or external scientific replication."
+}
